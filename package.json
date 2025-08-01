@@ -2,14 +2,14 @@
   "name": "builtbyrays-cfo-os",
   "version": "1.0.0",
   "description": "BuiltByRays™ CFO Operating System - Complete Financial Management Platform",
-  "main": "electron-app/main.js",
+  "main": "main.js",
   "scripts": {
     "setup": "python setup.py",
     "start": "python start_chatbot.py",
-    "start:electron": "cd electron-app && npm start",
-    "build": "cd electron-app && npm run build",
+    "start:electron": "electron .",
+    "build": "electron-builder",
     "install:python": "pip install -r rag-backend/requirements.txt",
-    "install:node": "cd electron-app && npm install",
+    "install:node": "npm install",
     "install:all": "npm run install:python && npm run install:node",
     "test": "python -m pytest tests/",
     "package": "npm run install:all && npm run build"
@@ -28,7 +28,7 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^29.0.0",
-    "electron-packager": "^17.1.2"
+    "electron-builder": "^24.13.3"
   },
   "engines": {
     "node": ">=16.0.0",
@@ -41,5 +41,71 @@
   "bugs": {
     "url": "https://github.com/builtbyrays/cfo-os/issues"
   },
-  "homepage": "https://builtbyrays.com"
-}
+  "homepage": "https://builtbyrays.com",
+  "build": {
+    "appId": "com.builtbyrays.cfoos",
+    "productName": "BuiltByRays™ CFO OS",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "chatbot.html",
+      "chat.html",
+      "chat.js",
+      "chatbot.js",
+      "script.js",
+      "styles.css",
+      "chat-styles.css",
+      "assets/**/*",
+      "rag-backend/**/*",
+      "vault/**/*",
+      "VaultSyncDaemon.exe",
+      "start_chatbot.py",
+      "setup.py",
+      ".env"
+    ],
+    "extraResources": [
+      {
+        "from": "rag-backend",
+        "to": "rag-backend"
+      },
+      {
+        "from": "vault",
+        "to": "vault"
+      },
+      {
+        "from": "VaultSyncDaemon.exe",
+        "to": "VaultSyncDaemon.exe"
+      },
+      {
+        "from": "start_chatbot.py",
+        "to": "start_chatbot.py"
+      },
+      {
+        "from": "setup.py",
+        "to": "setup.py"
+      },
+      {
+        "from": ".env",
+        "to": ".env"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/logo.png",
+      "requestedExecutionLevel": "requireAdministrator",
+      "sign": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "runAfterFinish": true,
+      "include": "installer.nsh"
+    },
+    "asar": false
+  }
+} 

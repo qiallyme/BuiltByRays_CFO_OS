@@ -1,0 +1,12 @@
+{
+  "name": "built-by-rave-cfo-os",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . BuiltByRAVE_CFO_OS --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "dependencies": {
+    "electron": "^29.0.0"
+  }
+}
