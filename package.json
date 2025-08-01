@@ -1,0 +1,45 @@
+{
+  "name": "builtbyrays-cfo-os",
+  "version": "1.0.0",
+  "description": "BuiltByRays™ CFO Operating System - Complete Financial Management Platform",
+  "main": "electron-app/main.js",
+  "scripts": {
+    "setup": "python setup.py",
+    "start": "python start_chatbot.py",
+    "start:electron": "cd electron-app && npm start",
+    "build": "cd electron-app && npm run build",
+    "install:python": "pip install -r rag-backend/requirements.txt",
+    "install:node": "cd electron-app && npm install",
+    "install:all": "npm run install:python && npm run install:node",
+    "test": "python -m pytest tests/",
+    "package": "npm run install:all && npm run build"
+  },
+  "keywords": [
+    "cfo",
+    "financial",
+    "management",
+    "ai",
+    "chatbot",
+    "electron",
+    "python",
+    "flask"
+  ],
+  "author": "BuiltByRays™",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-packager": "^17.1.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "python": ">=3.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/builtbyrays/cfo-os.git"
+  },
+  "bugs": {
+    "url": "https://github.com/builtbyrays/cfo-os/issues"
+  },
+  "homepage": "https://builtbyrays.com"
+}

@@ -1,20 +1,45 @@
-# BuiltByRAVE CFO OS
+# BuiltByRays™ CFO OS
 
 A comprehensive Financial Operating System with AI-powered chatbot assistance for business financial management.
 
-## 🚀 Quick Start
+## 🚀 **ONE-CLICK STARTUP** (NEW!)
 
-### Prerequisites
-- Python 3.8 or higher
-- Node.js 16 or higher (for Electron app)
-- OpenAI API key
+### **For Windows Users:**
+1. **Double-click** `START_CFO_OS.bat`
+2. **That's it!** Everything starts automatically
 
-### Installation
+### **For Unix/Linux Users:**
+1. **Run** `./START_CFO_OS.sh`
+2. **That's it!** Everything starts automatically
+
+### **What Happens Automatically:**
+- ✅ **Installs all dependencies** (Python & Node.js packages)
+- ✅ **Creates configuration files** (.env template)
+- ✅ **Starts the Python backend** (Flask server)
+- ✅ **Starts the vault watcher** (file synchronization)
+- ✅ **Starts the Electron desktop app** (if Node.js available)
+- ✅ **Opens the web interface** in your browser
+- ✅ **Shows status and instructions**
+
+### **Only Manual Step Required:**
+- Add your OpenAI API key to the `.env` file (one-time setup)
+
+---
+
+## 📋 Prerequisites
+
+- **Python 3.8 or higher** (required)
+- **Node.js 16 or higher** (optional, for desktop app)
+- **OpenAI API key** (required for AI features)
+
+## 🔧 Manual Installation (Alternative)
+
+If you prefer manual installation:
 
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd BuiltByRAVE_CFO_OS
+   cd BuiltByRays_CFO_OS
    ```
 
 2. **Run the automated setup**
@@ -34,7 +59,10 @@ A comprehensive Financial Operating System with AI-powered chatbot assistance fo
 ## 📁 Project Structure
 
 ```
-BuiltByRAVE_CFO_OS/
+BuiltByRays_CFO_OS/
+├── START_CFO_OS.bat      # 🚀 ONE-CLICK STARTUP (Windows)
+├── START_CFO_OS.sh       # 🚀 ONE-CLICK STARTUP (Unix/Linux)
+├── auto_start.py         # 🤖 Automatic startup engine
 ├── rag-backend/          # Python Flask backend
 │   ├── chatbot.py       # Main chatbot application
 │   ├── embedder.py      # Vector store operations
@@ -53,7 +81,7 @@ BuiltByRAVE_CFO_OS/
 ## 🔧 Configuration
 
 ### Environment Variables
-Create a `.env` file in the root directory:
+The `.env` file is created automatically, but you need to add your API key:
 
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
@@ -90,8 +118,13 @@ The `vault/` directory contains your financial documents organized by category:
 
 ## 🚀 Usage
 
-### Starting the Application
+### **Automatic Startup (Recommended)**
+1. **Windows**: Double-click `START_CFO_OS.bat`
+2. **Unix/Linux**: Run `./START_CFO_OS.sh`
+3. **Add API key**: Edit `.env` file with your OpenAI key
+4. **Access**: Web interface opens automatically at http://localhost:5000
 
+### Manual Startup (Alternative)
 1. **Web Interface**
    ```bash
    python start_chatbot.py
@@ -234,10 +267,10 @@ MIT License - see LICENSE file for details.
 ## 🤝 Support
 
 For support and questions:
-- Email: support@builtbyrave.com
-- Documentation: https://docs.builtbyrave.com
-- Issues: https://github.com/builtbyrave/cfo-os/issues
+- Email: support@builtbyrays.com
+- Documentation: https://docs.builtbyrays.com
+- Issues: https://github.com/builtbyrays/cfo-os/issues
 
 ---
 
-**BuiltByRAVE™ CFO OS** - Empowering businesses with intelligent financial management. 
+**BuiltByRays™ CFO OS** - Empowering businesses with intelligent financial management. 

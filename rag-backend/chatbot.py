@@ -242,7 +242,7 @@ def health_check():
 def index():
     """Root endpoint with basic info"""
     return jsonify({
-        "message": "BuiltByRAVE CFO OS Chatbot API",
+        "message": "BuiltByRays™ CFO OS Chatbot API",
         "version": "1.0.0",
         "endpoints": {
             "chat": "/chat",

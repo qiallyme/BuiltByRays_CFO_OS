@@ -1,12 +1,40 @@
 {
-  "name": "built-by-rave-cfo-os",
+  "name": "built-by-rays-cfo-os",
   "version": "1.0.0",
-  "main": "main.js",
+  "description": "BuiltByRays™ CFO OS – Desktop App for Clients",
+  "main": "electron-app/main_launcher.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . BuiltByRAVE_CFO_OS --platform=win32 --arch=x64 --out=dist --overwrite"
+    "build": "electron-builder"
   },
-  "dependencies": {
-    "electron": "^29.0.0"
+  "devDependencies": {
+    "electron": "29.0.0",
+    "dotenv": "^16.4.5",
+    "electron-builder": "^24.6.0"
+  },
+  "build": {
+    "appId": "com.builtbyrays.cfoos",
+    "productName": "BuiltByRays™ CFO OS",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "electron-app/**/*",
+      "VaultSyncDaemon.exe",
+      "rag-backend/**/*",
+      "vault/**/*",
+      ".env"
+    ],
+    "extraResources": [
+      {
+        "from": "VaultSyncDaemon.exe",
+        "to": "VaultSyncDaemon.exe"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "electron-app/assets/logo.png"
+    },
+    "asar": false
   }
 }

@@ -14,7 +14,7 @@ function createMainWindow() {
       contextIsolation: false
     },
     icon: path.join(__dirname, 'assets/logo.png'),
-    title: 'BuiltByRAVE CFO OS'
+    title: 'BuiltByRays™ CFO OS'
   });
   
   mainWindow.loadFile('index.html');
