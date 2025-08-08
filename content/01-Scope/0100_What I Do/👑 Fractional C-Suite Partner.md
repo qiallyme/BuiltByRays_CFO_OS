@@ -1,12 +1,9 @@
 ---
-tags:
-  - scope
-  - leadership
-  - c-suite
-  - strategic
+tags: 
 created: 2025-08-05
+date: 2025-08-08
+title: Fractional C Suite Partner
 ---
-
 I step in as your part-time **COO/CFO/CTO**—the person who doesn’t just fix what’s broken, but builds what’s _next_. You get executive clarity, without executive overhead.
 
 # 👑 Fractional C-Suite Partner

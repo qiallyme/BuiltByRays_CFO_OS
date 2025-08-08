@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: Transition Offboarding
+---
 # 💼 Transition & Offboarding
 
 When our contract ends, I’ll support a clean exit. That includes:

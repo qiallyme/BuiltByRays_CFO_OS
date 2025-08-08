@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: DEPLOYMENT CHECKLIST
+---
 # BuiltByRAVE CFO OS - Deployment Checklist
 
 ## ✅ Pre-Deployment Fixes Applied

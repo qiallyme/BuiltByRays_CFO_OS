@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: CLIENT INSTRUCTIONS
+---
 # BuiltByRays™ CFO OS - Client Instructions
 
 ## 🎉 **NEW: One-Click Startup System**

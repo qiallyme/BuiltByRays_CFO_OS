@@ -2,9 +2,9 @@
 category: "Legal Disclaimer"
 status: "Active"
 last_updated: 2025-08-04
+date: 2025-08-08
+title: Legal Boundaries (I'm Not Your Lawyer)
 ---
-
-
 Yes—I’ve studied contract law, business law, employment law. I've worked in HR. I’ve reviewed and drafted countless contracts.
 
 But let’s be clear:

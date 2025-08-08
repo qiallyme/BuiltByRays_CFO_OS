@@ -1,12 +1,9 @@
 ---
-tags:
-  - automation
-  - ai
-  - workflows
-  - systems
+tags: 
 created: 2025-08-05
+date: 2025-08-08
+title: AI + Automation Everywhere
 ---
-
 From client intake to internal ops, we’ll plug in AI, no-code tools, and event-based workflows to eliminate grunt work and multiply your time.
 
 ---

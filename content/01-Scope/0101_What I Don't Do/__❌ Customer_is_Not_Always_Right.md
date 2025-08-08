@@ -1,8 +1,9 @@
 ---
 tags: [boundaries, mindset, partnership, humanity]
 created: 2025-08-04
+date: 2025-08-08
+title: Customer is Not Always Right
 ---
-
 # ❌ The Customer is Not Always Right
 
 Yeah, yeah, it *sounds* good in retail. But in real business? That phrase needs a full-blown reality check.

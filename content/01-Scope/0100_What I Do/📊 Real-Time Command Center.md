@@ -1,12 +1,9 @@
 ---
-tags:
-  - dashboards
-  - KPIs
-  - data
-  - visibility
+tags: 
 created: 2025-08-05
+date: 2025-08-08
+title: Real Time Command Center
 ---
-
 Your business in one dashboard. KPIs, compliance, risk flags, cash flow, and ops—live, digestible, and built for real-time decisions.
 
 ---

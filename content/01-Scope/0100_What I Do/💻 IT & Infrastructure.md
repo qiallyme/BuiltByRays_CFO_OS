@@ -1,12 +1,9 @@
 ---
-tags:
-  - it
-  - infrastructure
-  - tech-stack
-  - systems
+tags: 
 created: 2025-08-05
+date: 2025-08-08
+title: IT & Infrastructure
 ---
-
 I set up systems that don’t crash. From automation to cybersecurity, I’ll cover your digital ass until it’s time to bring in dedicated techs. I don’t just fix problems—I _design out_ future ones.
 
 ---

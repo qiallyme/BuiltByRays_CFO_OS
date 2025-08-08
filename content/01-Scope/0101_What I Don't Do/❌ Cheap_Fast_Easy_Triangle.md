@@ -1,4 +1,7 @@
-
+---
+date: 2025-08-08
+title: Cheap Fast Easy Triangle
+---
 You can have:
 - Cheap + Fast (but it won’t be thorough)  
 - Fast + Easy (but it won’t be cheap)  

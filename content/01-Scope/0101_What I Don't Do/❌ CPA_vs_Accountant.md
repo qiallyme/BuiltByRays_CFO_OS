@@ -1,5 +1,7 @@
-
-
+---
+date: 2025-08-08
+title: CPA vs Accountant
+---
 ❌ I’m Not a CPA **(And You Don’t Need One)**
 
 I’m an accountant—strategic, practical, and experienced AF.

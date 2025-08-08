@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: scenarios
+---
 # Real-World Scenarios
 
 **Silence Mode:**

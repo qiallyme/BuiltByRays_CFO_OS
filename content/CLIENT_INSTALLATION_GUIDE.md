@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: CLIENT INSTALLATION GUIDE
+---
 # BuiltByRays™ CFO OS - Client Installation Guide
 
 ## Overview

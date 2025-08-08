@@ -1,12 +1,9 @@
 ---
-tags:
-  - MVP
-  - speed
-  - roadmap
-  - execution
+tags: 
 created: 2025-08-05
+date: 2025-08-08
+title: Fast MVP LongTerm Growth
 ---
-
 We launch _quick_, scale _smart_, and keep compounding wins. No bloated project timelines. No wasted budget. Just traction.
 
 ---

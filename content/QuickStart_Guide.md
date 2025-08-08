@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: QuickStart Guide
+---
 # Built by RAVE CFO OS - Quick Start Guide
 
 ## 1. Setup

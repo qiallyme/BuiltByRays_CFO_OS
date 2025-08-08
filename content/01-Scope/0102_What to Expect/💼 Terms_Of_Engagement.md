@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: Terms Of Engagement
+---
 # 💼 Terms of Engagement
 
 This agreement defines the scope, timeline, communication boundaries, payment terms, and expectations for our partnership.

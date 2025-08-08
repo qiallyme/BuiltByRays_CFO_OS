@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: Client Responsibilities
+---
 # 📈 Client Responsibilities
 
 To keep our momentum strong, I ask that you:

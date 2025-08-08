@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: WEB DEPLOYMENT README
+---
 # BuiltByRays™ CFO OS - Web Deployment Guide
 
 ## Overview

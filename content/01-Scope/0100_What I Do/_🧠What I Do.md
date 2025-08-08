@@ -1,12 +1,10 @@
 ---
-tags:
-  - scope
-  - services
-  - overview
+tags: 
 created: 2025-08-05
 Desc: (aka I run the business behind your business)
+date: 2025-08-08
+title: What I Do
 ---
-
 # ✅ What I Do
 
 This is where the work begins. I’m not just a vendor or freelancer—I’m your **Fractional C-Suite Partner**.

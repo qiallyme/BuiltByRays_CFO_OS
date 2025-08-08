@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: CHATBOT README
+---
 # BuiltByRays™ CFO OS - AI Chatbot System
 
 ## 🚀 Overview

@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: roadmap
+---
 # Growth Roadmap
 
 **3-Month:** Foundation, KPI baselining

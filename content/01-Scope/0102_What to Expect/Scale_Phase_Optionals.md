@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: Scale Phase Optionals
+---
 # 📈 Optional Scale Phase
 
 After week 6:

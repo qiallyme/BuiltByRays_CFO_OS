@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: faq
+---
 # Frequently Asked Questions
 
 **Q: Why do we pay even if we don’t hear from you weekly?**

@@ -1,3 +1,7 @@
+---
+date: 2025-08-08
+title: What to Expect
+---
 [[📚 Client_Welcome_Guide]]
 [[💼 Terms_Of_Engagement]]
 [[Client_Responsibilities]]
