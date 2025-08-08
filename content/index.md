@@ -1,4 +1,15 @@
 ---
+title: Index
+date: 2025-08-08
+summary: Summary coming soon.
+tags: [general]
+status: active
+owner: Q
+last_reviewed: 2025-08-08
+---
+# Index
+
+---
 title: Home
 date: 2025-08-08
 ---
@@ -133,5 +144,5 @@ Welcome. Pick a section from the sidebar.
 ---
 [[_Archives Overview]]
 
-
-
+---
+[← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)
