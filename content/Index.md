@@ -1,10 +1,10 @@
-# Virtual QiSuite™ OS
+---
+title: Home
+date: 2025-08-08
+---
+# BuiltByRays™
+Welcome. Pick a section from the sidebar.
 
-Welcome to your personalized C-Suite operating system for Ray's (Built by Rays). This manual defines everything: scope, KPIs, strategy, FAQs, and redline agreements.
-
-**Client:** Rays Construction LLC
-**Prepared by:** Q
-**Date:** 08/04/2025
 
 ---
 # 00-Home
