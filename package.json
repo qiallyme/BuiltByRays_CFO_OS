@@ -20,7 +20,7 @@
       "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
       "quartz:fix": "node scripts/quartz-fix.mjs",
       "quartz:build": "npx quartz build",
-      "build": "npm run quartz:fix && npx quartz build && cp -f public/index.html public/404.html && printf \"/* /index.html 200\\n\" > public/_redirects"
+      "build": "npm run quartz:fix && npx quartz build && cp -f public/index.html public/404.html"
     },
   "engines": {
     "npm": ">=10.9.2",
