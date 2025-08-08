@@ -1,2 +1,0 @@
-- QBO + Gusto
-- Zapier to Slack

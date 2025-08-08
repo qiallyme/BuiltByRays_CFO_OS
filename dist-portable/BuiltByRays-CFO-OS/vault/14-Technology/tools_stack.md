@@ -1,3 +1,0 @@
-- QuickBooks
-- Gusto
-- Google Workspace

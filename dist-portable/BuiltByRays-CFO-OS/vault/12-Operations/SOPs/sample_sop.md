@@ -1,3 +1,0 @@
-### Sample SOP
-Task: Monthly Close
-Steps: ...
