@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "03-roadmap-strategies-faqs/A-Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "A-Roadmap"
             }
           }
         ]
@@ -54,10 +54,10 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "03-roadmap-strategies-faqs/A-Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for A-Roadmap"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "03-roadmap-strategies-faqs/A-Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from A-Roadmap"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "03-roadmap-strategies-faqs/A-Roadmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of A-Roadmap"
             }
           }
         ]
@@ -170,7 +170,51 @@
   },
   "active": "45794486cb9ec0d9",
   "lastOpenFiles": [
-    "00-home/0001-client-info.md",
-    "index.md"
+    "02-investment/B-ROI & Payment Projection (Example).md",
+    "02-investment/A-Investment & Payment Terms.md",
+    "01-scope/F-KPIs & Goals.md",
+    "01-scope/E-What I Expect From You.md",
+    "01-scope/D-What I DON'T Do.md",
+    "01-scope/C-What I Do.md",
+    "01-scope/B-Scope of Services.md",
+    "01-scope/A-QiSuite™ Overview.md",
+    "index.md",
+    "00-your-details/A-Client-info.md",
+    "05-agreement/A. Agreement Sections.md",
+    "12-human-resources/A-",
+    "12-human-resources/New folder",
+    "11-legal-compliance/C-Compliance",
+    "11-legal-compliance/New folder",
+    "11-legal-compliance/B-Federal Filings",
+    "11-legal-compliance/A-State-Local/certifiedcopiesattachments.pdf",
+    "11-legal-compliance/A-State-Local/43826.pdf",
+    "11-legal-compliance/43826.pdf",
+    "11-legal-compliance/A-State-Local",
+    "10-technology/B-Development/web-deployment-readme.md",
+    "10-technology/E-Tech-Stack/tools-stack.md",
+    "10-technology/E-Tech-Stack/technology.md",
+    "10-technology/D-Docs/licenses-and-keys.md",
+    "10-technology/B-Development/integrations.md",
+    "10-technology/D-Docs/deployment-checklist.md",
+    "10-technology/D-Docs/client-installation-guide.md",
+    "10-technology/C-Chatbot/chatbot-readme.md",
+    "10-technology/A-Architecture/cfo-os-technical-architecture.md",
+    "10-technology/E-Tech-Stack",
+    "09-operations/A-Sops/standard-ops.md",
+    "09-operations/C-Vendors/vendors-list.md",
+    "09-operations/A-Sops/sample-sop.md",
+    "08-marketing/F-Websites/website-and-socials.md",
+    "08-marketing/E-Testimonials/testimonials.md",
+    "08-marketing/B-Sales-Materials/sales-materials.md",
+    "08-marketing/A-Brand-Assets/ynkiyinfnixchsp.png",
+    "08-marketing/A-Brand-Assets/zsjnburbpgmdv-j.png",
+    "08-marketing/A-Brand-Assets/vlmn-yrztbhtekmjz.png",
+    "08-marketing/A-Brand-Assets/vbpmqsrdtkhrypegtq.png",
+    "08-marketing/A-Brand-Assets/ngq-xklwozaugcke.png",
+    "08-marketing/A-Brand-Assets/rdspmmewyrmbaddxl.png",
+    "08-marketing/A-Brand-Assets/pgnvyyvqntbeiozb.png",
+    "08-marketing/A-Brand-Assets/jlbromrxmbvdvvffxlbt.png",
+    "08-marketing/A-Brand-Assets/logo-raysconstruction-modernized.png",
+    "08-marketing/A-Brand-Assets/hdo-kykluwxlqtuqot.png"
   ]
 }

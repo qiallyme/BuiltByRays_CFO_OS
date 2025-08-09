@@ -1,148 +1,57 @@
 ---
-title: Index
+title: Welcome to Your Client Vault – BuiltByRays™ OS
 date: 2025-08-08
-summary: Summary coming soon.
-tags: [general]
+summary: Your C-Suite command center—strategy, execution, and proof of work in one place.
+tags: [welcome, onboarding]
 status: active
 owner: Q
 last_reviewed: 2025-08-08
 ---
-# Index
+
+# 🚀 Welcome to Your Client Vault
+
+This is your private **BuiltByRays™ Client Vault**—your *one source of truth* for proposals, scope, SOPs, reports, deliverables, and updates. Think of it as your **C-Suite Command Center**: clear, current, and built to move.
 
 ---
-title: Home
-date: 2025-08-08
----
-# BuiltByRays™
-Welcome. Pick a section from the sidebar.
 
-
----
-# 00-Home
----
-[[0000_Index]]
-[[0001_Client_Info]]
-[[0002_Welcome]]
-
-# 01-Scope
----
-[[_🧠What I Do]]
-[[⚙️ Full Operational Overhaul]]
-[[✅ What_I_Do]]
-[[👑 Fractional C-Suite Partner]]
-[[💻 IT & Infrastructure]]
-[[📊 Real-Time Command Center]]
-[[🤖 AI + Automation Everywhere]]
-[[🧾 Accounting & Tax, Done Right]]
-[[🚀 Fast MVP LongTerm Growth]]
-
-[[_❌ What I Don't Do]]
-[[❌ Availability_Limits]]
-[[❌ Cheap_Fast_Easy_Triangle]]
-[[❌ CPA_vs_Accountant]]
-[[__❌ Customer_is_Not_Always_Right]]
-[[❌ Decision_Maker_Not_Order_Taker]]
-[[❌ Emergency_Support_Policy]]
-[[❌ Legal_Boundaries (I'm Not Your Lawyer)]]
-[[❌ Not_Your_Assistant]]
-
-[[_What to Expect]]
-[[💼 Terms_Of_Engagement]]
-[[Client_Responsibilities]]
-[[Scale_Phase_Optionals]]
-[[Sprint_Cycle_Roadmap]]
-[[Transition_Offboarding]]
-[[Week_1_Kickoff]]
-[[Week_2_MVP_Launch]]
-[[📚 Client_Welcome_Guide]]
-
-# 02-KPIs
----
-
-
-# 03-Investment
-[[_Overview]]
+## ✅ Before You Begin
+1. **Bookmark this page** for one-click access.  
+2. **Watch the 60-second intro** below.  
+3. **Review Scope & Terms** so expectations stay clean.  
+4. **Open Client Details** to confirm your profile.  
+5. **Use Search** (top/left) to jump anywhere fast.
 
 ---
-# 04-Scenarios
-[[cashflow_projection_cases]]
-[[pricing_strategy_examples]]
-[[scenarios]]
-[[tax_strategy_scenarios]]
+
+## 📽️ Watch First — *How to Use Your Vault*
+<!-- Replace YOUR_VIDEO_ID with the YouTube ID or swap to an HTML5 <video> if self-hosted -->
+<iframe
+  width="100%"
+  height="450"
+  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+  title="BuiltByRays Client Vault Overview"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 
 ---
-# 05-FAQ
----
-[[faq]]
 
-# 06-Redline
----
-[[_agreement]]
-![[RedlineSnapshot.pdf]]
-
-
----
-# 07-Roadmap
----
-[[_roadmap]]
-
-
-# 08-Engagements
----
-[[_Engagements]]
+## 🗺️ Start Here
+- **Client Details** → [[A-Client-info]]
+- **What is QiSuite™** → [[A-QiSuite™ Overview]]
+- **Scope of Work** → [[C-What I Do]]
+- **What I Don’t Do** → [[D-What I DON'T Do|D-What I DON'T Do]]
+- **What to Expect** → [[01-scope/30-what-to-expect|30-what-to-expect]]
+- **Client Responsibilities** → [[E-What I Expect From You|E-What I Expect From You]]
 
 ---
-# 09-Financials
----
-[[_Financials]]
-[[Banking]]
-[[Loans-n-credit]]
-[[Payroll-contractors]]
-[[Reports]]
-[[Expenses]]
-[[Insurance]]
-[[Assets]]
-[[Entity-Docs]]
-[[Other Deductions]]
-[[Taxes]]
 
+## 💡 Pro Tips
+- This vault updates in real time—refresh before meetings.  
+- Use it live on calls for faster decisions.  
+- If anything looks off, tag it—we fix fast.
 
 ---
-# 10-Business Development
----
-[[_Business Development]]
-[[Client Copies]]
-[[Help Docs]]
-[[References]]
-# 11-Marketing
----
-[[_Marketing Overview]]
-[[Brochures and Decks]]
-[[Logos and Assets]]
-[[Sales Materials]]
-[[Testimonials]]
-[[Website and Socials]]
-# 12-Operations
----
-[[_Operations Overview]]
-[[SOPs]]
-# 13-Human Resources
----
-[[_HR Overview]]
-[[Policies and Handbooks]]
-# 14-Technology
----
-[[_Technology]]
-# 15-Legal Compliance
----
-[[_Legal Compliance]]
-# 16-Analytics
----
-[[_Analytics Overview]]
-[[Vault_BBR/16-Analytics/data_models]]
-# 99-Archives
----
-[[_Archives Overview]]
 
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)
