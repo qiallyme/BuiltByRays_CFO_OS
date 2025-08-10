@@ -1,19 +1,21 @@
 ---
+title: Readme
 date: 2025-08-10
-title: readme
----
----
-date: 2025-08-10
-title: readme
-tags: [0803-proposed, engagements]
-
+tags:
+- 0803-proposed
+- engagements
 ---
 # Readme
 
----
-date: 2025-08-08
-title: README
----
+<!-- RELATED:START -->
+
+## Related
+**Backlinks**
+- [[13-engagements/engagements]]
+
+<!-- RELATED:END -->
+
+
 # Proposed Engagements
 Track deals in pipeline here.
 

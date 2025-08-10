@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "BuiltByRays™ OS Powered by: QiSuite",
-    pageTitleSuffix: "",
+    pageTitle: "BuiltByRays™",
+    pageTitleSuffix: "OS",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -37,7 +37,7 @@ const config: QuartzConfig = {
           dark: "#2b2b2b",
           secondary: "#284b63",
           tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          highlight: "rgba(3, 113, 238, 0.43)",
           textHighlight: "#fff23688",
         },
         darkMode: {
@@ -48,7 +48,7 @@ const config: QuartzConfig = {
           dark: "#ebebec",
           secondary: "#7b97aa",
           tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          highlight: "rgba(129, 146, 150, 0.15)",
           textHighlight: "#b3aa0288",
         },
       },

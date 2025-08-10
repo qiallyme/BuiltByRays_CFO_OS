@@ -1,131 +1,85 @@
-@echo on
+@echo off
 setlocal EnableExtensions EnableDelayedExpansion
-title BuiltByRays KB - All In One
 chcp 65001 >nul
 
-REM ===== CONFIG =====
+rem ===== CONFIG =====
 set "BASE=%~dp0"
 set "CONTENT=%BASE%content"
 set "PY=python"
 set "DEFAULT_MSG=KB: update TOC, tags, build"
-set "START_PORT=8080"
-set "END_PORT=8090"
 
-echo.
 echo === BuiltByRays KB - All In One ===
 echo Repo: %BASE%
 echo CONTENT=%CONTENT%
 echo.
 
-REM ---- Sanity checks ----
+rem ---- Sanity checks ----
+echo [sanity] checking content folder...
 if not exist "%CONTENT%" (
   echo ERROR: content folder NOT found: "%CONTENT%"
   dir "%BASE%"
   exit /b 1
 )
-where %PY% || (echo ERROR: Python not found on PATH.& exit /b 1)
-node -v  || (echo ERROR: Node.js not found on PATH.& exit /b 1)
-npx  -v  || (echo ERROR: NPX not found on PATH.& exit /b 1)
+echo [sanity] checking Python/Node/NPX...
+where %PY% >nul 2>nul || (echo ERROR: Python not found on PATH.& exit /b 1)
+node -v >nul 2>nul || (echo ERROR: Node.js not found on PATH.& exit /b 1)
+npx -v  >nul 2>nul || (echo ERROR: NPX not found on PATH.& exit /b 1)
 
-REM ---- 1) TOC + titles/tags + H1 ----
-echo [1/8] TOC and titles/tags...
-"%PY%" "%BASE%kb_toc_and_tags.py" --base "%CONTENT%" --apply
-if errorlevel 1 echo WARN: kb_toc_and_tags exited with code %ERRORLEVEL%
+echo.
+echo [1/6] Normalize + tags + related...
+call "%PY%" ".\kb_autotag_backlink.py" --base ".\content" --apply || goto :fail
 
-REM ---- 2) Auto-smart tags + backlinks ----
-echo [2/8] Auto-tagging and backlinks...
-"%PY%" "%BASE%kb_autotag_backlink.py" --base "%CONTENT%" --apply
-if errorlevel 1 echo WARN: auto-tagger returned non-zero (continuing)
+echo [2/6] Generate TOCs + global index...
+if exist ".\kb_toc_and_tags.py" call "%PY%" ".\kb_toc_and_tags.py" --base ".\content" --apply
 
-REM ---- 3) Frontmatter cleanup ----
-echo [3/8] Frontmatter cleanup...
-"%PY%" "%BASE%kb_fix_frontmatter.py"
-if errorlevel 1 echo WARN: kb_fix_frontmatter exited with code %ERRORLEVEL%
+echo [3/6] Validate...
+if exist ".\kb_validate.py" call "%PY%" ".\kb_validate.py" --base ".\content" --strict
 
-REM ---- 4) Validate for Quartz ----
-echo [4/8] Validating markdown/frontmatter...
-"%PY%" "%BASE%kb_validate.py" --base "%CONTENT%"
-if errorlevel 2 (
-  echo ERROR: Blocking validation errors. Fix and re-run.
-  exit /b 2
-)
-if errorlevel 1 (
-  echo WARN: Validation warnings detected. Continue? Y or N
-  choice /c YN /n
-  if errorlevel 2 exit /b 1
-)
-
-REM ---- 5) Ensure node deps ----
-echo [5/8] Checking node_modules...
-if exist "%BASE%node_modules" (
-  echo node_modules present - skipping install
+echo [4/6] Install deps if needed...
+if not exist "node_modules" (
+  call npm ci || goto :fail
 ) else (
-  call npm install
-  if errorlevel 1 (
-    echo ERROR: npm install failed.
-    exit /b 1
-  )
+  echo node_modules present - skipping install
 )
 
-REM ---- 6) Build Quartz (retry after cache clean if needed) ----
-echo [6/8] Building Quartz...
-call npx quartz build
-if errorlevel 1 (
-  echo WARN: Quartz build failed, cleaning cache and retrying...
-  if exist "%BASE%.quartz" rmdir /s /q "%BASE%.quartz"
-  call npx quartz build
-  if errorlevel 1 (
-    echo ERROR: Quartz build failed again. Check errors above.
-    exit /b 1
-  )
-)
+echo [5/6] Build Quartz...
+call npx quartz build || goto :fail
+if exist "public\index.html" copy /Y "public\index.html" "public\404.html" >nul
 
-REM ---- 7) Preview (auto-port). Run in THIS window so we see logs. Fallback to static serve. ----
+echo [6/6] Local preview...
 set "PORT="
-for /l %%P in (%START_PORT%,1,%END_PORT%) do (
-  powershell -NoProfile -Command "$c=Get-NetTCPConnection -LocalPort %%P -ErrorAction SilentlyContinue; if($null -eq $c){exit 0}else{exit 1}" >nul 2>&1
-  if !errorlevel!==0 (
-    set "PORT=%%P"
-    goto :port_found
-  )
-)
-:port_found
-if "%PORT%"=="" set "PORT=%START_PORT%"
-
-echo Starting Quartz preview on http://localhost:%PORT% ...
-call npx quartz preview --port %PORT%
-if errorlevel 1 (
-  echo WARN: Quartz preview failed or exited. Trying static server on %PORT%...
-  call npx serve public -l %PORT%
+for /l %%P in (8080,1,8090) do (
+  powershell -NoProfile -Command "if ((Test-NetConnection -ComputerName 127.0.0.1 -Port %%P -InformationLevel Quiet)) { exit 0 } else { exit 1 }" >nul 2>nul
   if errorlevel 1 (
-    echo ERROR: Static server failed too. Check logs above.
-    exit /b 1
+    set "PORT=%%P"
+    goto :have_port
   )
 )
+set "PORT=8080"
+:have_port
 
-echo Press any key AFTER you finish reviewing in the browser...
+start "Preview" cmd /c "npx serve public -l %PORT%"
+echo Waiting for http://localhost:%PORT% to come up...
+powershell -NoProfile -Command "$u='http://localhost:%PORT%'; for($i=0;$i -lt 40;$i++){ try{ (Invoke-WebRequest -UseBasicParsing $u).StatusCode | Out-Null; exit 0 } catch{} Start-Sleep -Milliseconds 300 }; exit 1" >nul 2>nul
+
+start "" "http://localhost:%PORT%"
+echo Press any key AFTER you're done reviewing in the browser...
 pause >nul
 
-REM ---- 8) Commit + Push ----
-echo [8/8] Push changes to Git? Y or N
-choice /c YN /n
-if errorlevel 2 (
-  echo Skipping push. Done.
-  exit /b 0
+set /p PUSH="Push changes to Git? (Y/N): "
+if /i "%PUSH%"=="Y" (
+  set /p MSG="Commit message (blank = default): "
+  if "%MSG%"=="" set "MSG=%DEFAULT_MSG%"
+  git add -A
+  git commit -m "%MSG%" || echo No changes to commit.
+  git push
+) else (
+  echo Skipping push.
 )
 
-set "MSG="
-set /p "MSG=Enter commit message (or leave blank to use default): "
-if "%MSG%"=="" set "MSG=%DEFAULT_MSG%"
-
-git add -A
-git commit -m "%MSG%"
-if errorlevel 1 echo Nothing to commit or commit failed.
-git push
-if errorlevel 1 (
-  echo ERROR: git push failed (remote/credentials?).
-  exit /b 1
-)
-
-echo Done. Shipped.
+echo Done.
 exit /b 0
+
+:fail
+echo Build failed (see messages above).
+exit /b 1

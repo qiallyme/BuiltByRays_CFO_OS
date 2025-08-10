@@ -1,13 +1,8 @@
 ---
-date: 2025-08-10
-title: index
+title: Knowledge Base Index
+tags: [index, toc]
 ---
----
-date: 2025-08-10
-title: index
-tags: [ai, analytics, automation, index-md, innovation, kpi, milestones, performance, planning, strategy]
 
----
 # Knowledge Base Index
 
 ## Scope
