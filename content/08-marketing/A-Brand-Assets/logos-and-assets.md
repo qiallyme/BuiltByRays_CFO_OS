@@ -1,19 +1,14 @@
 ---
-date: 2025-08-10
-title: logos and assets
----
----
 title: Logos And Assets
 date: 2025-08-10
-tags: [marketing, brand-assets, -accounts, campaigns, outreach]
+tags: [marketing, campaigns, outreach, hr, payroll]
 ---
 # Logos And Assets
 
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
-- [[01-scope/A-Your-Details]]
+**Similar by tag**
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
@@ -60,11 +55,21 @@ tags: [marketing, brand-assets, -accounts, campaigns, outreach]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
 - [[13-engagements/engagements]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
-- [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---

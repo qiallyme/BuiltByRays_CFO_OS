@@ -1,11 +1,7 @@
 ---
-date: 2025-08-10
-title: index
----
----
 title: Taxes
 date: 2025-08-10
-tags: [financials, taxes, -accounting, finance, accounting]
+tags: [finance, accounting, reporting, hr, payroll]
 ---
 # Taxes
 
@@ -20,8 +16,7 @@ tags: [financials, taxes, -accounting, finance, accounting]
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
-- [[01-scope/A-Your-Details]]
+**Similar by tag**
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
@@ -44,7 +39,6 @@ tags: [financials, taxes, -accounting, finance, accounting]
 - [[07-financials/I-Insurance/insurance]]
 - [[07-financials/O-Others/other-deductions]]
 - [[07-financials/R-Reports/reports]]
-- [[07-financials/T-Taxes/taxes]]
 - [[08-marketing/A-Brand-Assets/logos-and-assets]]
 - [[08-marketing/B-Sales-Materials/sales-materials]]
 - [[08-marketing/D-Decks/brochures-and-decks]]
@@ -71,9 +65,32 @@ tags: [financials, taxes, -accounting, finance, accounting]
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
-- [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---

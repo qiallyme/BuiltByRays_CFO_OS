@@ -1,19 +1,14 @@
 ---
-date: 2025-08-10
-title: assets
----
----
 title: Assets
 date: 2025-08-10
-tags: [financials, assets, -accounting, finance, accounting]
+tags: [finance, accounting, reporting, hr, payroll]
 ---
 # Assets
 
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
-- [[01-scope/A-Your-Details]]
+**Similar by tag**
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
@@ -62,9 +57,20 @@ tags: [financials, assets, -accounting, finance, accounting]
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
-- [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---

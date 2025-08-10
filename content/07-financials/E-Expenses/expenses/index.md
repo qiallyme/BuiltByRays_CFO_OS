@@ -1,11 +1,7 @@
 ---
-date: 2025-08-10
-title: index
----
----
 title: Expenses
 date: 2025-08-10
-tags: [financials, expenses, -accounting, finance, accounting]
+tags: [finance, accounting, reporting, hr, payroll]
 ---
 # Expenses
 
@@ -20,8 +16,7 @@ tags: [financials, expenses, -accounting, finance, accounting]
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
-- [[01-scope/A-Your-Details]]
+**Similar by tag**
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
@@ -39,7 +34,6 @@ tags: [financials, expenses, -accounting, finance, accounting]
 - [[07-financials/B-Banks/banking]]
 - [[07-financials/C-Contractors/payroll-contractors]]
 - [[07-financials/D-Liability/loans-n-credit]]
-- [[07-financials/E-Expenses/expenses]]
 - [[07-financials/F-Entity-Docs/entity-docs]]
 - [[07-financials/I-Insurance/insurance]]
 - [[07-financials/O-Others/other-deductions]]
@@ -71,9 +65,32 @@ tags: [financials, expenses, -accounting, finance, accounting]
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
-- [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---

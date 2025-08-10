@@ -1,11 +1,7 @@
 ---
-date: 2025-08-10
-title: index
----
----
 title: Sample Sop
 date: 2025-08-10
-tags: [operations, sops, -accounts, logistics, supply]
+tags: [operations, logistics, supply, hr, payroll]
 ---
 # Sample Sop
 
@@ -20,8 +16,7 @@ tags: [operations, sops, -accounts, logistics, supply]
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
-- [[01-scope/A-Your-Details]]
+**Similar by tag**
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
@@ -51,7 +46,6 @@ tags: [operations, sops, -accounts, logistics, supply]
 - [[08-marketing/E-Testimonials/testimonials]]
 - [[08-marketing/F-Websites/website-and-socials]]
 - [[08-marketing/marketing-overview]]
-- [[09-operations/A-Sops/sample-sop]]
 - [[09-operations/A-Sops/standard-ops]]
 - [[09-operations/C-Vendors/vendors-list]]
 - [[09-operations/operations-overview]]
@@ -69,11 +63,33 @@ tags: [operations, sops, -accounts, logistics, supply]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
 - [[13-engagements/engagements]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
-- [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Sample SOP

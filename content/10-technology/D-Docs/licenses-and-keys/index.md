@@ -1,11 +1,7 @@
 ---
-date: 2025-08-10
-title: index
----
----
 title: Licenses And Keys
 date: 2025-08-10
-tags: [technology, docs, -accounts, stack, devops]
+tags: [technology, stack, devops, hr, payroll]
 ---
 # Licenses And Keys
 
@@ -20,8 +16,7 @@ tags: [technology, docs, -accounts, stack, devops]
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
-- [[01-scope/A-Your-Details]]
+**Similar by tag**
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
@@ -61,7 +56,6 @@ tags: [technology, docs, -accounts, stack, devops]
 - [[10-technology/C-Chatbot/chatbot-readme]]
 - [[10-technology/D-Docs/client-installation-guide]]
 - [[10-technology/D-Docs/deployment-checklist]]
-- [[10-technology/D-Docs/licenses-and-keys]]
 - [[10-technology/E-Tech-Stack/technology]]
 - [[10-technology/E-Tech-Stack/tools-stack]]
 - [[11-legal-compliance/legal-compliance]]
@@ -69,12 +63,34 @@ tags: [technology, docs, -accounts, stack, devops]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
 - [[13-engagements/engagements]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/A-qbo-backup]]
 - [[99-archives/archives-overview]]
-- [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---

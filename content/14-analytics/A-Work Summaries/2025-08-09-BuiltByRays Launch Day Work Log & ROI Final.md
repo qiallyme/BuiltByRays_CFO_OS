@@ -1,32 +1,15 @@
 ---
-date: 2025-08-10
-title: BuiltByRays Launch Day Work Log & ROI Final
----
----
 title: BuiltByRays — Launch Day Work Log & ROI (Final)
 date: 2025-08-10
-tags: [analytics, work-summaries, -1099, insights, metrics]
+tags: [analytics, insights, metrics, finance, ap]
 ---
 # BuiltByRays — Launch Day Work Log & ROI (Final)
 
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
+**Similar by tag**
 - [[01-scope/A-Your-Details]]
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[01-scope/C-Scope-of-Services]]
-- [[01-scope/D-What-I-Do]]
-- [[01-scope/E-What-I-DON-T-Do]]
-- [[01-scope/F-What-I-Expect-From-You]]
-- [[01-scope/G-KPIs-Goals]]
-- [[01-scope/H-Case Studies & Wins]]
-- [[02-investment/A-Investment-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example]]
-- [[03-roadmap-strategies-faqs/A-Roadmap]]
-- [[03-roadmap-strategies-faqs/B-Strategies]]
-- [[03-roadmap-strategies-faqs/C-FAQs]]
-- [[05-agreement/A. Agreement Sections]]
 - [[07-financials/A-Assets/assets]]
 - [[07-financials/B-Banks/banking]]
 - [[07-financials/C-Contractors/payroll-contractors]]
@@ -37,57 +20,27 @@ tags: [analytics, work-summaries, -1099, insights, metrics]
 - [[07-financials/O-Others/other-deductions]]
 - [[07-financials/R-Reports/reports]]
 - [[07-financials/T-Taxes/taxes]]
-- [[08-marketing/A-Brand-Assets/logos-and-assets]]
-- [[08-marketing/B-Sales-Materials/sales-materials]]
-- [[08-marketing/D-Decks/brochures-and-decks]]
-- [[08-marketing/E-Testimonials/testimonials]]
-- [[08-marketing/F-Websites/website-and-socials]]
-- [[08-marketing/marketing-overview]]
-- [[09-operations/A-Sops/sample-sop]]
-- [[09-operations/A-Sops/standard-ops]]
-- [[09-operations/C-Vendors/vendors-list]]
-- [[09-operations/operations-overview]]
-- [[10-technology/A-Architecture/cfo-os-technical-architecture]]
-- [[10-technology/B-Development/integrations]]
-- [[10-technology/B-Development/web-deployment-readme]]
-- [[10-technology/C-Chatbot/chatbot-readme]]
-- [[10-technology/D-Docs/client-installation-guide]]
-- [[10-technology/D-Docs/deployment-checklist]]
-- [[10-technology/D-Docs/licenses-and-keys]]
-- [[10-technology/E-Tech-Stack/technology]]
-- [[10-technology/E-Tech-Stack/tools-stack]]
-- [[11-legal-compliance/legal-compliance]]
-- [[12-human-resources/hr-overview]]
-- [[12-human-resources/policies-and-handbooks]]
-- [[12-human-resources/team-directory]]
-- [[13-engagements/engagements]]
 - [[99-archives/A-qbo-backup]]
-- [[99-archives/archives-overview]]
 - [[.]]
 
 <!-- RELATED:END -->
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 *Prepared by QiAlly LLC • Date: August 9, 2025*
 
 > This note documents what was delivered **today**, why it matters, and a **conservative value/ROI** estimate. Numbers are directional and based on standard local‑service benchmarks; we’ll validate with tracking over the next 4–8 weeks.
-
----
-
-## 1) What shipped today
-
-- ✅ **Public website live** (Cloudflare Pages + custom subdomain), contact form wired
-- ✅ **Client Portal / Knowledge Base** (Quartz) embedded into site
-- ✅ **Google Business Profile** (GBP) created/optimized (name, NAP, hours, services, photos)
-- ✅ **CRM (Zoho Bigin)**: pipeline, stages, basic automations
-- ✅ **Forms & autoresponders**: contact → pipeline, change‑order request (starter)
-- ✅ **Domain/DNS/SSL**: padlock ✅, performance CDN ✅
-- ✅ **Social kickstart**: invited **741** friends to Facebook page
-- ✅ **YouTube channel** set up + short‑form content plan
-- ✅ **Content calendar (2 weeks)** drafted
-- ✅ **Books clean‑up + tax prep kickoff** (checklist started)
-
----
 
 ## 2) Business value & potential ROI
 
@@ -109,21 +62,6 @@ tags: [analytics, work-summaries, -1099, insights, metrics]
 > *ROI math:* ROI = (Value − Cost) / Cost.  
 > Example: if annual QiAlly cost were $24k, then ROI range ≈ **(+205% to +992%)**. Replace with your actual cost for a precise figure.
 
----
-
-## 3) Proof of work / where to look
-
-- **Site**: `https://<subdomain>.builtbyrays.com` (Cloudflare Pages)
-- **Portal**: embedded Quartz vault (`/portal` or menu link)
-- **GBP**: Google search “Rays Construction” → Knowledge Panel
-- **CRM**: Zoho Bigin → Pipeline “Leads/Estimates/Won”
-- **Forms**: Contact / Change‑Order test submissions (check autoresponder + Bigin record)
-- **Repos/Backups**: GitHub repo + Cloudflare Pages latest deployment
-
-> I’ll drop direct links here once you confirm final slugs.
-
----
-
 ## 4) Tracking plan (so we can prove the value)
 
 **Core KPIs** (weekly check‑in):
@@ -139,35 +77,11 @@ tags: [analytics, work-summaries, -1099, insights, metrics]
 - “How did you hear about us?” mandatory on forms  
 - Separate pipeline tags: Web / GBP / FB / YT / Referral
 
----
-
-## 5) Next 7 days (quick wins)
-
-1) Record & publish **3 × 45‑sec Shorts** (Meet Ray, In‑law Suite Before→After, “3 fastest ROI fixes”).  
-2) Send **5 review requests** to happy clients (use template).  
-3) Add **FAQ section** to site (top 5 pre‑sales questions).  
-4) Finish **books checklist** (recs, receipts, 1099s, entity docs).  
-5) Turn on **Plausible/GA4 goal** = `Lead Submitted`.
-
----
-
 ## 6) Notes on assumptions
 - Average job gross margin assumed **$1.5–$5k** (adjust to your real numbers).  
 - Lead uplift from GBP/website is typical for local contractors with fresh presence and reviews beginning to roll in.  
 - Admin time valued at **$125/hr**; change if needed.  
 - Ranges shown are **potential**, not guaranteed; we will confirm with data.
-
----
-
-## 7) Sign‑off
-- **Owner review:** ☐ Completed  
-- **Links verified:** ☐ Completed  
-- **KPI dashboard live:** ☐ Completed  
-
-*Prepared by:* **QiAlly LLC**  
-*For:* **Rays Construction**
-
----
 
 ## 8) Task management in the client portal (how we’ll run work)
 

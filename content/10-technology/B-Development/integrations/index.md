@@ -1,11 +1,7 @@
 ---
-date: 2025-08-10
-title: index
----
----
 title: Integrations
 date: 2025-08-10
-tags: [technology, development, -accounts, stack, devops]
+tags: [technology, stack, devops, hr, payroll]
 ---
 # Integrations
 
@@ -20,8 +16,7 @@ tags: [technology, development, -accounts, stack, devops]
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
-- [[01-scope/A-Your-Details]]
+**Similar by tag**
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
@@ -56,7 +51,6 @@ tags: [technology, development, -accounts, stack, devops]
 - [[09-operations/C-Vendors/vendors-list]]
 - [[09-operations/operations-overview]]
 - [[10-technology/A-Architecture/cfo-os-technical-architecture]]
-- [[10-technology/B-Development/integrations]]
 - [[10-technology/B-Development/web-deployment-readme]]
 - [[10-technology/C-Chatbot/chatbot-readme]]
 - [[10-technology/D-Docs/client-installation-guide]]
@@ -69,12 +63,34 @@ tags: [technology, development, -accounts, stack, devops]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
 - [[13-engagements/engagements]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/A-qbo-backup]]
 - [[99-archives/archives-overview]]
-- [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 - QBO + Gusto

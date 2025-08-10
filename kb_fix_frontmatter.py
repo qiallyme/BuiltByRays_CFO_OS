@@ -1,154 +1,157 @@
 #!/usr/bin/env python3
-# Fix mixed tag syntax + normalize frontmatter across all MDs.
-import re, sys
+import re, sys, argparse, yaml
 from pathlib import Path
 
-BASE = Path(r".\content").resolve()
+DEFAULT_BASE = r"C:\Users\codyr\Documents\Github\EmpowerQNow713\BuiltByRays_CFO_OS\content"
 
-NUMERIC_WHITELIST = {"1099","401k","10k","10-q"}
-BLOCKLIST = {"index","readme","md","markdown","content"}
+FM_TOP_RE = re.compile(r"^\ufeff?\s*---\s*\n(.*?)\n---\s*\n?", flags=re.S)
+H1_RE = re.compile(r"(?m)^\s*#\s+(.+?)\s*$")
 
 def read(p): return p.read_text(encoding="utf-8", errors="ignore")
-def write(p,t): p.write_text(t, encoding="utf-8")
+def write(p, t): p.write_text(t, encoding="utf-8")
 
-def slug_title(name: str) -> str:
-    name = re.sub(r"^([A-Za-z0-9]+)\s*[-_.]\s*", "", name)  # drop A- / 01-
-    name = (name or "").replace("TM","™").replace("_"," ").replace("-"," ")
-    name = re.sub(r"\s+"," ", name).strip()
-    return name[:1].upper() + name[1:] if name else "Untitled"
+def split_frontmatter(txt: str):
+    m = FM_TOP_RE.match(txt)
+    if not m:
+        return {}, txt, 0, 0
+    raw = m.group(1)
+    try:
+        data = yaml.safe_load(raw) or {}
+        if not isinstance(data, dict): data = {}
+    except Exception:
+        data = {}
+    return data, txt[m.end():], m.start(), m.end()
 
-def derive_title(md: Path, base: Path) -> str:
-    rel = md.relative_to(base)
-    return slug_title(rel.parent.name if md.name.lower()=="index.md" else md.stem)
+def build_frontmatter(data: dict) -> str:
+    # Render tags/aliases inline; simple scalars otherwise
+    lines = ["---"]
+    for k, v in data.items():
+        if isinstance(v, list) and k in ("tags", "aliases", "alias"):
+            lines.append(f"{k}: [{', '.join(str(x) for x in v)}]")
+        else:
+            lines.append(f"{k}: {v}")
+    lines.append("---\n")
+    return "\n".join(lines)
 
-def normalize_tag(t: str) -> str:
-    t = str(t or "").strip().lower().replace("_","-").replace(" ", "-")
-    t = re.sub(r"-{2,}", "-", t)
-    t = re.sub(r"[^a-z0-9-]", "", t)
-    if t in BLOCKLIST: return ""
-    if t.isdigit() and t not in NUMERIC_WHITELIST: return ""
-    return t
+def first_h1(body: str) -> str | None:
+    m = H1_RE.search(body)
+    return m.group(1).strip() if m else None
 
-def parse_frontmatter(txt: str):
-    if not txt.strip().startswith("---"): return None, txt
-    end = txt.find("\n---", 3)
-    if end == -1: return None, txt
-    fm = txt[:end+4]; body = txt[end+4:]
-    return fm, body
+def extract_alpha_prefix(name: str):
+    """
+    Detect leading A/B/C style ordering tokens in filenames/folders:
+      A-Title, A.Title, A_Title, 'A Title'  -> ('A.', 'Title')
+    Returns (prefix like 'A.', remainder) or ('', name) if none.
+    """
+    m = re.match(r'^\s*([A-Za-z])(?:\s*[\.\-_]\s*|\s+)(.+)$', name)
+    if m:
+        return m.group(1).upper() + ".", m.group(2).strip()
+    return "", name
 
-def collect_multiline_list(lines, start_idx):
-    """Collect indented '- item' lines following a key line."""
-    items = []
-    i = start_idx + 1
-    while i < len(lines):
-        line = lines[i]
-        if re.match(r"^\s*-\s+.+$", line):
-            items.append(re.sub(r"^\s*-\s+", "", line).strip())
-            i += 1
-            continue
-        if re.match(r"^\s*[A-Za-z0-9_-]+\s*:", line):  # next key
-            break
-        if line.strip()=="":
-            i += 1
-            continue
-        break
-    return items, i
+def humanize_name(name: str) -> str:
+    # Replace separators with spaces, collapse, light capitalize
+    s = name.replace("_", " ").replace("-", " ")
+    s = re.sub(r"\s+", " ", s).strip()
+    if not s:
+        return "Untitled"
+    # Preserve existing capitalization mostly; just ensure first char is uppercase
+    return s[0].upper() + s[1:]
 
-def fix_file(p: Path, base: Path) -> bool:
-    txt = read(p)
-    fm, body = parse_frontmatter(txt)
-    if fm is None:
-        # inject minimal FM
-        title = derive_title(p, base)
-        fm = f"---\ntitle: {title}\n---"
-        new = fm + "\n\n" + txt.lstrip()
-        if new != txt:
-            write(p, new)
-            return True
-        return False
+def derive_title_with_prefix(path_rel: Path) -> str:
+    base_name = path_rel.parent.name if path_rel.name.lower()=="index.md" else path_rel.stem
+    prefix, core = extract_alpha_prefix(base_name)
+    core_human = humanize_name(core)
+    return f"{prefix} {core_human}".strip() if prefix else core_human
 
-    # split lines to edit keys robustly
-    lines = fm.strip().splitlines()
-    # ensure starts/ends with ---
-    if lines and lines[0].strip() == "---": lines = lines[1:]
-    if lines and lines[-1].strip() == "---": lines = lines[:-1]
+def ensure_h1_equals(body: str, desired: str) -> str:
+    """
+    Ensure the first H1 equals `desired` (with prefix if any).
+    - If an H1 exists and differs, replace just that first H1 line.
+    - If no H1, insert '# desired' at top.
+    Also collapse immediate duplicate identical H1s.
+    """
+    lines = body.splitlines()
+    for i, line in enumerate(lines):
+        if H1_RE.match(line):
+            # Replace the very first H1 with the desired one
+            lines[i] = f"# {desired}"
+            # Remove an immediate duplicate if present
+            if i+1 < len(lines) and re.match(rf"^\s*#\s+{re.escape(desired)}\s*$", lines[i+1]):
+                lines.pop(i+1)
+            return "\n".join(lines)
+    # No H1 at all → insert at top
+    return f"# {desired}\n\n{body.lstrip()}"
 
-    out = []
-    tags_found_inline = []
-    tags_found_block = []
+KV_LINE_RE = re.compile(r"^\s*(title|date|summary|tags|keywords|status|owner|last[_-]?reviewed)\s*:\s*.*$", re.I)
+
+def strip_stray_kv_header(body: str) -> str:
+    """Remove accidental key:value lines at the very top of the body (not in FM)."""
+    lines = body.splitlines()
     i = 0
-    while i < len(lines):
-        line = lines[i]
-
-        # title fix
-        m_title = re.match(r"^title\s*:\s*(.*)$", line, flags=re.I)
-        if m_title:
-            title_val = m_title.group(1).strip()
-            if title_val.lower() in ("", "index"):  # fix bogus title
-                title_val = derive_title(p, base)
-            out.append(f"title: {title_val}")
-            i += 1
-            continue
-
-        # tags inline: tags: [...]
-        m_tags_inline = re.match(r"^tags\s*:\s*\[(.*)\]\s*$", line, flags=re.I)
-        if m_tags_inline:
-            inside = m_tags_inline.group(1)
-            candidates = [t.strip().strip(",") for t in inside.split(",")]
-            tags_found_inline.extend([t for t in candidates if t])
-            i += 1
-            # also collect any following block-style items and skip them
-            block_items, j = collect_multiline_list(lines, i-1)
-            tags_found_block.extend(block_items)
-            i = j
-            continue
-
-        # tags key (block style to follow)
-        m_tags_key = re.match(r"^tags\s*:\s*$", line, flags=re.I)
-        if m_tags_key:
-            # collect subsequent '- x' lines
-            items, j = collect_multiline_list(lines, i)
-            tags_found_block.extend(items)
-            i = j
-            continue
-
-        out.append(line)
+    # eat leading KV lines
+    while i < min(30, len(lines)) and KV_LINE_RE.match(lines[i]):
         i += 1
-
-    # merge tags
-    merged = []
-    seen = set()
-    for t in (tags_found_inline + tags_found_block):
-        nt = normalize_tag(t)
-        if nt and nt not in seen:
-            merged.append(nt); seen.add(nt)
-
-    # rebuild FM
-    # ensure we have title
-    if not any(l.lower().startswith("title:") for l in out):
-        out.insert(0, f"title: {derive_title(p, base)}")
-
-    if merged:
-        out = [l for l in out if not l.lower().startswith("tags:")]
-        out.append(f"tags: [{', '.join(merged)}]")
-
-    new_fm = "---\n" + "\n".join(out) + "\n---"
-    new_txt = new_fm + txt[txt.find("\n---", 3)+4:]
-
-    if new_txt != txt:
-        write(p, new_txt)
-        return True
-    return False
+    # eat one or two blank lines after
+    while i < len(lines) and lines[i].strip() == "":
+        i += 1
+    return "\n".join(lines[i:]).lstrip("\n")
 
 def main():
-    base = BASE
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--base", default=DEFAULT_BASE)
+    ap.add_argument("--apply", action="store_true")
+    args = ap.parse_args()
+
+    base = Path(args.base).resolve()
+    if not base.exists():
+        print(f"[ERR] base not found: {base}")
+        sys.exit(1)
+
     changed = 0
-    for md in base.rglob("*.md"):
-        if ".obsidian" in md.as_posix(): continue
-        if fix_file(md, base):
-            print(f"[FIX] {md}")
+    for p in base.rglob("*.md"):
+        if ".obsidian" in p.as_posix():
+            continue
+
+        txt = read(p)
+        fm, body, _, _ = split_frontmatter(txt)
+
+        # Clean up stray key:value lines that leaked into content
+        body = strip_stray_kv_header(body)
+
+        # What should the title be?
+        h1 = first_h1(body)
+        if h1:
+            # If file/folder name has an alpha prefix (A./B./...), prepend it unless already present
+            base_name = p.parent.name if p.name.lower()=="index.md" else p.stem
+            prefix, _ = extract_alpha_prefix(base_name)
+            if prefix and not re.match(rf"^\s*{re.escape(prefix)}\s+", h1, flags=re.I):
+                desired_title = f"{prefix} {h1}"
+            else:
+                desired_title = h1
+        else:
+            desired_title = derive_title_with_prefix(p.relative_to(base))
+
+        # Never let title be "index"
+        if desired_title.strip().lower() == "index":
+            desired_title = derive_title_with_prefix(p.relative_to(base))
+
+        fm["title"] = desired_title
+
+        # Rebuild FM and sync H1 to exactly match the title
+        new_fm = build_frontmatter(fm)
+        new_body = ensure_h1_equals(body, desired_title)
+
+        rebuilt = new_fm + new_body.lstrip("\n")
+        if rebuilt != txt and args.apply:
+            write(p, rebuilt)
             changed += 1
-    print(f"Done. Fixed {changed} files.")
+
+    print(f"[OK] Fixed {changed} files." if args.apply else "[DRY] Done. Use --apply to write.")
 
 if __name__ == "__main__":
+    try:
+        import yaml
+    except Exception:
+        print("[ERR] Missing dependency 'pyyaml'. Run: pip install pyyaml")
+        sys.exit(1)
     main()

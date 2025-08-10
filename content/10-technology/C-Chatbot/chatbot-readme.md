@@ -1,19 +1,14 @@
 ---
-date: 2025-08-10
-title: chatbot readme
----
----
 title: Chatbot Readme
 date: 2025-08-10
-tags: [technology, chatbot, -accounts, stack, devops]
+tags: [technology, stack, devops, hr, payroll]
 ---
 # Chatbot Readme
 
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
-- [[01-scope/A-Your-Details]]
+**Similar by tag**
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
@@ -60,12 +55,22 @@ tags: [technology, chatbot, -accounts, stack, devops]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
 - [[13-engagements/engagements]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/A-qbo-backup]]
 - [[99-archives/archives-overview]]
-- [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # BuiltByRays™ CFO OS - AI Chatbot System
@@ -339,10 +344,4 @@ For technical support or questions:
 
 This project is proprietary software for BuiltByRays™ CFO OS clients.
 
----
-
-**BuiltByRays™ CFO OS - AI Chatbot System**  
-*Empowering businesses with intelligent financial guidance*
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

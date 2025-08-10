@@ -1,13 +1,8 @@
 ---
-date: 2025-08-10
-title: index
----
----
-title: Knowledge Base Index
+title: BuiltbyRays OS Index
 tags: [index, toc]
 ---
-
-# Knowledge Base Index
+# BuiltbyRays OS Index
 
 ## Scope
 - [[01-scope/A-Your-Details]]

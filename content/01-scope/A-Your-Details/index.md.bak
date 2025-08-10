@@ -1,91 +1,52 @@
 ---
 date: 2025-08-10
-title: Your details
-tags: [-your-details, accounts, agreement, ai, analytics, automation, banking, brand, budget, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, crm, digital, engagement, feedback, finance, hr, identity, index-md, innovation, insurance, irs, kpi, learning, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, scheduling, social, sop, strategy, summary, supply, tax, technology, training, vendors, web, workflow, your-details]
+title: index
 ---
 ---
-title: 00-Your Details
-date: 2025-08-08
-summary: Core profile, quick links, and strategic direction for Ray’s Construction LLC.
-tags:
-  - client
-  - profile
-  - accounts
-  - agreement
-  - ai
-  - analytics
-  - automation
-  - banking
-  - brand
-  - budget
-  - changes
-  - compensation
-  - compliance
-  - confidentiality
-  - construction
-  - contractors
-  - contracts
-  - coverage
-  - crm
-  - digital
-  - engagement
-  - feedback
-  - finance
-  - hr
-  - identity
-  - index-md
-  - innovation
-  - insurance
-  - irs
-  - kpi
-  - learning
-  - legal
-  - marketing
-  - materials
-  - milestones
-  - onboarding
-  - operations
-  - payroll
-  - performance
-  - pitch
-  - planning
-  - presentation
-  - procedures
-  - reporting
-  - risk
-  - sales
-  - scheduling
-  - social
-  - sop
-  - strategy
-  - summary
-  - supply
-  - tax
-  - technology
-  - training
-  - vendors
-  - web
-  - workflow
-  - your-details
-status: active
-owner: Q
-last_reviewed: 2025-08-08
-weight: 1
+title: A. Client Profile
+description: The information we have on file for your business.
+aliases: Client Details
+draft: false
+date: 2025-08-10
+permalink: null
+comments: null
+lang: en
+publish: true
+enableToc: true
+cssclasses: null
+socialDescription: null
+socialImage: null
+cover: null
+created: null
+modified: null
+published: null
+tags: [scope, your-details, -accounts, hr, payroll]
 ---
+keywords: [legal, onboarding, performance, planning, sales, scheduling, scope, technology, training, your-details]
 
+---
 # Client Profile
+
+<!-- AUTO-TOC:START -->
+
+## Contents
+- [[01-scope/A-Your-Details]]
+
+<!-- AUTO-TOC:END -->
+
 
 <!-- RELATED:START -->
 
 ## Related
 **Backlinks**
-- [[00-your-details]]
-- [[01-scope/A-QiSuiteTM-Overview]]
-- [[01-scope/B-Scope-of-Services]]
-- [[01-scope/C-What-I-Do]]
-- [[01-scope/D-What-I-DON-T-Do]]
-- [[01-scope/E-What-I-Expect-From-You]]
-- [[01-scope/F-KPIs-Goals]]
+- [[01-scope/A-Your-Details]]
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[01-scope/C-Scope-of-Services]]
+- [[01-scope/D-What-I-Do]]
+- [[01-scope/E-What-I-DON-T-Do]]
+- [[01-scope/F-What-I-Expect-From-You]]
+- [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
@@ -125,7 +86,6 @@ weight: 1
 - [[12-human-resources/hr-overview]]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
-- [[13-engagements/0803-proposed/readme]]
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
@@ -133,13 +93,6 @@ weight: 1
 
 <!-- RELATED:END -->
 
-
-<!-- AUTO-TOC:START -->
-
-## Contents
-- [[00-your-details]]
-
-<!-- AUTO-TOC:END -->
 
 **Company:** Ray’s Construction LLC  
 **Trademark:** BuiltByRays™  

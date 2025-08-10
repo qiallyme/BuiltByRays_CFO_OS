@@ -1,12 +1,7 @@
 ---
-date: 2025-08-10
-title: index
----
----
 title: Active
 date: 2025-08-10
-
-tags: [engagements, 0801-active, -0801-active]
+tags: [engagements, 0801-active]
 ---
 # Active
 
@@ -22,11 +17,10 @@ tags: [engagements, 0801-active, -0801-active]
 
 ## Related
 **Backlinks**
-- [[13-engagements/0801-active]]
-- [[13-engagements/0802-completed]]
-- [[13-engagements/0803-proposed/readme]]
-- [[13-engagements/engagements]]
 - [[.]]
 
-<!-- RELATED:END -->
+**Similar by tag**
+- [[13-engagements/0802-completed]]
+- [[13-engagements/0803-proposed/readme]]
 
+<!-- RELATED:END -->

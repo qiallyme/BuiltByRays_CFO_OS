@@ -71,33 +71,6 @@ def path_tags(rel_parts):
             out.append(t); seen.add(t)
     return out
 
-def derive_title(md_path: Path, base: Path) -> str:
-    rel = md_path.relative_to(base)
-    return slug_title(rel.parent.name if md_path.name.lower() == "index.md" else md_path.stem)
-
-def ensure_frontmatter(md_path: Path, base: Path, apply=False):
-    txt = read_text(md_path)
-    if txt.strip().startswith("---"):
-        fm_end = txt.find("\n---", 3)
-        if fm_end != -1:
-            fm = txt[0:fm_end+4]; body = txt[fm_end+4:]
-            if re.search(r"\ntitle\s*:", fm) is None:
-                fm = fm[:-4] + f"\ntitle: {derive_title(md_path, base)}\n---"
-            if re.search(r"\ntags\s*:", fm) is None:
-                tags = path_tags(md_path.relative_to(base).parts)
-                if tags: fm = fm[:-4] + f"\ntags:\n" + "\n".join(f"  - {tag}" for tag in tags) + "\n---"
-            new_txt = fm + body
-        else:
-            new_txt = txt
-    else:
-        title = derive_title(md_path, base)
-        tags = path_tags(md_path.relative_to(base).parts)
-        tag_line = f"tags:\n" + "\n".join(f"  - {tag}" for tag in tags) + "\n" if tags else ""
-        new_txt = f"---\ntitle: {title}\n{tag_line}---\n\n" + txt
-    if new_txt != txt and apply:
-        write_text(md_path, new_txt)
-    return new_txt != txt
-
 def md_link_for(md_path: Path, base: Path) -> str:
     rel = md_path.relative_to(base)
     target = rel.parent.as_posix() if md_path.name.lower() == "index.md" else rel.with_suffix("").as_posix()
@@ -115,8 +88,8 @@ def list_children(folder: Path):
     return subs, files
 
 def build_global_index(base: Path) -> str:
-    lines = ["---", "title: Knowledge Base Index", "tags: [index, toc]", "---", ""]
-    lines.append("# Knowledge Base Index\n")
+    lines = ["---", "title: BuiltbyRays OS Index", "tags: [index, toc]", "---", ""]
+    lines.append("# BuiltbyRays OS Index\n")
     for p in sorted(base.iterdir(), key=lambda x: x.name.lower()):
         if p.name.startswith(".") or p.name.lower() in ("index.md", "qisuitelogo.png"): continue
         if p.is_file() and is_md(p):
@@ -148,31 +121,6 @@ def inject_folder_toc(folder_index: Path, base: Path, apply=False):
     if new_txt != txt and apply: write_text(folder_index, new_txt)
     return new_txt != txt
 
-def ensure_h1_heading(md_path: Path, base: Path, apply=False):
-    """
-    If body has no H1 (# ) after frontmatter, insert one using the page title.
-    """
-    txt = read_text(md_path)
-    fm, body = txt, ""
-    if txt.strip().startswith("---"):
-        fm_end = txt.find("\n---", 3)
-        if fm_end != -1:
-            fm = txt[0:fm_end+4]; body = txt[fm_end+4:]
-    else:
-        return False  # frontmatter step will add FM; run again next time
-
-    if re.search(r"(?m)^\s*#\s+.+", body):  # already has H1
-        return False
-
-    m = re.search(r"(?m)^title\s*:\s*(.+)$", fm)
-    title = m.group(1).strip() if m else derive_title(md_path, base)
-    new_body = f"\n# {title}\n\n" + body.lstrip()
-    new_txt = fm + new_body
-    if apply and new_txt != txt:
-        write_text(md_path, new_txt, backup=True)
-        return True
-    return new_txt != txt
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default=DEFAULT_BASE)
@@ -185,19 +133,8 @@ def main():
         sys.exit(1)
 
     changed = 0
-    # 1) Ensure frontmatter across all md files + ensure H1 exists
-    for md in base.rglob("*.md"):
-        if ".obsidian" in md.as_posix(): continue
-        fm_changed = ensure_frontmatter(md, base, apply=args.apply)
-        h1_changed = ensure_h1_heading(md, base, apply=args.apply)
-        if fm_changed:
-            print(f"{'[APPLY]':<8} frontmatter -> {md}")
-            changed += 1
-        if h1_changed:
-            print(f"{'[APPLY]':<8} add H1 -> {md}")
-            changed += 1
 
-    # 2) Build/refresh global index at content/index.md
+    # 1) Build/refresh global index at content/index.md
     global_index_path = base / "index.md"
     global_index = build_global_index(base)
     if args.apply:
