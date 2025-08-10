@@ -1,0 +1,6 @@
+* text=auto
+*.md text eol=lf
+public/** text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.yaml text eol=lf
