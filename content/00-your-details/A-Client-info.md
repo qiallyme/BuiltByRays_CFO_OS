@@ -1,5 +1,5 @@
 ---
-title: A. Client Details – Ray’s Construction LLC
+title: A. Client Details
 date: 2025-08-08
 summary: Core profile, quick links, and strategic direction for Ray’s Construction LLC.
 tags:

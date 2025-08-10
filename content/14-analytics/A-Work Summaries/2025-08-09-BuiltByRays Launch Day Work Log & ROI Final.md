@@ -1,3 +1,7 @@
+---
+date: 2025-08-10
+title: BuiltByRays Launch Day Work Log & ROI Final
+---
 # BuiltByRays — Launch Day Work Log & ROI (Final)
 *Prepared by QiAlly LLC • Date: August 9, 2025*
 

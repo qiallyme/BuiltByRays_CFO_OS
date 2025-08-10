@@ -1,0 +1,437 @@
+{
+  "base_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content",
+  "timestamp": "2025-08-10_150558",
+  "ops": [
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\A-QiSuite\u2122 Overview.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\A-QiSuiteTM-Overview",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\A-QiSuiteTM-Overview\\index.md",
+      "note": "Wrap A-QiSuite\u2122 Overview.md into A-QiSuiteTM-Overview/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\B-Scope of Services.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\B-Scope-of-Services",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\B-Scope-of-Services\\index.md",
+      "note": "Wrap B-Scope of Services.md into B-Scope-of-Services/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\C-What I Do.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\C-What-I-Do",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\C-What-I-Do\\index.md",
+      "note": "Wrap C-What I Do.md into C-What-I-Do/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\D-What I DON'T Do.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\D-What-I-DON-T-Do",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\D-What-I-DON-T-Do\\index.md",
+      "note": "Wrap D-What I DON'T Do.md into D-What-I-DON-T-Do/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\E-What I Expect From You.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\E-What-I-Expect-From-You",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\E-What-I-Expect-From-You\\index.md",
+      "note": "Wrap E-What I Expect From You.md into E-What-I-Expect-From-You/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\F-KPIs & Goals.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\F-KPIs-Goals",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\F-KPIs-Goals\\index.md",
+      "note": "Wrap F-KPIs & Goals.md into F-KPIs-Goals/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\A-Investment & Payment Terms.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\A-Investment-Payment-Terms",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\A-Investment-Payment-Terms\\index.md",
+      "note": "Wrap A-Investment & Payment Terms.md into A-Investment-Payment-Terms/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\B-ROI & Payment Projection (Example).md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\B-ROI-Payment-Projection-Example",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\B-ROI-Payment-Projection-Example\\index.md",
+      "note": "Wrap B-ROI & Payment Projection (Example).md into B-ROI-Payment-Projection-Example/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\A-Roadmap.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\A-Roadmap",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\A-Roadmap\\index.md",
+      "note": "Wrap A-Roadmap.md into A-Roadmap/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\B-Strategies.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\B-Strategies",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\B-Strategies\\index.md",
+      "note": "Wrap B-Strategies.md into B-Strategies/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\C-FAQs.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\C-FAQs",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\C-FAQs\\index.md",
+      "note": "Wrap C-FAQs.md into C-FAQs/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\B-Banks\\banking.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\B-Banks\\banking",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\B-Banks\\banking\\index.md",
+      "note": "Wrap banking.md into banking/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\C-Contractors\\payroll-contractors.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\C-Contractors\\payroll-contractors",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\C-Contractors\\payroll-contractors\\index.md",
+      "note": "Wrap payroll-contractors.md into payroll-contractors/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\E-Expenses\\expenses.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\E-Expenses\\expenses",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\E-Expenses\\expenses\\index.md",
+      "note": "Wrap expenses.md into expenses/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\R-Reports\\reports.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\R-Reports\\reports",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\R-Reports\\reports\\index.md",
+      "note": "Wrap reports.md into reports/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\T-Taxes\\taxes.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\T-Taxes\\taxes",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\T-Taxes\\taxes\\index.md",
+      "note": "Wrap taxes.md into taxes/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\08-marketing\\marketing-overview.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\08-marketing\\marketing-overview",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\08-marketing\\marketing-overview\\index.md",
+      "note": "Wrap marketing-overview.md into marketing-overview/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\operations-overview.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\operations-overview",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\operations-overview\\index.md",
+      "note": "Wrap operations-overview.md into operations-overview/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\sample-sop.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\sample-sop",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\sample-sop\\index.md",
+      "note": "Wrap sample-sop.md into sample-sop/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\standard-ops.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\standard-ops",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\standard-ops\\index.md",
+      "note": "Wrap standard-ops.md into standard-ops/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\integrations.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\integrations",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\integrations\\index.md",
+      "note": "Wrap integrations.md into integrations/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\web-deployment-readme.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\web-deployment-readme",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\web-deployment-readme\\index.md",
+      "note": "Wrap web-deployment-readme.md into web-deployment-readme/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\client-installation-guide.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\client-installation-guide",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\client-installation-guide\\index.md",
+      "note": "Wrap client-installation-guide.md into client-installation-guide/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\deployment-checklist.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\deployment-checklist",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\deployment-checklist\\index.md",
+      "note": "Wrap deployment-checklist.md into deployment-checklist/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\licenses-and-keys.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\licenses-and-keys",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\licenses-and-keys\\index.md",
+      "note": "Wrap licenses-and-keys.md into licenses-and-keys/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\technology.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\technology",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\technology\\index.md",
+      "note": "Wrap technology.md into technology/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\tools-stack.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\tools-stack",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\tools-stack\\index.md",
+      "note": "Wrap tools-stack.md into tools-stack/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\11-legal-compliance\\legal-compliance.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\11-legal-compliance\\legal-compliance",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\11-legal-compliance\\legal-compliance\\index.md",
+      "note": "Wrap legal-compliance.md into legal-compliance/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\hr-overview.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\hr-overview",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\hr-overview\\index.md",
+      "note": "Wrap hr-overview.md into hr-overview/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\policies-and-handbooks.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\policies-and-handbooks",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\policies-and-handbooks\\index.md",
+      "note": "Wrap policies-and-handbooks.md into policies-and-handbooks/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\team-directory.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\team-directory",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\team-directory\\index.md",
+      "note": "Wrap team-directory.md into team-directory/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\13-engagements\\engagements.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\13-engagements\\engagements",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\13-engagements\\engagements\\index.md",
+      "note": "Wrap engagements.md into engagements/index.md"
+    },
+    {
+      "op": "wrap_md_into_folder",
+      "src": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\99-archives\\archives-overview.md",
+      "make_dir": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\99-archives\\archives-overview",
+      "dst": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\99-archives\\archives-overview\\index.md",
+      "note": "Wrap archives-overview.md into archives-overview/index.md"
+    }
+  ],
+  "rollback": [
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\A-QiSuiteTM-Overview\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\A-QiSuite\u2122 Overview.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\A-QiSuiteTM-Overview"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\B-Scope-of-Services\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\B-Scope of Services.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\B-Scope-of-Services"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\C-What-I-Do\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\C-What I Do.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\C-What-I-Do"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\D-What-I-DON-T-Do\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\D-What I DON'T Do.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\D-What-I-DON-T-Do"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\E-What-I-Expect-From-You\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\E-What I Expect From You.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\E-What-I-Expect-From-You"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\F-KPIs-Goals\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\F-KPIs & Goals.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\01-scope\\F-KPIs-Goals"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\A-Investment-Payment-Terms\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\A-Investment & Payment Terms.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\A-Investment-Payment-Terms"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\B-ROI-Payment-Projection-Example\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\B-ROI & Payment Projection (Example).md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\02-investment\\B-ROI-Payment-Projection-Example"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\A-Roadmap\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\A-Roadmap.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\A-Roadmap"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\B-Strategies\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\B-Strategies.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\B-Strategies"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\C-FAQs\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\C-FAQs.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\03-roadmap-strategies-faqs\\C-FAQs"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\B-Banks\\banking\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\B-Banks\\banking.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\B-Banks\\banking"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\C-Contractors\\payroll-contractors\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\C-Contractors\\payroll-contractors.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\C-Contractors\\payroll-contractors"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\E-Expenses\\expenses\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\E-Expenses\\expenses.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\E-Expenses\\expenses"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\R-Reports\\reports\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\R-Reports\\reports.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\R-Reports\\reports"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\T-Taxes\\taxes\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\T-Taxes\\taxes.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\07-financials\\T-Taxes\\taxes"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\08-marketing\\marketing-overview\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\08-marketing\\marketing-overview.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\08-marketing\\marketing-overview"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\operations-overview\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\operations-overview.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\operations-overview"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\sample-sop\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\sample-sop.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\sample-sop"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\standard-ops\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\standard-ops.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\09-operations\\A-Sops\\standard-ops"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\integrations\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\integrations.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\integrations"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\web-deployment-readme\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\web-deployment-readme.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\B-Development\\web-deployment-readme"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\client-installation-guide\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\client-installation-guide.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\client-installation-guide"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\deployment-checklist\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\deployment-checklist.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\deployment-checklist"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\licenses-and-keys\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\licenses-and-keys.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\D-Docs\\licenses-and-keys"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\technology\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\technology.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\technology"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\tools-stack\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\tools-stack.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\10-technology\\E-Tech-Stack\\tools-stack"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\11-legal-compliance\\legal-compliance\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\11-legal-compliance\\legal-compliance.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\11-legal-compliance\\legal-compliance"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\hr-overview\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\hr-overview.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\hr-overview"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\policies-and-handbooks\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\policies-and-handbooks.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\policies-and-handbooks"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\team-directory\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\team-directory.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\12-human-resources\\team-directory"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\13-engagements\\engagements\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\13-engagements\\engagements.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\13-engagements\\engagements"
+    },
+    {
+      "undo": "move_back",
+      "from": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\99-archives\\archives-overview\\index.md",
+      "to": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\99-archives\\archives-overview.md",
+      "remove_dir_if_empty": "C:\\Users\\codyr\\Documents\\Github\\EmpowerQNow713\\BuiltByRays_CFO_OS\\content\\99-archives\\archives-overview"
+    }
+  ]
+}
