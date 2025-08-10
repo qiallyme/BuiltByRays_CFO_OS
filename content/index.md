@@ -1,57 +1,113 @@
 ---
-title: Welcome to Your Client Vault – BuiltByRays™ OS
-date: 2025-08-08
-summary: Your C-Suite command center—strategy, execution, and proof of work in one place.
-tags: [welcome, onboarding]
-status: active
-owner: Q
-last_reviewed: 2025-08-08
+title: Knowledge Base Index
+tags: [ai, analytics, automation, index-md, innovation, kpi, milestones, performance, planning, strategy, toc]
 ---
 
-# 🚀 Welcome to Your Client Vault
+# Knowledge Base Index
 
-This is your private **BuiltByRays™ Client Vault**—your *one source of truth* for proposals, scope, SOPs, reports, deliverables, and updates. Think of it as your **C-Suite Command Center**: clear, current, and built to move.
+<!-- RELATED:START -->
 
----
+## Related
+**Backlinks**
+- [[01-scope/A-Your-Details]]
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[01-scope/C-Scope-of-Services]]
+- [[01-scope/D-What-I-Do]]
+- [[01-scope/E-What-I-DON-T-Do]]
+- [[01-scope/F-What-I-Expect-From-You]]
+- [[01-scope/G-KPIs-Goals]]
+- [[02-investment/A-Investment-Payment-Terms]]
+- [[02-investment/B-ROI-Payment-Projection-Example]]
+- [[03-roadmap-strategies-faqs/A-Roadmap]]
+- [[03-roadmap-strategies-faqs/B-Strategies]]
+- [[03-roadmap-strategies-faqs/C-FAQs]]
+- [[05-agreement/A. Agreement Sections]]
+- [[07-financials/A-Assets/assets]]
+- [[07-financials/B-Banks/banking]]
+- [[07-financials/C-Contractors/payroll-contractors]]
+- [[07-financials/D-Liability/loans-n-credit]]
+- [[07-financials/E-Expenses/expenses]]
+- [[07-financials/F-Entity-Docs/entity-docs]]
+- [[07-financials/I-Insurance/insurance]]
+- [[07-financials/O-Others/other-deductions]]
+- [[07-financials/R-Reports/reports]]
+- [[07-financials/T-Taxes/taxes]]
+- [[08-marketing/A-Brand-Assets/logos-and-assets]]
+- [[08-marketing/B-Sales-Materials/sales-materials]]
+- [[08-marketing/D-Decks/brochures-and-decks]]
+- [[08-marketing/E-Testimonials/testimonials]]
+- [[08-marketing/F-Websites/website-and-socials]]
+- [[08-marketing/marketing-overview]]
+- [[09-operations/A-Sops/sample-sop]]
+- [[09-operations/A-Sops/standard-ops]]
+- [[09-operations/C-Vendors/vendors-list]]
+- [[09-operations/operations-overview]]
+- [[10-technology/A-Architecture/cfo-os-technical-architecture]]
+- [[10-technology/B-Development/integrations]]
+- [[10-technology/B-Development/web-deployment-readme]]
+- [[10-technology/C-Chatbot/chatbot-readme]]
+- [[10-technology/D-Docs/client-installation-guide]]
+- [[10-technology/D-Docs/deployment-checklist]]
+- [[10-technology/D-Docs/licenses-and-keys]]
+- [[10-technology/E-Tech-Stack/technology]]
+- [[10-technology/E-Tech-Stack/tools-stack]]
+- [[11-legal-compliance/legal-compliance]]
+- [[12-human-resources/hr-overview]]
+- [[12-human-resources/policies-and-handbooks]]
+- [[12-human-resources/team-directory]]
+- [[13-engagements/0803-proposed/readme]]
+- [[13-engagements/engagements]]
+- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
+- [[99-archives/archives-overview]]
 
-## ✅ Before You Begin
-1. **Bookmark this page** for one-click access.  
-2. **Watch the 60-second intro** below.  
-3. **Review Scope & Terms** so expectations stay clean.  
-4. **Open Client Details** to confirm your profile.  
-5. **Use Search** (top/left) to jump anywhere fast.
+<!-- RELATED:END -->
 
----
 
-## 📽️ Watch First — *How to Use Your Vault*
-<!-- Replace YOUR_VIDEO_ID with the YouTube ID or swap to an HTML5 <video> if self-hosted -->
-<iframe
-  width="100%"
-  height="450"
-  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-  title="BuiltByRays Client Vault Overview"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+## Scope
+- [[01-scope/A-Your-Details]]
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[01-scope/C-Scope-of-Services]]
+- [[01-scope/D-What-I-Do]]
+- [[01-scope/E-What-I-DON-T-Do]]
+- [[01-scope/F-What-I-Expect-From-You]]
+- [[01-scope/G-KPIs-Goals]]
 
----
+## Investment
+- [[02-investment/A-Investment-Payment-Terms]]
+- [[02-investment/B-ROI-Payment-Projection-Example]]
 
-## 🗺️ Start Here
-- **Client Details** → [[A-Client-info]]
-- **What is QiSuite™** → [[A-QiSuite™ Overview]]
-- **Scope of Work** → [[C-What I Do]]
-- **What I Don’t Do** → [[D-What I DON'T Do|D-What I DON'T Do]]
-- **What to Expect** → [[01-scope/30-what-to-expect|30-what-to-expect]]
-- **Client Responsibilities** → [[E-What I Expect From You|E-What I Expect From You]]
+## Strategies faqs
+- [[03-roadmap-strategies-faqs/A-Roadmap]]
+- [[03-roadmap-strategies-faqs/B-Strategies]]
+- [[03-roadmap-strategies-faqs/C-FAQs]]
 
----
+## Agreement
+- [[05-agreement/A. Agreement Sections]]
 
-## 💡 Pro Tips
-- This vault updates in real time—refresh before meetings.  
-- Use it live on calls for faster decisions.  
-- If anything looks off, tag it—we fix fast.
+## Development
 
----
+## Financials
 
-[← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)
+## Marketing
+- [[08-marketing/marketing-overview]]
+
+## Operations
+- [[09-operations/operations-overview]]
+
+## Technology
+
+## Compliance
+- [[11-legal-compliance/legal-compliance]]
+
+## Resources
+- [[12-human-resources/hr-overview]]
+- [[12-human-resources/policies-and-handbooks]]
+- [[12-human-resources/team-directory]]
+
+## Engagements
+- [[13-engagements/engagements]]
+
+## Analytics
+
+## Archives
+- [[99-archives/archives-overview]]
