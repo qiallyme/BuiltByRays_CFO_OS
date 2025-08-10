@@ -5,33 +5,10 @@ title: index
 ---
 date: 2025-08-10
 title: index
-tags: [accounts, agreement, ai, analytics, ar, audit, automation, backup, banking, brand, changes, compensation]
+tags: [accounts, ai, analytics, ar, audit, automation, backup, banking, changes, compensation, compliance, confidentiality]
 
-keywords: [compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, estimating, feedback, finance, hr, identity, innovation, insurance, investment, investment-payment-terms, irs, it, kpi, learning, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, preconstruction, presentation, procedures, refunds, reporting, risk, rpa, sales, scheduling, social, sop, strategy, summary, supply, tax, technology, training, vendors, web, workflow]
+keywords: [construction, contracts, coverage, estimating, feedback, finance, hr, innovation, insurance, investment, investment-payment-terms, it, kpi, legal, onboarding, payroll, performance, planning, preconstruction, refunds, reporting, risk, rpa, scheduling, summary, technology, training]
 
----
----
-date: 2025-08-10
-title: Investment Payment Terms
-tags: [-investment, accounts, agreement, ai, analytics, ar, audit, automation, backup, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, estimating, feedback, finance, hr, identity, innovation, insurance, investment, investment-payment-terms, irs, it, kpi, learning, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, preconstruction, presentation, pricing, procedures, refunds, reporting, risk, rpa, sales, scheduling, social, sop, strategy, summary, supply, tax, technology, training, vendors, web, workflow]
----
----
-date: 2025-08-10
-title: index
-tags: [-investment, accounts, agreement, ai, analytics, ar, audit, automation, backup, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, estimating, feedback, finance, hr, identity, innovation, insurance, investment, investment-payment-terms, irs, it, kpi, learning, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, preconstruction, presentation, procedures, refunds, reporting, risk, rpa, sales, scheduling, social, sop, strategy, summary, supply, tax, technology, training, vendors, web, workflow]
-  - investment
-  - investment-payment-terms
-  - pricing
----
----
-title: A. Investment & Payment Terms
-type: scope
-status: active
-priority: high
-tags: [accounts, agreement, ai, analytics, ar, audit, automation, backup, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, created-2025-08-08, digital, engagement, estimating, feedback, finance, hr, identity, innovation, insurance, investment, investment-payment-terms, irs, it, kpi, learning, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, preconstruction, presentation, procedures, refunds, reporting, risk, rpa, sales, scheduling, social, sop, strategy, summary, supply, tax, technology, training, vendors, web, workflow]
-created: 2025-08-08
-updated: 2025-08-08
-date: 2025-08-10
 ---
 # A. Investment & Payment Terms
 
@@ -40,61 +17,12 @@ date: 2025-08-10
 <details>
 <summary><strong>Related & Backlinks</strong></summary>
 
-- [[01-scope/A-Your-Details]]
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[01-scope/C-Scope-of-Services]]
-- [[01-scope/D-What-I-Do]]
-- [[01-scope/E-What-I-DON-T-Do]]
-- [[01-scope/F-What-I-Expect-From-You]]
-- [[01-scope/G-KPIs-Goals]]
-- [[02-investment/A-Investment-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example]]
-- [[03-roadmap-strategies-faqs/A-Roadmap]]
-- [[03-roadmap-strategies-faqs/B-Strategies]]
-- [[03-roadmap-strategies-faqs/C-FAQs]]
-- [[05-agreement/A. Agreement Sections]]
-- [[07-financials/A-Assets/assets]]
-- [[07-financials/B-Banks/banking]]
-- [[07-financials/C-Contractors/payroll-contractors]]
-- [[07-financials/D-Liability/loans-n-credit]]
-- [[07-financials/E-Expenses/expenses]]
-- [[07-financials/F-Entity-Docs/entity-docs]]
-- [[07-financials/I-Insurance/insurance]]
-- [[07-financials/O-Others/other-deductions]]
-- [[07-financials/R-Reports/reports]]
-- [[07-financials/T-Taxes/taxes]]
-- [[08-marketing/A-Brand-Assets/logos-and-assets]]
-- [[08-marketing/B-Sales-Materials/sales-materials]]
-- [[08-marketing/D-Decks/brochures-and-decks]]
-- [[08-marketing/E-Testimonials/testimonials]]
-- [[08-marketing/F-Websites/website-and-socials]]
-- [[08-marketing/marketing-overview]]
-- [[09-operations/A-Sops/sample-sop]]
-- [[09-operations/A-Sops/standard-ops]]
-- [[09-operations/C-Vendors/vendors-list]]
-- [[09-operations/operations-overview]]
-- [[10-technology/A-Architecture/cfo-os-technical-architecture]]
-- [[10-technology/B-Development/integrations]]
-- [[10-technology/B-Development/web-deployment-readme]]
-- [[10-technology/C-Chatbot/chatbot-readme]]
-- [[10-technology/D-Docs/client-installation-guide]]
-- [[10-technology/D-Docs/deployment-checklist]]
-- [[10-technology/D-Docs/licenses-and-keys]]
-- [[10-technology/E-Tech-Stack/technology]]
-- [[10-technology/E-Tech-Stack/tools-stack]]
-- [[11-legal-compliance/legal-compliance]]
-- [[12-human-resources/hr-overview]]
-- [[12-human-resources/policies-and-handbooks]]
-- [[12-human-resources/team-directory]]
-- [[13-engagements/0803-proposed/readme]]
-- [[13-engagements/engagements]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[99-archives/archives-overview]]
 - [[.]]
 
 </details>
 
 <!-- RELATED:END -->
+
 
 If you grow, I grow — and I’m not just talking spiritually.  
 This is a **retainer + percentage model** that keeps us both motivated to hit the next level.
@@ -198,10 +126,3 @@ If at any point that balance tips the wrong way, we review, adjust, and fix it �
 
 **Bottom line:** This setup means when you win, I win.  
 I’m not just clocking hours — I’m invested in your bottom line like it’s my own.
-
-<!-- AUTO-TOC:START -->
-
-## Contents
-- [[02-investment/A-Investment-Payment-Terms]]
-
-<!-- AUTO-TOC:END -->
