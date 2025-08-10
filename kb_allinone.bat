@@ -1,55 +1,53 @@
 @echo off
-setlocal EnableExtensions EnableDelayedExpansion
+setlocal EnableExtensions
 chcp 65001 >nul
 
-rem ===== CONFIG =====
+REM ===== CONFIG =====
 set "BASE=%~dp0"
+cd /d "%BASE%"
 set "CONTENT=%BASE%content"
 set "PY=python"
 set "DEFAULT_MSG=KB: update TOC, tags, build"
 
-echo === BuiltByRays KB - All In One ===
+echo === BuiltByRays KB - All In One (lean) ===
 echo Repo: %BASE%
 echo CONTENT=%CONTENT%
 echo.
 
-rem ---- Sanity checks ----
-echo [sanity] checking content folder...
-if not exist "%CONTENT%" (
-  echo ERROR: content folder NOT found: "%CONTENT%"
-  dir "%BASE%"
-  exit /b 1
-)
-echo [sanity] checking Python/Node/NPX...
-where %PY% >nul 2>nul || (echo ERROR: Python not found on PATH.& exit /b 1)
-node -v >nul 2>nul || (echo ERROR: Node.js not found on PATH.& exit /b 1)
-npx -v  >nul 2>nul || (echo ERROR: NPX not found on PATH.& exit /b 1)
-
-echo.
-echo [1/6] Normalize + tags + related...
-call "%PY%" ".\kb_autotag_backlink.py" --base ".\content" --apply || goto :fail
-
-echo [2/6] Generate TOCs + global index...
-if exist ".\kb_toc_and_tags.py" call "%PY%" ".\kb_toc_and_tags.py" --base ".\content" --apply
-
-echo [3/6] Validate...
-if exist ".\kb_validate.py" call "%PY%" ".\kb_validate.py" --base ".\content" --strict
-
-echo [4/6] Install deps if needed...
-if not exist "node_modules" (
-  call npm ci || goto :fail
+REM ---- 1) Fix frontmatter (dedupe/normalize) ----
+echo [1/5] Fix frontmatter...
+if exist "kb_fix_frontmatter.py" (
+  call "%PY%" "kb_fix_frontmatter.py" --base ".\content" --apply || goto :fail
 ) else (
-  echo node_modules present - skipping install
+  echo   (skip: kb_fix_frontmatter.py not found)
 )
 
-echo [5/6] Build Quartz...
+REM ---- 2) Auto-tagging + backlinks ----
+echo [2/5] Auto-tagging + backlinks...
+if exist "kb_autotag_backlink.py" (
+  call "%PY%" "kb_autotag_backlink.py" --base ".\content" --apply || goto :fail
+) else (
+  echo   (skip: kb_autotag_backlink.py not found)
+)
+
+REM ---- 3) TOC + global index ----
+echo [3/5] TOC + global index...
+if exist "kb_toc_and_tags.py" (
+  call "%PY%" "kb_toc_and_tags.py" --base ".\content" --apply || goto :fail
+) else (
+  echo   (skip: kb_toc_and_tags.py not found)
+)
+
+REM ---- 4) Build Quartz ----
+echo [4/5] Building Quartz...
 call npx quartz build || goto :fail
 if exist "public\index.html" copy /Y "public\index.html" "public\404.html" >nul
 
-echo [6/6] Local preview...
+REM ---- 5) Preview (pick open port 8080-8090), then push ----
+echo [5/5] Starting preview...
 set "PORT="
 for /l %%P in (8080,1,8090) do (
-  powershell -NoProfile -Command "if ((Test-NetConnection -ComputerName 127.0.0.1 -Port %%P -InformationLevel Quiet)) { exit 0 } else { exit 1 }" >nul 2>nul
+  powershell -NoProfile -Command "exit ((Test-NetConnection -ComputerName 127.0.0.1 -Port %%P -InformationLevel Quiet) ? 0 : 1)" >nul 2>nul
   if errorlevel 1 (
     set "PORT=%%P"
     goto :have_port
@@ -57,16 +55,15 @@ for /l %%P in (8080,1,8090) do (
 )
 set "PORT=8080"
 :have_port
-
 start "Preview" cmd /c "npx serve public -l %PORT%"
-echo Waiting for http://localhost:%PORT% to come up...
-powershell -NoProfile -Command "$u='http://localhost:%PORT%'; for($i=0;$i -lt 40;$i++){ try{ (Invoke-WebRequest -UseBasicParsing $u).StatusCode | Out-Null; exit 0 } catch{} Start-Sleep -Milliseconds 300 }; exit 1" >nul 2>nul
-
 start "" "http://localhost:%PORT%"
-echo Press any key AFTER you're done reviewing in the browser...
+echo   preview on http://localhost:%PORT%
+echo.
+echo Press any key AFTER you finish reviewing...
 pause >nul
 
-set /p PUSH="Push changes to Git? (Y/N): "
+echo Push changes to Git? (Y/N)
+set /p PUSH="> "
 if /i "%PUSH%"=="Y" (
   set /p MSG="Commit message (blank = default): "
   if "%MSG%"=="" set "MSG=%DEFAULT_MSG%"
@@ -81,5 +78,6 @@ echo Done.
 exit /b 0
 
 :fail
+echo.
 echo Build failed (see messages above).
 exit /b 1

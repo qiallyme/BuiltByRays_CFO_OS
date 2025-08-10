@@ -1,9 +1,11 @@
 ---
+date: 2025-08-10
+title: readme
+---
+---
 title: Readme
 date: 2025-08-10
-tags:
-- 0803-proposed
-- engagements
+tags: [engagements, 0803-proposed, -0803-proposed]
 ---
 # Readme
 
@@ -11,6 +13,8 @@ tags:
 
 ## Related
 **Backlinks**
+- [[13-engagements/0801-active]]
+- [[13-engagements/0802-completed]]
 - [[13-engagements/engagements]]
 
 <!-- RELATED:END -->

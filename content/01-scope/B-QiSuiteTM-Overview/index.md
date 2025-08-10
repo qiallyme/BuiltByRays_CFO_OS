@@ -1,60 +1,11 @@
 ---
-title: What is QiSuite™?
 date: 2025-08-10
-tags:
-- accounts
-- agreement
-- ai
-- analytics
-- audit
-- automation
-- banking
-- brand
-- changes
-- compensation
-- compliance
-- confidentiality
-- construction
-- contractors
-- contracts
-- coverage
-- digital
-- engagement
-- feedback
-- finance
-- hr
-- identity
-- innovation
-- insurance
-- irs
-- kpi
-- learning
-- legal
-- marketing
-- materials
-- milestones
-- operations
-- payroll
-- performance
-- pitch
-- planning
-- presentation
-- procedures
-- qisuitetm-overview
-- reporting
-- risk
-- sales
-- scope
-- social
-- sop
-- strategy
-- summary
-- supply
-- tax
-- training
-- vendors
-- web
-- workflow
+title: index
+---
+---
+title: B. QiSuite Overview?
+date: 2025-08-10
+tags: [scope, qisuitetm-overview, -accounts, hr, payroll]
 ---
 ![[qisuitelogo.png]]
 # What is QiSuite™?
@@ -71,11 +22,14 @@ tags:
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
+- [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
@@ -119,9 +73,6 @@ tags:
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
 - [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
 
 <!-- RELATED:END -->
 
@@ -130,11 +81,14 @@ tags:
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
+- [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
@@ -178,9 +132,6 @@ tags:
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
 - [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
 
 <!-- RELATED:END -->
 

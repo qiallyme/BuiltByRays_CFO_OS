@@ -1,4 +1,8 @@
 ---
+date: 2025-08-10
+title: index
+---
+---
 title: Knowledge Base Index
 tags: [index, toc]
 ---
@@ -13,6 +17,7 @@ tags: [index, toc]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
 
 ## Investment
 - [[02-investment/A-Investment-Payment-Terms]]
@@ -27,6 +32,7 @@ tags: [index, toc]
 - [[05-agreement/A. Agreement Sections]]
 
 ## Development
+- [[06-business-development]]
 
 ## Financials
 
@@ -47,9 +53,12 @@ tags: [index, toc]
 - [[12-human-resources/team-directory]]
 
 ## Engagements
+- [[13-engagements/0801-active]]
+- [[13-engagements/0802-completed]]
 - [[13-engagements/engagements]]
 
 ## Analytics
 
 ## Archives
+- [[99-archives/A-qbo-backup]]
 - [[99-archives/archives-overview]]

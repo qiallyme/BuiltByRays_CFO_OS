@@ -1,37 +1,13 @@
 ---
-title: Client Profile
+date: 2025-08-10
+title: index
+---
+---
+title: A. Client Profile
 description: The information we have on file for your business.
 aliases: Client Details
 draft: false
 date: 2025-08-10
-tags:
-- agreement
-- ai
-- automation
-- budget
-- confidentiality
-- construction
-- contracts
-- crm
-- engagement
-- feedback
-- finance
-- hr
-- innovation
-- learning
-- legal
-- marketing
-- onboarding
-- performance
-- planning
-- sales
-- scheduling
-- scope
-- social
-- technology
-- training
-- workflow
-- your-details
 permalink: null
 comments: null
 lang: en
@@ -44,6 +20,7 @@ cover: null
 created: null
 modified: null
 published: null
+tags: [scope, your-details, -accounts, hr, payroll]
 ---
 keywords: [legal, onboarding, performance, planning, sales, scheduling, scope, technology, training, your-details]
 
@@ -62,12 +39,14 @@ keywords: [legal, onboarding, performance, planning, sales, scheduling, scope, t
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]

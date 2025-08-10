@@ -1,54 +1,11 @@
 ---
+date: 2025-08-10
+title: A. Agreement Sections
+---
+---
 title: Redline Agreement
 date: 2025-08-10
-tags:
-- accounts
-- agreement
-- agreement-sections-md
-- ai
-- analytics
-- automation
-- banking
-- brand
-- compensation
-- compliance
-- confidentiality
-- construction
-- contractors
-- contracts
-- coverage
-- digital
-- engagement
-- finance
-- hr
-- identity
-- innovation
-- insurance
-- irs
-- kpi
-- legal
-- marketing
-- materials
-- milestones
-- operations
-- payroll
-- performance
-- pitch
-- planning
-- presentation
-- procedures
-- reporting
-- risk
-- sales
-- social
-- sop
-- strategy
-- summary
-- supply
-- tax
-- vendors
-- web
-- workflow
+tags: [agreement, agreement-sections-md, -accounts, hr, payroll]
 ---
 # Redline Agreement
 
@@ -56,12 +13,14 @@ tags:
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
@@ -77,8 +36,12 @@ tags:
 - [[07-financials/O-Others/other-deductions]]
 - [[07-financials/R-Reports/reports]]
 - [[07-financials/T-Taxes/taxes]]
+- [[08-marketing/A-Brand-Assets/logos-and-assets]]
 - [[08-marketing/B-Sales-Materials/sales-materials]]
 - [[08-marketing/D-Decks/brochures-and-decks]]
+- [[08-marketing/E-Testimonials/testimonials]]
+- [[08-marketing/F-Websites/website-and-socials]]
+- [[08-marketing/marketing-overview]]
 - [[09-operations/A-Sops/sample-sop]]
 - [[09-operations/A-Sops/standard-ops]]
 - [[09-operations/C-Vendors/vendors-list]]
@@ -96,17 +59,10 @@ tags:
 - [[12-human-resources/hr-overview]]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
-- [[08-marketing/A-Brand-Assets/logos-and-assets]]
-- [[08-marketing/E-Testimonials/testimonials]]
-- [[08-marketing/F-Websites/website-and-socials]]
-- [[08-marketing/marketing-overview]]
 - [[13-engagements/engagements]]
+- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
+- [[.]]
 
 <!-- RELATED:END -->
 
@@ -115,12 +71,14 @@ tags:
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
@@ -136,8 +94,12 @@ tags:
 - [[07-financials/O-Others/other-deductions]]
 - [[07-financials/R-Reports/reports]]
 - [[07-financials/T-Taxes/taxes]]
+- [[08-marketing/A-Brand-Assets/logos-and-assets]]
 - [[08-marketing/B-Sales-Materials/sales-materials]]
 - [[08-marketing/D-Decks/brochures-and-decks]]
+- [[08-marketing/E-Testimonials/testimonials]]
+- [[08-marketing/F-Websites/website-and-socials]]
+- [[08-marketing/marketing-overview]]
 - [[09-operations/A-Sops/sample-sop]]
 - [[09-operations/A-Sops/standard-ops]]
 - [[09-operations/C-Vendors/vendors-list]]
@@ -155,17 +117,10 @@ tags:
 - [[12-human-resources/hr-overview]]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
-- [[08-marketing/A-Brand-Assets/logos-and-assets]]
-- [[08-marketing/E-Testimonials/testimonials]]
-- [[08-marketing/F-Websites/website-and-socials]]
-- [[08-marketing/marketing-overview]]
 - [[13-engagements/engagements]]
+- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
+- [[.]]
 
 <!-- RELATED:END -->
 

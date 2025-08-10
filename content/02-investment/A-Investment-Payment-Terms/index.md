@@ -1,70 +1,11 @@
 ---
+date: 2025-08-10
+title: index
+---
+---
 title: A. Investment & Payment Terms
 date: 2025-08-10
-tags:
-- accounts
-- agreement
-- ai
-- analytics
-- ar
-- audit
-- automation
-- backup
-- banking
-- brand
-- changes
-- compensation
-- compliance
-- confidentiality
-- construction
-- contractors
-- contracts
-- coverage
-- digital
-- engagement
-- estimating
-- feedback
-- finance
-- hr
-- identity
-- innovation
-- insurance
-- investment
-- investment-payment-terms
-- irs
-- it
-- kpi
-- learning
-- legal
-- marketing
-- materials
-- milestones
-- onboarding
-- operations
-- payroll
-- performance
-- pitch
-- planning
-- preconstruction
-- presentation
-- procedures
-- refunds
-- reporting
-- risk
-- rpa
-- sales
-- scheduling
-- social
-- sop
-- strategy
-- summary
-- supply
-- tax
-- technology
-- training
-- vendors
-- web
-- workflow
+tags: [investment, investment-payment-terms, -accounts, hr, payroll]
 ---
 # A. Investment & Payment Terms
 
@@ -80,12 +21,15 @@ tags:
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
+- [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
 - [[03-roadmap-strategies-faqs/B-Strategies]]
@@ -126,11 +70,9 @@ tags:
 - [[12-human-resources/team-directory]]
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
+- [[99-archives/A-qbo-backup]]
 - [[99-archives/archives-overview]]
 - [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
 
 <!-- RELATED:END -->
 
@@ -139,12 +81,15 @@ tags:
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
+- [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
 - [[03-roadmap-strategies-faqs/B-Strategies]]
@@ -185,11 +130,9 @@ tags:
 - [[12-human-resources/team-directory]]
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
+- [[99-archives/A-qbo-backup]]
 - [[99-archives/archives-overview]]
 - [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
 
 <!-- RELATED:END -->
 

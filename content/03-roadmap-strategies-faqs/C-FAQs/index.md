@@ -1,72 +1,11 @@
 ---
+date: 2025-08-10
+title: index
+---
+---
 title: ⚙️ COO – Chief Operating Officer
 date: 2025-08-10
-tags:
-- accounts
-- advertising
-- agreement
-- ai
-- analytics
-- audit
-- automation
-- backup
-- banking
-- brand
-- budget
-- campaigns
-- changes
-- compensation
-- compliance
-- confidentiality
-- construction
-- contractors
-- contracts
-- coverage
-- design
-- digital
-- drawings
-- engagement
-- faqs
-- feedback
-- finance
-- hr
-- identity
-- innovation
-- insurance
-- irs
-- it
-- kpi
-- learning
-- legal
-- marketing
-- materials
-- milestones
-- onboarding
-- operations
-- payroll
-- performance
-- pitch
-- planning
-- presentation
-- procedures
-- projection
-- reporting
-- risk
-- roadmap-strategies-faqs
-- sales
-- security
-- social
-- sop
-- strategy
-- summary
-- supply
-- survey
-- tax
-- technology
-- training
-- vendors
-- web
-- workflow
+tags: [roadmap-strategies-faqs, faqs, -accounts, hr, payroll]
 ---
 ## Key Services & Responsibilities
 
@@ -124,16 +63,19 @@ tags:
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
 - [[03-roadmap-strategies-faqs/B-Strategies]]
+- [[03-roadmap-strategies-faqs/C-FAQs]]
 - [[05-agreement/A. Agreement Sections]]
 - [[07-financials/A-Assets/assets]]
 - [[07-financials/B-Banks/banking]]
@@ -168,13 +110,11 @@ tags:
 - [[12-human-resources/hr-overview]]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
 - [[13-engagements/engagements]]
+- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
+- [[99-archives/A-qbo-backup]]
 - [[99-archives/archives-overview]]
+- [[.]]
 
 <!-- RELATED:END -->
 
@@ -183,16 +123,19 @@ tags:
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
 - [[03-roadmap-strategies-faqs/B-Strategies]]
+- [[03-roadmap-strategies-faqs/C-FAQs]]
 - [[05-agreement/A. Agreement Sections]]
 - [[07-financials/A-Assets/assets]]
 - [[07-financials/B-Banks/banking]]
@@ -227,13 +170,11 @@ tags:
 - [[12-human-resources/hr-overview]]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
 - [[13-engagements/engagements]]
+- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
+- [[99-archives/A-qbo-backup]]
 - [[99-archives/archives-overview]]
+- [[.]]
 
 <!-- RELATED:END -->
 

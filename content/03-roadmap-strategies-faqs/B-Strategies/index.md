@@ -1,57 +1,11 @@
 ---
+date: 2025-08-10
+title: index
+---
+---
 title: Scenarios
 date: 2025-08-10
-tags:
-- accounts
-- agreement
-- ai
-- analytics
-- automation
-- banking
-- brand
-- changes
-- compensation
-- compliance
-- confidentiality
-- construction
-- contractors
-- contracts
-- coverage
-- digital
-- engagement
-- feedback
-- finance
-- hr
-- identity
-- innovation
-- insurance
-- irs
-- kpi
-- legal
-- marketing
-- materials
-- milestones
-- operations
-- payroll
-- performance
-- pitch
-- planning
-- presentation
-- procedures
-- reporting
-- risk
-- roadmap-strategies-faqs
-- sales
-- social
-- sop
-- strategies
-- strategy
-- summary
-- supply
-- tax
-- vendors
-- web
-- workflow
+tags: [roadmap-strategies-faqs, strategies, -accounts, hr, payroll]
 ---
 # Scenarios
 
@@ -67,15 +21,18 @@ tags:
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
+- [[03-roadmap-strategies-faqs/B-Strategies]]
 - [[03-roadmap-strategies-faqs/C-FAQs]]
 - [[05-agreement/A. Agreement Sections]]
 - [[07-financials/A-Assets/assets]]
@@ -111,13 +68,10 @@ tags:
 - [[12-human-resources/hr-overview]]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
 - [[13-engagements/engagements]]
+- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
+- [[.]]
 
 <!-- RELATED:END -->
 
@@ -126,15 +80,18 @@ tags:
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
+- [[03-roadmap-strategies-faqs/B-Strategies]]
 - [[03-roadmap-strategies-faqs/C-FAQs]]
 - [[05-agreement/A. Agreement Sections]]
 - [[07-financials/A-Assets/assets]]
@@ -170,13 +127,10 @@ tags:
 - [[12-human-resources/hr-overview]]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
 - [[13-engagements/engagements]]
+- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
+- [[.]]
 
 <!-- RELATED:END -->
 
