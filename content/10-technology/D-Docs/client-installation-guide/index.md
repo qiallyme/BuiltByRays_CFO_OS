@@ -1,5 +1,17 @@
 ---
 date: 2025-08-10
+title: index
+---
+---
+date: 2025-08-10
+title: index
+tags: [accounts, agreement, ai, analytics, api, automation, backup, banking, brand, changes, compensation, compliance]
+
+keywords: [confidentiality, construction, contractors, contracts, coverage, development, devops, digital, docs, engagement, feedback, finance, hr, identity, innovation, insurance, irs, it, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, security, social, sop, stack, strategy, summary, supply, tax, technology, vendors, web, workflow]
+
+---
+---
+date: 2025-08-10
 title: Installation guide
 tags: [-technology, accounts, agreement, ai, analytics, api, automation, backup, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, development, devops, digital, docs, engagement, feedback, finance, hr, identity, innovation, insurance, irs, it, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, security, social, sop, stack, strategy, summary, supply, tax, technology, vendors, web, workflow]
 ---
@@ -25,8 +37,9 @@ last_reviewed: 2025-08-08
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -77,12 +90,11 @@ last_reviewed: 2025-08-08
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
-
-**Similar by tag**
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 <!-- AUTO-TOC:START -->
 
@@ -90,7 +102,6 @@ last_reviewed: 2025-08-08
 - [[10-technology/D-Docs/client-installation-guide]]
 
 <!-- AUTO-TOC:END -->
-
 
 ---
 date: 2025-08-08

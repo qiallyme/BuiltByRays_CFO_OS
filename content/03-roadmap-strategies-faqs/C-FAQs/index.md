@@ -1,5 +1,17 @@
 ---
 date: 2025-08-10
+title: index
+---
+---
+date: 2025-08-10
+title: index
+tags: [accounts, advertising, agreement, ai, analytics, audit, automation, backup, banking, brand, budget, campaigns]
+
+keywords: [changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, design, digital, drawings, engagement, faqs, feedback, finance, hr, identity, innovation, insurance, irs, it, kpi, learning, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, presentation, procedures, projection, reporting, risk, roadmap-strategies-faqs, sales, security, social, sop, strategy, summary, supply, survey, tax, technology, training, vendors, web, workflow]
+
+---
+---
+date: 2025-08-10
 title: FAQs
 tags: [-roadmap-strategies-faqs, accounts, advertising, agreement, ai, analytics, audit, automation, backup, banking, brand, budget, campaigns, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, design, digital, drawings, engagement, faqs, feedback, finance, hr, identity, innovation, insurance, irs, it, kpi, learning, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, presentation, procedures, projection, reporting, risk, roadmap-strategies-faqs, sales, security, social, sop, strategy, summary, supply, survey, tax, technology, training, vendors, web, workflow]
 ---
@@ -23,14 +35,14 @@ owner: Q
 last_reviewed: 2025-08-08
 ---
 
-
 ---
 # Frequently Asked Questions
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -83,8 +95,9 @@ last_reviewed: 2025-08-08
 - [[99-archives/archives-overview]]
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 <!-- AUTO-TOC:START -->
 
@@ -92,7 +105,6 @@ last_reviewed: 2025-08-08
 - [[03-roadmap-strategies-faqs/C-FAQs]]
 
 <!-- AUTO-TOC:END -->
-
 
 **Q: Why do we pay even if we don’t hear from you weekly?**
 A: Because results are long-term. CFO strategy is quarterly, not daily babysitting.
@@ -323,9 +335,7 @@ A: No. 12-month commitment ensures stability and results.
 | Phase 3       | CX automation + referral system          | Week 4       |
 | Monthly       | Monitor, adjust, innovate                | Ongoing      |
 
-
 ---
-
 
 # 👥 CHRO – Chief Human Resources Officer
 
@@ -371,8 +381,6 @@ A: No. 12-month commitment ensures stability and results.
 | Monthly       | Check-ins + team support                  | Ongoing      |
 
 ---
-
-
 
 ---
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

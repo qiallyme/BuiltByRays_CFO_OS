@@ -1,5 +1,19 @@
 ---
 date: 2025-08-10
+title: index
+---
+---
+date: 2025-08-10
+title: index
+tags: [accounts, agreement, ai, analytics, automation, banking, brand, changes, compensation, compliance, confidentiality, construction]
+
+keywords: [contractors, contracts, coverage, digital, engagement, feedback, finance, hr, identity, innovation, insurance, irs, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, scope, scope-of-services, social, sop, strategy, summary, supply, tax, vendors, web, workflow]
+
+aliases: [Scope, Services, Work-Scope, Deliverables]
+
+---
+---
+date: 2025-08-10
 title: Scope of Services
 aliases: [Scope, Services, Work-Scope, Deliverables]
 
@@ -35,8 +49,9 @@ aliases: [Scope, Services, Work-Scope, Deliverables]
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -89,8 +104,9 @@ aliases: [Scope, Services, Work-Scope, Deliverables]
 - [[99-archives/archives-overview]]
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 ## Overview
 QiSuite™ is your Fractional C‑Suite — a high‑impact, multi‑discipline partner embedded in your business to strengthen leadership, streamline operations, and drive growth.

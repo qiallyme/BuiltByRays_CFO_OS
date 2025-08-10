@@ -1,6 +1,18 @@
 ---
 date: 2025-08-10
 title: chatbot readme
+---
+---
+date: 2025-08-10
+title: chatbot readme
+tags: [accounts, advertising, agreement, ai, analytics, api, automation, banking, brand, campaigns, changes, chatbot]
+
+keywords: [compensation, compliance, confidentiality, construction, contractors, contracts, coordination, coverage, development, devops, digital, engagement, feedback, field, finance, hr, identity, innovation, insurance, irs, it, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, security, social, sop, stack, strategy, summary, supply, tax, technology, vendors, web, workflow]
+
+---
+---
+date: 2025-08-10
+title: chatbot readme
 tags: [-technology, accounts, advertising, agreement, ai, analytics, api, automation, banking, brand, campaigns, changes, chatbot, compensation, compliance, confidentiality, construction, contractors, contracts, coordination, coverage, development, devops, digital, engagement, feedback, field, finance, hr, identity, innovation, insurance, irs, it, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, security, social, sop, stack, strategy, summary, supply, tax, technology, vendors, web, workflow]
 ---
 ---
@@ -25,8 +37,9 @@ last_reviewed: 2025-08-08
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -76,12 +89,11 @@ last_reviewed: 2025-08-08
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
-
-**Similar by tag**
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 ---
 date: 2025-08-08

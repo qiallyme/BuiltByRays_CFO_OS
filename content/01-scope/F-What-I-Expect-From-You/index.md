@@ -1,5 +1,17 @@
 ---
 date: 2025-08-10
+title: index
+---
+---
+date: 2025-08-10
+title: index
+tags: [accounts, agreement, ai, analytics, automation, banking, brand, changes, compensation, compliance, confidentiality, construction]
+
+keywords: [contractors, contracts, coverage, digital, engagement, feedback, finance, hr, identity, innovation, insurance, irs, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, scope, social, sop, strategy, summary, supply, tax, vendors, web, what-i-expect-from-you, workflow]
+
+---
+---
+date: 2025-08-10
 title: What I Expect From You
 tags: [-scope, accounts, agreement, ai, analytics, automation, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, feedback, finance, hr, identity, innovation, insurance, irs, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, scope, services, social, sop, strategy, summary, supply, tax, vendors, web, what-i-expect-from-you, workflow]
 ---
@@ -25,8 +37,9 @@ last_reviewed: 2025-08-08
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -79,8 +92,9 @@ last_reviewed: 2025-08-08
 - [[99-archives/archives-overview]]
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 Partnership means **you’re just as invested in the outcome as I am**. Here’s how you hold up your side:
 

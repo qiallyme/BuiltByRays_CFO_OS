@@ -1,5 +1,17 @@
 ---
 date: 2025-08-10
+title: index
+---
+---
+date: 2025-08-10
+title: index
+tags: [accounts, agreement, ai, analytics, ar, audit, automation, banking, brand, changes, compensation, compliance]
+
+keywords: [confidentiality, construction, contractors, contracts, coverage, digital, engagement, estimating, finance, hr, identity, innovation, insurance, investment, irs, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, preconstruction, presentation, procedures, refunds, reporting, risk, roi-payment-projection-example, sales, social, sop, strategy, summary, supply, tax, vendors, web, workflow]
+
+---
+---
+date: 2025-08-10
 title: ROI Payment Projection Example
 tags: [-investment, accounts, agreement, ai, analytics, ar, audit, automation, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, estimating, finance, hr, identity, innovation, insurance, investment, irs, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, preconstruction, presentation, pricing, procedures, refunds, reporting, risk, roi-payment-projection-example, sales, social, sop, strategy, summary, supply, tax, vendors, web, workflow]
 ---
@@ -23,8 +35,9 @@ date: 2025-08-10
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -77,8 +90,9 @@ date: 2025-08-10
 - [[99-archives/archives-overview]]
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 <!-- AUTO-TOC:START -->
 
@@ -86,7 +100,6 @@ date: 2025-08-10
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 
 <!-- AUTO-TOC:END -->
-
 
 **Base Retainer + Billables + Performance %**
 

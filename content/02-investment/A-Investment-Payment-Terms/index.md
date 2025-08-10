@@ -1,5 +1,17 @@
 ---
 date: 2025-08-10
+title: index
+---
+---
+date: 2025-08-10
+title: index
+tags: [accounts, agreement, ai, analytics, ar, audit, automation, backup, banking, brand, changes, compensation]
+
+keywords: [compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, estimating, feedback, finance, hr, identity, innovation, insurance, investment, investment-payment-terms, irs, it, kpi, learning, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, preconstruction, presentation, procedures, refunds, reporting, risk, rpa, sales, scheduling, social, sop, strategy, summary, supply, tax, technology, training, vendors, web, workflow]
+
+---
+---
+date: 2025-08-10
 title: Investment Payment Terms
 tags: [-investment, accounts, agreement, ai, analytics, ar, audit, automation, backup, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, estimating, feedback, finance, hr, identity, innovation, insurance, investment, investment-payment-terms, irs, it, kpi, learning, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, preconstruction, presentation, pricing, procedures, refunds, reporting, risk, rpa, sales, scheduling, social, sop, strategy, summary, supply, tax, technology, training, vendors, web, workflow]
 ---
@@ -25,8 +37,9 @@ date: 2025-08-10
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -79,8 +92,9 @@ date: 2025-08-10
 - [[99-archives/archives-overview]]
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 If you grow, I grow — and I’m not just talking spiritually.  
 This is a **retainer + percentage model** that keeps us both motivated to hit the next level.

@@ -1,6 +1,18 @@
 ---
 date: 2025-08-10
 title: loans n credit
+---
+---
+date: 2025-08-10
+title: loans n credit
+tags: [accounting, accounts, agreement, ai, analytics, automation, banking, brand, changes, compensation, compliance, confidentiality]
+
+keywords: [construction, contractors, contracts, coverage, digital, engagement, feedback, finance, financials, hr, identity, innovation, insurance, irs, kpi, legal, liability, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, social, sop, strategy, summary, supply, tax, vendors, web, workflow]
+
+---
+---
+date: 2025-08-10
+title: loans n credit
 tags: [-financials, accounting, accounts, agreement, ai, analytics, automation, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, feedback, finance, financials, hr, identity, innovation, insurance, irs, kpi, legal, liability, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, social, sop, strategy, summary, supply, tax, vendors, web, workflow]
 ---
 ---
@@ -25,8 +37,9 @@ last_reviewed: 2025-08-08
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -76,12 +89,11 @@ last_reviewed: 2025-08-08
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
-
-**Similar by tag**
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 ---
 date: 2025-08-08

@@ -1,6 +1,18 @@
 ---
 date: 2025-08-10
 title: cfo os technical architecture
+---
+---
+date: 2025-08-10
+title: cfo os technical architecture
+tags: [accounts, agreement, ai, analytics, api, architecture, audit, automation, backup, banking, brand, changes]
+
+keywords: [compensation, compliance, confidentiality, construction, contractors, contracts, coverage, crm, development, devops, digital, engagement, feedback, finance, hr, identity, innovation, insurance, irs, it, kpi, learning, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, presentation, procedures, projection, reporting, risk, sales, security, social, sop, stack, strategy, summary, supply, tax, technology, training, vendors, web, workflow]
+
+---
+---
+date: 2025-08-10
+title: cfo os technical architecture
 tags: [-technology, accounts, agreement, ai, analytics, api, architecture, audit, automation, backup, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, crm, development, devops, digital, engagement, feedback, finance, hr, identity, innovation, insurance, irs, it, kpi, learning, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, presentation, procedures, projection, reporting, risk, sales, security, social, sop, stack, strategy, summary, supply, tax, technology, training, vendors, web, workflow]
 ---
 ---
@@ -25,8 +37,9 @@ last_reviewed: 2025-08-08
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -76,12 +89,11 @@ last_reviewed: 2025-08-08
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
-
-**Similar by tag**
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 ---
 date: 2025-08-08

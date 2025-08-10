@@ -1,4 +1,16 @@
 ---
+date: 2025-08-10
+title: index
+---
+---
+date: 2025-08-10
+title: index
+tags: [accounts, agreement, ai, analytics, automation, banking, brand, compensation, compliance, confidentiality, construction, contractors]
+
+keywords: [contracts, coverage, digital, engagement, finance, hr, identity, index-md, innovation, insurance, irs, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, social, sop, strategy, summary, supply, tax, vendors, web, workflow]
+
+---
+---
 title: Knowledge Base Index
 tags: [ai, analytics, automation, index-md, innovation, kpi, milestones, performance, planning, strategy, toc]
 ---
@@ -7,8 +19,9 @@ tags: [ai, analytics, automation, index-md, innovation, kpi, milestones, perform
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -60,8 +73,9 @@ tags: [ai, analytics, automation, index-md, innovation, kpi, milestones, perform
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 ## Scope
 - [[01-scope/A-Your-Details]]

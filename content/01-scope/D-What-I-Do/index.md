@@ -1,5 +1,17 @@
 ---
 date: 2025-08-10
+title: index
+---
+---
+date: 2025-08-10
+title: index
+tags: [accounts, agreement, ai, analytics, ap, audit, automation, banking, brand, changes, compensation, compliance]
+
+keywords: [confidentiality, construction, contractors, contracts, coverage, digital, engagement, finance, hr, identity, innovation, insurance, irs, it, kpi, learning, leed, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, presentation, procedures, receipts, reporting, risk, sales, scope, security, social, sop, strategy, summary, supply, sustainability, tax, technology, training, vendors, web, what-i-do, workflow]
+
+---
+---
+date: 2025-08-10
 title: What I Do
 tags: [-scope, accounts, agreement, ai, analytics, ap, audit, automation, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, finance, hr, identity, innovation, insurance, irs, it, kpi, learning, leed, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, presentation, procedures, receipts, reporting, risk, sales, scope, security, services, social, sop, strategy, summary, supply, sustainability, tax, technology, training, vendors, web, what-i-do, workflow]
 ---
@@ -29,8 +41,9 @@ date: 2025-08-10
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -83,8 +96,9 @@ date: 2025-08-10
 - [[99-archives/archives-overview]]
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 ## **1 – What I Do**
 I’m your **fractional C-Suite powerhouse** — CFO, COO, CIO, and fixer rolled into one.  

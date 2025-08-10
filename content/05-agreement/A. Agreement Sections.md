@@ -1,6 +1,18 @@
 ---
 date: 2025-08-10
 title: A. Agreement Sections
+---
+---
+date: 2025-08-10
+title: A. Agreement Sections
+tags: [accounts, agreement, agreement-sections-md, ai, analytics, automation, banking, brand, changes, compensation, compliance, confidentiality]
+
+keywords: [construction, contractors, contracts, coverage, digital, engagement, feedback, finance, hr, identity, innovation, insurance, irs, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, social, sop, strategy, summary, supply, tax, vendors, web, workflow]
+
+---
+---
+date: 2025-08-10
+title: A. Agreement Sections
 tags: [-agreement, accounts, agreement, agreement-sections-md, ai, analytics, automation, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, feedback, finance, hr, identity, innovation, insurance, irs, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, social, sop, strategy, summary, supply, tax, vendors, web, workflow]
 ---
 ---
@@ -26,8 +38,9 @@ last_reviewed: 2025-08-08
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -79,8 +92,9 @@ last_reviewed: 2025-08-08
 - [[99-archives/archives-overview]]
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 - Client initials: ______
 - Objective KPIs defined above.

@@ -3,13 +3,18 @@ import argparse, re, sys, yaml
 from pathlib import Path
 from collections import defaultdict
 
+# ====== CONFIG ======
 DEFAULT_BASE = r"C:\Users\codyr\Documents\Github\EmpowerQNow713\BuiltByRays_CFO_OS\content"
 CFG = "kb_tags.yaml"
 REL_START = "<!-- RELATED:START -->"
 REL_END   = "<!-- RELATED:END -->"
 
-WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
+# how many tags to keep visible in frontmatter pills
+MAX_TAGS_VISIBLE = 12
 
+# ====================
+
+WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
 NUMERIC_WHITELIST = {"1099", "401k", "10k", "10-q"}
 BLOCKLIST = {"index", "readme", "md", "markdown", "content"}
 
@@ -17,40 +22,44 @@ def normalize_tag(t):
     t = str(t).strip().lower()
     if not t:
         return ""
-    # swap underscores/spaces to hyphens
     t = t.replace("_", "-").replace(" ", "-")
-    # collapse repeats
     t = re.sub(r"-{2,}", "-", t)
-    # strip non-alnum except hyphen
     t = re.sub(r"[^a-z0-9-]", "", t)
-    # drop pure numeric unless whitelisted
     if t.isdigit() and t not in NUMERIC_WHITELIST:
         return ""
-    # drop blocklisted
     if t in BLOCKLIST:
         return ""
     return t
 
+def read(p: Path): 
+    return p.read_text(encoding="utf-8", errors="ignore")
 
-def read(p): return p.read_text(encoding="utf-8", errors="ignore")
-def write(p, t): p.write_text(t, encoding="utf-8")
-def fm_split(txt):
+def write(p: Path, t: str):
+    # single backup per run (.bak)
+    bak = p.with_suffix(p.suffix + ".bak")
+    if not bak.exists():
+        bak.write_text(read(p), encoding="utf-8")
+    p.write_text(t, encoding="utf-8")
+
+def fm_split(txt: str):
     if txt.startswith("---"):
         end = txt.find("\n---", 3)
-        if end != -1: return txt[:end+4], txt[end+4:]
+        if end != -1:
+            return txt[:end+4], txt[end+4:]
     return "", txt
 
-def fm_get(k, fm):
+def fm_get(k: str, fm: str):
     m = re.search(rf"(?m)^{k}\s*:\s*(.+)$", fm)
     return m.group(1).strip() if m else None
 
-def fm_set(k, v, fm):
+def fm_set(k: str, v: str, fm: str) -> str:
     if re.search(rf"(?m)^{k}\s*:", fm):
         return re.sub(rf"(?m)^{k}\s*:.*$", f"{k}: {v}", fm)
     insert_at = len(fm)-4 if fm.startswith("---") and fm.endswith("---") else 0
-    return fm[:insert_at] + ("" if insert_at==0 else "\n") + f"{k}: {v}\n" + fm[insert_at:]
+    prefix = "" if insert_at == 0 else "\n"
+    return fm[:insert_at] + prefix + f"{k}: {v}\n" + fm[insert_at:]
 
-def ensure_fm(txt, title):
+def ensure_fm(txt: str, title: str):
     fm, body = fm_split(txt)
     if not fm:
         fm = f"---\ntitle: {title}\n---"
@@ -58,14 +67,26 @@ def ensure_fm(txt, title):
         fm = fm_set("title", title, fm)
     return fm, body
 
-def title_from(path_rel):
-    if path_rel.name.lower()=="index.md": return path_rel.parent.name
+def title_from(path_rel: Path) -> str:
+    if path_rel.name.lower() == "index.md":
+        return path_rel.parent.name
     return path_rel.stem
 
-def to_wikilink(base, p):
+def to_wikilink(base: Path, p: Path) -> str:
     rel = p.relative_to(base)
-    if rel.name.lower()=="index.md": return rel.parent.as_posix()
+    if rel.name.lower() == "index.md":
+        return rel.parent.as_posix()
     return rel.with_suffix("").as_posix()
+
+def parse_tag_list(val: str):
+    # supports "tags: [a, b]" or "tags: a, b"
+    if not val:
+        return []
+    s = val.strip()
+    if s.startswith("[") and s.endswith("]"):
+        s = s[1:-1]
+    items = [x.strip() for x in s.split(",") if x.strip()]
+    return items
 
 def add_tags(existing_tags, new_tags):
     s = set()
@@ -79,16 +100,16 @@ def add_tags(existing_tags, new_tags):
             s.add(nt)
     return sorted(s)
 
-
-
 def collect_graph(base: Path):
     pages = []
     links = defaultdict(set)
     by_target = defaultdict(set)
+
     for md in base.rglob("*.md"):
-        if ".obsidian" in md.as_posix(): continue
+        if ".obsidian" in md.as_posix():
+            continue
         pages.append(md)
-    # map from wikilink target -> real md path
+
     target_to_path = {}
     for p in pages:
         target_to_path[to_wikilink(base, p)] = p
@@ -96,9 +117,7 @@ def collect_graph(base: Path):
     for p in pages:
         txt = read(p)
         for m in WIKILINK_RE.finditer(txt):
-            tgt = m.group(1).strip()
-            # normalize without trailing slash
-            tgt = tgt.rstrip("/")
+            tgt = m.group(1).strip().rstrip("/")
             if tgt in target_to_path:
                 dst = target_to_path[tgt]
                 links[p].add(dst)
@@ -111,115 +130,99 @@ def infer_tags_for(p: Path, base: Path, cfg):
     tags = []
 
     # from config folders
-    if len(parts)>0:
+    if len(parts) > 0:
         top = parts[0]
         for key, extra in (cfg.get("folders") or {}).items():
             if key == top:
-                tags += extra
+                tags += [str(x) for x in (extra or [])]
 
-    # from filename and content via keywords
-    text = read(p).lower()
-    text += " " + " ".join(rel.parts).lower()
+    # from filename/body via keywords
+    text = (read(p) + " " + " ".join(rel.parts)).lower()
     for kw, kws in (cfg.get("keywords") or {}).items():
         kw_str = str(kw).lower()
         if kw_str and kw_str in text:
             tags += [str(x) for x in (kws or [])]
 
-
-
-    # path-derived tags (simple)
+    # path-derived tags
     def clean(s):
         s = re.sub(r"^\d{2}[-_]", "", s)
         s = re.sub(r"^[A-Za-z0-9]{1,3}[-_.]\s*", "", s)
-        s = s.replace("&","and")
-        s = re.sub(r"[^a-zA-Z0-9]+","-", s).strip("-").lower()
+        s = s.replace("&", "and")
+        s = re.sub(r"[^a-zA-Z0-9]+", "-", s).strip("-").lower()
         return s
-    if len(parts)>=1: tags.append(clean(parts[0]))
-    if len(parts)>=2: tags.append(clean(parts[1]))
 
-    # dedupe
-    out=[]; seen=set()
+    if len(parts) >= 1: tags.append(clean(parts[0]))
+    if len(parts) >= 2: tags.append(clean(parts[1]))
+
+    out, seen = [], set()
     for t in tags:
         if t and t not in seen:
             out.append(t); seen.add(t)
     return out
 
-def inject_related(p: Path, base: Path, cfg, links, by_target, target_to_path, apply=False):
+def strip_visible_tag_sections(txt: str) -> str:
+    # remove any old "## Tags" bullet sections we may have added before
+    txt = re.sub(r"(?ms)^\s*##\s*Tags\s*\n(?:- .*\n?)+", "", txt)
+    # squeeze excessive blank lines
+    txt = re.sub(r"\n{3,}", "\n\n", txt)
+    return txt
+
+def inject_related_block(p: Path, base: Path, links, by_target, target_to_path, apply=False):
     txt = read(p)
     fm, body = fm_split(txt)
-    # find current tags
-    tags_line = fm_get("tags", fm)
-    tags_now = []
-    if tags_line:
-        inner = tags_line.strip()
-        inner = inner[1:-1] if inner.startswith("[") and inner.endswith("]") else inner
-        tags_now = [t.strip().strip(",") for t in inner.split(",") if t.strip()]
 
-    # “related by tag”: siblings sharing ≥1 tag
+    # compute related: backlinks + similar-by-tag (lightweight — backlinks usually enough)
     related = set()
-    # gather backlinks (by_target)
-    for src in by_target.get(p, []):
-        related.add(src)
+    backs = set(by_target.get(p, []))
 
-    # if we have tags, find other pages with overlap (quick pass)
-    if tags_now:
-        for q in target_to_path.values():
-            if q == p: continue
-            qt = read(q)
-            qfm,_ = fm_split(qt)
-            tl = fm_get("tags", qfm) or "[]"
-            qtags = [t.strip() for t in tl.strip("[]").split(",") if t.strip()]
-            if set(t.lower() for t in qtags) & set(t.lower() for t in tags_now):
-                related.add(q)
-
-    # Build block
-    if not related and not by_target.get(p):
-        # nothing to inject
+    # Build a compact, collapsible details block
+    if not backs:
+        # no backlinks? scrub any old related block and return
+        if REL_START in txt and REL_END in txt:
+            new = re.sub(re.escape(REL_START)+r".*?"+re.escape(REL_END), "", txt, flags=re.S)
+            new = new.rstrip() + "\n"
+            if apply and new != txt:
+                write(p, new)
+                return True
         return False
 
-    def linkline(x: Path):
-        return f"- [[{to_wikilink(base, x)}]]"
+    def linkline(x: Path): return f"- [[{to_wikilink(base, x)}]]"
 
-    lines = [REL_START, "", "## Related"]
-    # prefer backlinks first
-    backs = [x for x in sorted(by_target.get(p, []), key=lambda z: z.as_posix())]
-    if backs:
-        lines.append("**Backlinks**")
-        lines += [linkline(x) for x in backs]
-        lines.append("")
-    # then similar-by-tag (excluding already listed)
-    similars = [x for x in sorted(related, key=lambda z: z.as_posix()) if x not in backs]
-    if similars:
-        lines.append("**Similar by tag**")
-        lines += [linkline(x) for x in similars]
-        lines.append("")
-    lines.append(REL_END)
-    block = "\n".join(lines)
+    rels = "\n".join(linkline(x) for x in sorted(backs, key=lambda z: z.as_posix()))
+    block = (
+        f"{REL_START}\n\n"
+        "<details>\n"
+        "<summary><strong>Related & Backlinks</strong></summary>\n\n"
+        f"{rels}\n\n"
+        "</details>\n\n"
+        f"{REL_END}"
+    )
 
-    # Insert/replace
+    # replace existing or insert after first H1 (else append)
     if REL_START in txt and REL_END in txt:
         new = re.sub(re.escape(REL_START)+r".*?"+re.escape(REL_END), block, txt, flags=re.S)
     else:
-        # after first H1 if any, else append
         m = re.search(r"(?m)^#\s+.+", txt)
         if m:
             new = txt[:m.end()] + "\n\n" + block + "\n" + txt[m.end():]
         else:
-            new = txt.rstrip()+"\n\n"+block+"\n"
+            new = txt.rstrip() + "\n\n" + block + "\n"
 
-    if new != txt and apply:
+    if apply and new != txt:
         write(p, new)
+        return True
     return new != txt
 
 def maybe_add_aliases(p: Path, base: Path, cfg, apply=False):
     rel = p.relative_to(base)
-    stem = rel.parent.name if p.name.lower()=="index.md" else p.stem
+    stem = rel.parent.name if p.name.lower() == "index.md" else p.stem
     al_cfg = cfg.get("aliases") or {}
     add = None
     for key, arr in al_cfg.items():
         if key.lower() in stem.lower():
             add = arr; break
-    if not add: return False
+    if not add:
+        return False
 
     txt = read(p)
     fm, body = fm_split(txt)
@@ -227,7 +230,6 @@ def maybe_add_aliases(p: Path, base: Path, cfg, apply=False):
         fm = "---\n---"
     current = fm_get("aliases", fm)
     if current:
-        # already has aliases, skip
         return False
     arr = ", ".join(add)
     fm = fm_set("aliases", f"[{arr}]", fm)
@@ -243,7 +245,10 @@ def main():
     args = ap.parse_args()
 
     base = Path(args.base).resolve()
-    if not base.exists(): print(f"[ERR] base not found: {base}"); sys.exit(1)
+    if not base.exists():
+        print(f"[ERR] base not found: {base}")
+        sys.exit(1)
+
     cfgp = Path(CFG)
     cfg = {}
     if cfgp.exists():
@@ -255,32 +260,46 @@ def main():
 
     changed = 0
     for p in pages:
-        # ensure FM exists (title from path if needed)
+        # 1) ensure FM with title
         txt = read(p)
         title = title_from(p.relative_to(base))
         fm, body = ensure_fm(txt, title)
-        if fm + body != txt and args.apply:
-            write(p, fm + body); changed += 1
 
-        # infer tags and merge
-        fm, body = fm_split(read(p))
+        # 1.1) strip any visible "## Tags" sections from body
+        body2 = strip_visible_tag_sections(body)
+        if (fm + body2) != txt and args.apply:
+            write(p, fm + body2); changed += 1
+            txt = fm + body2
+            fm, body = fm_split(txt)
+
+        # 2) merge tags (and trim to MAX_TAGS_VISIBLE)
         tags_line = fm_get("tags", fm)
-        cur = []
-        if tags_line:
-            inner = tags_line.strip("[]")
-            cur = [t.strip() for t in inner.split(",") if t.strip()]
+        cur = parse_tag_list(tags_line) if tags_line else []
         inferred = infer_tags_for(p, base, cfg)
         merged = add_tags(cur, inferred)
-        fm2 = fm_set("tags", "[" + ", ".join(merged) + "]", fm)
+
+        visible = merged[:MAX_TAGS_VISIBLE]
+        overflow = merged[MAX_TAGS_VISIBLE:]
+
+        fm2 = fm_set("tags", "[" + ", ".join(visible) + "]", fm)
+
+        # stash overflow into keywords (for search only, Quartz ignores for pills)
+        if overflow:
+            kw_existing = fm_get("keywords", fm2)
+            kw_list = parse_tag_list(kw_existing) if kw_existing else []
+            kw_merged = add_tags(kw_list, overflow)
+            fm2 = fm_set("keywords", "[" + ", ".join(kw_merged) + "]", fm2)
+
         if fm2 != fm and args.apply:
             write(p, fm2 + body); changed += 1
+            txt = fm2 + body
 
-        # optional: add aliases
+        # 3) optional aliases
         if maybe_add_aliases(p, base, cfg, apply=args.apply):
             changed += 1
 
-        # inject Related block
-        if inject_related(p, base, cfg, links, by_target, target_to_path, apply=args.apply):
+        # 4) inject compact backlinks block (collapsible)
+        if inject_related_block(p, base, links, by_target, target_to_path, apply=args.apply):
             changed += 1
 
     if args.apply:

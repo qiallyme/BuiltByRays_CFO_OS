@@ -1,5 +1,17 @@
 ---
 date: 2025-08-10
+title: index
+---
+---
+date: 2025-08-10
+title: index
+tags: [accounts, agreement, ai, analytics, automation, banking, brand, changes, compensation, compliance, confidentiality, construction]
+
+keywords: [contractors, contracts, coverage, digital, engagement, finance, hr, identity, innovation, insurance, irs, kpi, kpis-goals, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, scope, social, sop, strategy, summary, supply, tax, vendors, web, workflow]
+
+---
+---
+date: 2025-08-10
 title: KPIs Goals
 tags: [-scope, accounts, agreement, ai, analytics, automation, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, finance, hr, identity, innovation, insurance, irs, kpi, kpis-goals, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, scope, services, social, sop, strategy, summary, supply, tax, vendors, web, workflow]
 ---
@@ -24,8 +36,9 @@ date: 2025-08-10
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -78,8 +91,9 @@ date: 2025-08-10
 - [[99-archives/archives-overview]]
 - [[.]]
 
-<!-- RELATED:END -->
+</details>
 
+<!-- RELATED:END -->
 
 ## Company-Wide Goals  
 These are the big-picture wins we chase together — the stuff that actually moves the needle:  

@@ -1,6 +1,18 @@
 ---
 date: 2025-08-10
 title: BuiltByRays Launch Day Work Log & ROI Final
+---
+---
+date: 2025-08-10
+title: BuiltByRays Launch Day Work Log & ROI Final
+tags: [1099, accounts, advertising, agreement, ai, analytics, ap, ar, automation, backup, banking, billing]
+
+keywords: [brand, campaigns, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, crm, development, digital, engagement, estimating, feedback, finance, git, hr, identity, innovation, insights, insurance, invoicing, irs, it, kpi, learning, legal, marketing, materials, metrics, milestones, onboarding, operations, payroll, performance, pitch, planning, preconstruction, presentation, procedures, receipts, reporting, risk, sales, seo, social, sop, strategy, summary, supply, tax, technology, training, vendors, web, work-summaries, workflow]
+
+---
+---
+date: 2025-08-10
+title: BuiltByRays Launch Day Work Log & ROI Final
 tags: [-analytics, 1099, accounts, advertising, agreement, ai, analytics, ap, ar, automation, backup, banking, billing, brand, campaigns, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, crm, development, digital, engagement, estimating, feedback, finance, git, hr, identity, innovation, insights, insurance, invoicing, irs, it, kpi, learning, legal, marketing, materials, metrics, milestones, onboarding, operations, payroll, performance, pitch, planning, preconstruction, presentation, procedures, receipts, reporting, risk, sales, seo, social, sop, strategy, summary, supply, tax, technology, training, vendors, web, work-summaries, workflow]
 ---
 ---
@@ -21,8 +33,9 @@ tags: [1099, accounts, advertising, agreement, ai, analytics, ap, ar, automation
 
 <!-- RELATED:START -->
 
-## Related
-**Backlinks**
+<details>
+<summary><strong>Related & Backlinks</strong></summary>
+
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
@@ -72,9 +85,9 @@ tags: [1099, accounts, advertising, agreement, ai, analytics, ap, ar, automation
 - [[13-engagements/0803-proposed/readme]]
 - [[13-engagements/engagements]]
 - [[99-archives/archives-overview]]
-
-**Similar by tag**
 - [[.]]
+
+</details>
 
 <!-- RELATED:END -->
 

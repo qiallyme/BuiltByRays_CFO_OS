@@ -54,27 +54,24 @@ $npxv = (& npx -v) 2>$null
 if (-not $npxv) { throw "NPX not found on PATH." }
 
 # --- 1: TOC + titles/tags ---
-Run-Step "[1/7] TOC and titles/tags..." {
+Run-Step "[1/6] TOC and titles/tags..." {
   Py @(".\kb_toc_and_tags.py","--base",$CONTENT,"--apply")
-}
-
-# --- 2: Auto-tagging + backlinks ---
-Run-Step "[2/7] Auto-tagging and backlinks..." {
   Py @(".\kb_autotag_backlink.py","--base",$CONTENT,"--apply")
+  Py @(".\kb_clean_tagsections.py")
 }
 
 # --- 3: Frontmatter cleanup ---
-Run-Step "[3/7] Frontmatter cleanup..." {
+Run-Step "[3/6] Frontmatter cleanup..." {
   Py @(".\kb_fix_frontmatter.py","--base",$CONTENT,"--apply")
 }
 
 # --- 4: Validate content ---
-Run-Step "[4/7] Validating markdown/frontmatter..." {
+Run-Step "[4/6] Validating markdown/frontmatter..." {
   Py @(".\kb_validate.py","--base",$CONTENT)
 }
 
 # --- 5: Ensure node deps ---
-Run-Step "[5/7] Checking node_modules..." {
+Run-Step "[5/6] Checking node_modules..." {
   if (-not (Test-Path (Join-Path $BASE "node_modules"))) {
     Write-Host "node_modules missing - running npm ci"
     npm ci
@@ -85,7 +82,7 @@ Run-Step "[5/7] Checking node_modules..." {
 }
 
 # --- 6: Build + Preview ---
-Run-Step "[6/7] Building Quartz..." {
+Run-Step "[6/6] Building Quartz..." {
   npx quartz build
   if ($LASTEXITCODE -ne 0) { throw "quartz build failed" }
 
@@ -105,7 +102,7 @@ Run-Step "[6/7] Building Quartz..." {
 }
 
 # --- 7: Git push ---
-$ans = Read-Host "[7/7] Push changes to Git? Y or N"
+$ans = Read-Host "[6/6] Push changes to Git? Y or N"
 if ($ans -match "^[Yy]") {
   $msg = Read-Host "Enter commit message (or leave blank to use default)"
   if ([string]::IsNullOrWhiteSpace($msg)) { $msg = $DEFAULT_MSG }
