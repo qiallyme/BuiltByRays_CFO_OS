@@ -80,9 +80,6 @@ weight: 1
 ## Related
 **Backlinks**
 - [[01-scope/A-Your-Details]]
-- [[.]]
-
-**Similar by tag**
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
@@ -132,6 +129,7 @@ weight: 1
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
+- [[.]]
 
 <!-- RELATED:END -->
 

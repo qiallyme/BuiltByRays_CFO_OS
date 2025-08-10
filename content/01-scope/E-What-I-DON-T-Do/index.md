@@ -27,14 +27,11 @@ last_reviewed: 2025-08-08
 
 ## Related
 **Backlinks**
-- [[01-scope/E-What-I-DON-T-Do]]
-- [[.]]
-
-**Similar by tag**
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
+- [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
 - [[02-investment/A-Investment-Payment-Terms]]
@@ -80,6 +77,7 @@ last_reviewed: 2025-08-08
 - [[13-engagements/engagements]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
+- [[.]]
 
 <!-- RELATED:END -->
 
