@@ -71,33 +71,6 @@ tags: [hr, payroll, compensation, contractors, vendors]
 <!-- RELATED:END -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Company-Wide Goals  
 These are the big-picture wins we chase together — the stuff that actually moves the needle:  
 
@@ -107,6 +80,21 @@ These are the big-picture wins we chase together — the stuff that actually mov
 4. **Customer Experience** – Happy customers = repeat customers = more revenue.  
 5. **Brand Presence** – People know your name and trust it.  
 6. **Innovation** – We keep things fresh, competitive, and impossible to ignore.  
+
+## Core KPIs (example set)
+- **Revenue:** MRR/Bookings, Win rate, CAC payback  
+- **Margin:** Gross margin %, Contribution per product/job  
+- **Cash:** Runway, Collections cycle, Burn multipliers  
+- **Ops:** Cycle time, Throughput, Defect/return rates  
+- **People:** Hiring funnel, Ramp time, Retention
+
+## Reporting
+- **Weekly:** KPI snapshot + “what changed” notes  
+- **Monthly:** Trend lines + variances vs plan  
+- **Quarterly:** Strategy review, re-baseline goals
+
+> KPIs are customized in your [[marketing-overview|Marketing]], [[operations-overview|Operations]], and [[reports|Finance Reports]] pages.
+
 
 ### Real Talk:  
 If you grow, I grow.  

@@ -71,33 +71,6 @@ tags: [hr, payroll, compensation, contractors, vendors]
 <!-- RELATED:END -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Partnership means **you’re just as invested in the outcome as I am**. Here’s how you hold up your side:
 
 - **Be Available.**  

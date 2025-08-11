@@ -70,34 +70,6 @@ tags: [hr, payroll, compensation, contractors, vendors]
 
 <!-- RELATED:END -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #What-I-Dont-Do
 **Read this twice — it’s your insurance policy against disappointment.**
 

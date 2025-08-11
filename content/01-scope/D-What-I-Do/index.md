@@ -1,31 +1,43 @@
 ---
-title: D. What I Do
 date: 2025-08-10
-tags: [hr, payroll, compensation, contractors, vendors]
+title: What I Do
+tags: [-scope, accounts, agreement, ai, analytics, ap, audit, automation, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, finance, hr, identity, innovation, insurance, irs, it, kpi, learning, leed, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, presentation, procedures, receipts, reporting, risk, sales, scope, security, services, social, sop, strategy, summary, supply, sustainability, tax, technology, training, vendors, web, what-i-do, workflow]
 ---
-# D. What I Do
-
-<!-- AUTO-TOC:START -->
-
-## Contents
-- [[01-scope/D-What-I-Do]]
-
-<!-- AUTO-TOC:END -->
-
+---
+date: 2025-08-10
+title: index
+tags: [-scope, accounts, agreement, ai, analytics, ap, audit, automation, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, finance, hr, identity, innovation, insurance, irs, it, kpi, learning, leed, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, presentation, procedures, receipts, reporting, risk, sales, scope, security, social, sop, strategy, summary, supply, sustainability, tax, technology, training, vendors, web, what-i-do, workflow]
+  - scope
+  - what-i-do
+  - services
+---
+---
+title: C. What I Do
+type: Service Details
+category: Scope
+status: Active
+tags: [accounts, agreement, ai, analytics, ap, audit, automation, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, finance, hr, identity, innovation, insurance, irs, it, kpi, last-updated-2025-08-08, learning, leed, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, presentation, procedures, receipts, reporting, risk, sales, scope, security, social, sop, strategy, summary, supply, sustainability, tax, technology, training, vendors, web, what-i-do, workflow]
+last_updated: 2025-08-08
+version: "1.0"
+owner: Cody Rice Velasquez
+audience: Clients
+description: Detailed breakdown of services, value proposition, and approach.
+related_files: 
+date: 2025-08-10
+---
+# C. What I Do
 
 <!-- RELATED:START -->
 
 ## Related
 **Backlinks**
-- [[.]]
-
-**Similar by tag**
+- [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
+- [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
-- [[01-scope/H-Case Studies & Wins]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
@@ -65,37 +77,13 @@ tags: [hr, payroll, compensation, contractors, vendors]
 - [[12-human-resources/hr-overview]]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
+- [[13-engagements/0803-proposed/readme]]
 - [[13-engagements/engagements]]
+- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
+- [[.]]
 
 <!-- RELATED:END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## **1 – What I Do**
@@ -126,3 +114,10 @@ Here’s how I make it happen:
   Dashboards, live reporting, and key metrics in one place so you can make decisions without guessing.
 
 **Bottom line:** I don’t just give advice — I build the systems, implement the tools, and make sure they work in the real world.
+
+<!-- AUTO-TOC:START -->
+
+## Contents
+- [[01-scope/D-What-I-Do]]
+
+<!-- AUTO-TOC:END -->
