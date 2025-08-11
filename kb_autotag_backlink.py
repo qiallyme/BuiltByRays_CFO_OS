@@ -14,6 +14,12 @@ FM_TOP_RE   = re.compile(r"^\ufeff?\s*---\s*\n(.*?)\n---\s*\n?", flags=re.S)  # 
 NUMERIC_WHITELIST = {"1099", "401k", "10k", "10-q"}
 BLOCKLIST = {"index", "readme", "md", "markdown", "content"}
 
+# ---- Similar-by-tag tuning ----
+SIMILAR_MAX_RESULTS = 5       # cap similar list
+SIMILAR_MIN_OVERLAP = 2       # require at least N shared tags
+SIMILAR_STOP_PCT = 0.25       # ignore tags used by >25% of pages
+
+
 def read(p): return p.read_text(encoding="utf-8", errors="ignore")
 def write(p, t): p.write_text(t, encoding="utf-8")
 
@@ -148,52 +154,86 @@ def infer_tags_for(p: Path, base: Path, cfg):
             out.append(t); seen.add(t)
     return out
 
-def inject_related(p: Path, base: Path, cfg, links, by_target, target_to_path, apply=False):
+def parse_tags_from_fm(txt: str):
+    fm, _, _, _ = split_frontmatter(txt)
+    tags = fm_get_tags(fm)
+    return [normalize_tag(x) for x in tags if normalize_tag(x)]
+
+def build_page_tags_and_freq(pages, read_fn):
+    page_tags = {}
+    tag_freq = defaultdict(int)
+    for p in pages:
+        tags = parse_tags_from_fm(read_fn(p))
+        # only count unique tags per page for frequency
+        utags = set([t for t in tags if t])
+        page_tags[p] = utags
+        for t in utags:
+            tag_freq[t] += 1
+    return page_tags, tag_freq
+
+def inject_related(p: Path, base: Path, cfg, links, by_target, target_to_path,
+                   apply=False, page_tags=None, tag_freq=None):
     txt = read(p)
-    fm, body, s, e = split_frontmatter(txt)
-    tags_now = [t.strip() for t in fm_get_tags(fm)]
+    fm, body, _, _ = split_frontmatter(txt)
 
-    related = set()
-    # backlinks first
-    for src in by_target.get(p, []):
-        related.add(src)
+    # Backlinks (already good)
+    backlinks = sorted(by_target.get(p, []), key=lambda z: z.as_posix())
 
-    if tags_now:
-        for q in target_to_path.values():
-            if q == p: continue
-            qtxt = read(q)
-            qfm, _, _, _ = split_frontmatter(qtxt)
-            qtags = [t.strip() for t in fm_get_tags(qfm)]
-            if set(t.lower() for t in qtags) & set(t.lower() for t in tags_now):
-                related.add(q)
+    # Similar-by-tag (smarter):
+    similar = []
+    if page_tags is not None and tag_freq is not None:
+        total_pages = max(1, len(page_tags))
+        # keep only informative tags for this page
+        my_tags_all = page_tags.get(p, set())
+        my_tags = {t for t in my_tags_all if (tag_freq.get(t, 0) / total_pages) <= SIMILAR_STOP_PCT}
 
-    if not related and not by_target.get(p):
+        if my_tags:
+            for q, qtags_all in page_tags.items():
+                if q == p:
+                    continue
+                # filter q's tags by same stoplist rule
+                qtags = {t for t in qtags_all if (tag_freq.get(t, 0) / total_pages) <= SIMILAR_STOP_PCT}
+                overlap = my_tags & qtags
+                if len(overlap) >= SIMILAR_MIN_OVERLAP:
+                    # score by overlap size (more shared tags first)
+                    similar.append((len(overlap), q))
+
+            # sort: highest overlap first, then path
+            similar.sort(key=lambda t: (-t[0], t[1].as_posix()))
+            # take top N and drop the scores
+            similar = [q for _score, q in similar[:SIMILAR_MAX_RESULTS]]
+
+    # nothing to insert? bail
+    if not backlinks and not similar:
         return False
 
     def linkline(x: Path):
         return f"- [[{to_wikilink(base, x)}]]"
 
     lines = [REL_START, "", "## Related"]
-    backs = [x for x in sorted(by_target.get(p, []), key=lambda z: z.as_posix())]
-    if backs:
+    if backlinks:
         lines.append("**Backlinks**")
-        lines += [linkline(x) for x in backs]
+        lines += [linkline(x) for x in backlinks]
         lines.append("")
-    similars = [x for x in sorted(related, key=lambda z: z.as_posix()) if x not in backs]
-    if similars:
+    if similar:
         lines.append("**Similar by tag**")
-        lines += [linkline(x) for x in similars]
+        lines += [linkline(x) for x in similar]
         lines.append("")
     lines.append(REL_END)
     block = "\n".join(lines)
 
-    new_body = re.sub(re.escape(REL_START)+r".*?"+re.escape(REL_END), block, body, flags=re.S) \
-               if (REL_START in body and REL_END in body) else \
-               (insert_after_h1(body, block))
+    if REL_START in txt and REL_END in txt:
+        new = re.sub(re.escape(REL_START)+r".*?"+re.escape(REL_END), block, txt, flags=re.S)
+    else:
+        m = re.search(r"(?m)^#\s+.+", txt)
+        if m:
+            new = txt[:m.end()] + "\n\n" + block + "\n" + txt[m.end():]
+        else:
+            new = txt.rstrip() + "\n\n" + block + "\n"
 
-    if new_body != body and apply:
-        write(p, build_frontmatter(fm) + new_body.lstrip("\n"))
-    return new_body != body
+    if new != txt and apply:
+        write(p, new)
+    return new != txt
 
 def insert_after_h1(body: str, block: str) -> str:
     m = re.search(r"(?m)^\s*#\s+.+$", body)
@@ -237,16 +277,17 @@ def main():
 
     pages, links, by_target, target_to_path = collect_graph(base)
 
+    # Build global tag stats once
+    page_tags, tag_freq = build_page_tags_and_freq(pages, read)
+
     changed = 0
     for p in pages:
         txt = read(p)
+        fm, body, _, _ = split_frontmatter(txt)
 
-        # 1) ensure one FM block
-        fm, body, s, e = split_frontmatter(txt)
-        if not fm:
-            fm = {"title": title_from(p.relative_to(base))}
-            txt = build_frontmatter(fm) + body
-            body = body  # unchanged
+        # 1) inject Related block (pass stats in)
+        if inject_related(p, base, cfg, links, by_target, target_to_path,
+                         apply=args.apply, page_tags=page_tags, tag_freq=tag_freq):
             changed += 1
 
         # 2) merge tags and cap
@@ -267,10 +308,6 @@ def main():
 
         # 4) aliases (optional)
         if maybe_add_aliases(p, base, cfg, apply=args.apply):
-            changed += 1
-
-        # 5) related block
-        if inject_related(p, base, cfg, links, by_target, target_to_path, apply=args.apply):
             changed += 1
 
     print(f"[OK] Updated {changed} files." if args.apply else "[DRY] Done. Use --apply to write.")

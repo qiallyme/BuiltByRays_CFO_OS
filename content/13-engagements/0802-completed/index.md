@@ -1,26 +1,19 @@
 ---
 title: Completed
-date: 2025-08-10
-tags: [engagements, 0802-completed]
+tags:
+- 0802-completed
+- engagements
 ---
 # Completed
-
-<!-- AUTO-TOC:START -->
-
-## Contents
-- [[13-engagements/0802-completed]]
-
-<!-- AUTO-TOC:END -->
-
 
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
-- [[.]]
-
 **Similar by tag**
 - [[13-engagements/0801-active]]
 - [[13-engagements/0803-proposed/readme]]
+- [[13-engagements/engagements]]
 
 <!-- RELATED:END -->
+
+

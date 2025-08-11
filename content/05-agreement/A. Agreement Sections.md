@@ -1,24 +1,32 @@
 ---
-title: A. Redline Agreement
 date: 2025-08-10
-tags: [hr, payroll, compensation, contractors, vendors]
+title: A. Agreement Sections
 ---
-# A. Redline Agreement
+---
+title: A. Agreement
+date: 2025-08-08
+summary: Summary coming soon.
+tags: [-general, accounts, agreement, agreement-sections-md, ai, analytics, automation, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, feedback, finance, hr, identity, innovation, insurance, irs, kpi, legal, marketing, materials, milestones, operations, payroll, performance, pitch, planning, presentation, procedures, reporting, risk, sales, social, sop, strategy, summary, supply, tax, vendors, web, workflow]
+  - general
+  - agreement
+status: active
+owner: Q
+last_reviewed: 2025-08-08
+---
+
+# Redline Agreement
 
 <!-- RELATED:START -->
 
 ## Related
 **Backlinks**
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[01-scope/C-Scope-of-Services]]
-- [[01-scope/D-What-I-Do]]
-- [[01-scope/E-What-I-DON-T-Do]]
-- [[01-scope/F-What-I-Expect-From-You]]
-- [[01-scope/G-KPIs-Goals]]
-- [[01-scope/H-Case Studies & Wins]]
+- [[00-your-details]]
+- [[01-scope/A-QiSuiteTM-Overview]]
+- [[01-scope/B-Scope-of-Services]]
+- [[01-scope/C-What-I-Do]]
+- [[01-scope/D-What-I-DON-T-Do]]
+- [[01-scope/E-What-I-Expect-From-You]]
+- [[01-scope/F-KPIs-Goals]]
 - [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
@@ -57,25 +65,13 @@ tags: [hr, payroll, compensation, contractors, vendors]
 - [[12-human-resources/hr-overview]]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
+- [[13-engagements/0803-proposed/readme]]
 - [[13-engagements/engagements]]
+- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
+- [[.]]
 
 <!-- RELATED:END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 - Client initials: ______

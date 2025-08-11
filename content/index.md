@@ -1,59 +1,57 @@
 ---
-title: BuiltbyRays OS Index
-tags: [index, toc]
+title: Welcome to Your Client Vault – BuiltByRays™ OS
+date: 2025-08-08
+summary: Your C-Suite command center—strategy, execution, and proof of work in one place.
+tags: [welcome, onboarding]
+status: active
+owner: Q
+last_reviewed: 2025-08-08
 ---
-# BuiltbyRays OS Index
 
-## Scope
-- [[01-scope/A-Your-Details]]
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[01-scope/C-Scope-of-Services]]
-- [[01-scope/D-What-I-Do]]
-- [[01-scope/E-What-I-DON-T-Do]]
-- [[01-scope/F-What-I-Expect-From-You]]
-- [[01-scope/G-KPIs-Goals]]
-- [[01-scope/H-Case Studies & Wins]]
+# 🚀 Welcome to Your Client Vault
 
-## Investment
-- [[02-investment/A-Investment-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example]]
+This is your private **BuiltByRays™ Client Vault**—your *one source of truth* for proposals, scope, SOPs, reports, deliverables, and updates. Think of it as your **C-Suite Command Center**: clear, current, and built to move.
 
-## Strategies faqs
-- [[03-roadmap-strategies-faqs/A-Roadmap]]
-- [[03-roadmap-strategies-faqs/B-Strategies]]
-- [[03-roadmap-strategies-faqs/C-FAQs]]
+---
 
-## Agreement
-- [[05-agreement/A. Agreement Sections]]
+## ✅ Before You Begin
+1. **Bookmark this page** for one-click access.  
+2. **Watch the 60-second intro** below.  
+3. **Review Scope & Terms** so expectations stay clean.  
+4. **Open Client Details** to confirm your profile.  
+5. **Use Search** (top/left) to jump anywhere fast.
 
-## Development
-- [[06-business-development]]
+---
 
-## Financials
+## 📽️ Watch First — *How to Use Your Vault*
+<!-- Replace YOUR_VIDEO_ID with the YouTube ID or swap to an HTML5 <video> if self-hosted -->
+<iframe
+  width="100%"
+  height="450"
+  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+  title="BuiltByRays Client Vault Overview"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 
-## Marketing
-- [[08-marketing/marketing-overview]]
+---
 
-## Operations
-- [[09-operations/operations-overview]]
+## 🗺️ Start Here
+- **Client Details** → [[A-Client-info]]
+- **What is QiSuite™** → [[A-QiSuite™ Overview]]
+- **Scope of Work** → [[C-What I Do]]
+- **What I Don’t Do** → [[D-What I DON'T Do|D-What I DON'T Do]]
+- **What to Expect** → [[01-scope/30-what-to-expect|30-what-to-expect]]
+- **Client Responsibilities** → [[E-What I Expect From You|E-What I Expect From You]]
 
-## Technology
+---
 
-## Compliance
-- [[11-legal-compliance/legal-compliance]]
+## 💡 Pro Tips
+- This vault updates in real time—refresh before meetings.  
+- Use it live on calls for faster decisions.  
+- If anything looks off, tag it—we fix fast.
 
-## Resources
-- [[12-human-resources/hr-overview]]
-- [[12-human-resources/policies-and-handbooks]]
-- [[12-human-resources/team-directory]]
+---
 
-## Engagements
-- [[13-engagements/0801-active]]
-- [[13-engagements/0802-completed]]
-- [[13-engagements/engagements]]
-
-## Analytics
-
-## Archives
-- [[99-archives/A-qbo-backup]]
-- [[99-archives/archives-overview]]
+[← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

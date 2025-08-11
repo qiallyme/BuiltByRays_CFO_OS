@@ -1,99 +1,30 @@
 ---
 title: C. FAQs
-date: 2025-08-10
-tags: [hr, payroll, compensation, operations, sop]
+date: 2025-08-08
+summary: Summary coming soon.
+tags:
+  - general
+  - FAQs
+status: active
+owner: Q
+last_reviewed: 2025-08-08
 ---
-# C. FAQs
-
-<!-- AUTO-TOC:START -->
-
-## Contents
-- [[03-roadmap-strategies-faqs/C-FAQs]]
-
-<!-- AUTO-TOC:END -->
 
 
-<!-- RELATED:START -->
+---
+# Frequently Asked Questions
 
-## Related
-**Backlinks**
-- [[.]]
+**Q: Why do we pay even if we don’t hear from you weekly?**
+A: Because results are long-term. CFO strategy is quarterly, not daily babysitting.
 
-**Similar by tag**
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[01-scope/C-Scope-of-Services]]
-- [[01-scope/D-What-I-Do]]
-- [[01-scope/E-What-I-DON-T-Do]]
-- [[01-scope/F-What-I-Expect-From-You]]
-- [[01-scope/G-KPIs-Goals]]
-- [[01-scope/H-Case Studies & Wins]]
-- [[02-investment/A-Investment-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example]]
-- [[03-roadmap-strategies-faqs/A-Roadmap]]
-- [[03-roadmap-strategies-faqs/B-Strategies]]
-- [[05-agreement/A. Agreement Sections]]
-- [[07-financials/A-Assets/assets]]
-- [[07-financials/B-Banks/banking]]
-- [[07-financials/C-Contractors/payroll-contractors]]
-- [[07-financials/D-Liability/loans-n-credit]]
-- [[07-financials/E-Expenses/expenses]]
-- [[07-financials/F-Entity-Docs/entity-docs]]
-- [[07-financials/I-Insurance/insurance]]
-- [[07-financials/O-Others/other-deductions]]
-- [[07-financials/R-Reports/reports]]
-- [[07-financials/T-Taxes/taxes]]
-- [[08-marketing/A-Brand-Assets/logos-and-assets]]
-- [[08-marketing/B-Sales-Materials/sales-materials]]
-- [[08-marketing/D-Decks/brochures-and-decks]]
-- [[08-marketing/E-Testimonials/testimonials]]
-- [[08-marketing/F-Websites/website-and-socials]]
-- [[08-marketing/marketing-overview]]
-- [[09-operations/A-Sops/sample-sop]]
-- [[09-operations/A-Sops/standard-ops]]
-- [[09-operations/C-Vendors/vendors-list]]
-- [[09-operations/operations-overview]]
-- [[10-technology/A-Architecture/cfo-os-technical-architecture]]
-- [[10-technology/B-Development/integrations]]
-- [[10-technology/B-Development/web-deployment-readme]]
-- [[10-technology/C-Chatbot/chatbot-readme]]
-- [[10-technology/D-Docs/client-installation-guide]]
-- [[10-technology/D-Docs/deployment-checklist]]
-- [[10-technology/D-Docs/licenses-and-keys]]
-- [[10-technology/E-Tech-Stack/technology]]
-- [[10-technology/E-Tech-Stack/tools-stack]]
-- [[11-legal-compliance/legal-compliance]]
-- [[12-human-resources/hr-overview]]
-- [[12-human-resources/policies-and-handbooks]]
-- [[12-human-resources/team-directory]]
-- [[13-engagements/engagements]]
-- [[99-archives/archives-overview]]
+**Q: Can we cancel anytime?**
+A: No. 12-month commitment ensures stability and results.
 
-<!-- RELATED:END -->
+# 📊 CFO – Chief Financial Officer
 
+**Objective:** Ensure financial clarity, sustainability, and profitability while supporting strategic business decisions.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 ## Key Services & Responsibilities
 
@@ -115,6 +46,18 @@ tags: [hr, payroll, compensation, operations, sop]
 - **Reporting & Dashboards**  
   Deliver easy-to-understand visuals and reports for decision-making.
 
+---
+
+## Values Delivered
+
+✅ Business stability  
+✅ Tax readiness  
+✅ Budget clarity  
+✅ Peace of mind for major purchases  
+✅ Growth forecasting
+
+---
+
 ## Roadmap
 
 | Phase         | Deliverables                           | Timeline       |
@@ -123,6 +66,13 @@ tags: [hr, payroll, compensation, operations, sop]
 | Phase 2       | Tax docs + structure review             | Week 3         |
 | Phase 3       | Dashboard + forecast                    | Week 4         |
 | Monthly       | Ongoing books, payroll, updates         | Ongoing        |
+
+---
+# ⚙️ COO – Chief Operating Officer
+
+**Objective:** Build operational excellence through systems, structure, and strategy.
+
+---
 
 ## Key Services & Responsibilities
 
@@ -141,6 +91,17 @@ tags: [hr, payroll, compensation, operations, sop]
 - **Risk Management & Compliance**  
   Reduce liability, prevent burnout, stay prepared.
 
+---
+
+## Values Delivered
+
+✅ Time savings  
+✅ Team clarity  
+✅ Reduced chaos  
+✅ Scalable growth
+
+---
+
 ## Roadmap
 
 | Phase         | Deliverables                             | Timeline     |
@@ -149,6 +110,14 @@ tags: [hr, payroll, compensation, operations, sop]
 | Phase 2       | Build SOPs + automation plan             | Week 2–3     |
 | Phase 3       | Metrics + dashboards                     | Week 4       |
 | Monthly       | Check-ins, updates, and improvements     | Ongoing      |
+
+---
+
+# 📣 CMO – Chief Marketing Officer
+
+**Objective:** Build presence, increase trust, and drive qualified leads.
+
+---
 
 ## Key Services & Responsibilities
 
@@ -167,6 +136,17 @@ tags: [hr, payroll, compensation, operations, sop]
 - **AI Marketing Integration**  
   Use automation to engage, retarget, and follow up.
 
+---
+
+## Values Delivered
+
+✅ Audience awareness  
+✅ Consistent messaging  
+✅ Improved lead gen  
+✅ Increased ROI on marketing spend
+
+---
+
 ## Roadmap
 
 | Phase         | Deliverables                           | Timeline     |
@@ -175,6 +155,14 @@ tags: [hr, payroll, compensation, operations, sop]
 | Phase 2       | Content plan + sample campaigns        | Week 2–3     |
 | Phase 3       | Social automation + analytics          | Week 4       |
 | Monthly       | Monitoring, adjustments, reports       | Ongoing      |
+
+---
+
+# 💻 CIO/CTO – Technology Officer
+
+**Objective:** Ensure the tech stack supports business goals with speed, security, and simplicity.
+
+---
 
 ## Key Services & Responsibilities
 
@@ -193,6 +181,17 @@ tags: [hr, payroll, compensation, operations, sop]
 - **Digital Transformation Planning**  
   Map out long-term modernization and AI-readiness.
 
+---
+
+## Values Delivered
+
+✅ Tech confidence  
+✅ Secure data  
+✅ Less manual entry  
+✅ Faster decision-making
+
+---
+
 ## Roadmap
 
 | Phase         | Deliverables                          | Timeline     |
@@ -201,6 +200,14 @@ tags: [hr, payroll, compensation, operations, sop]
 | Phase 2       | Setup tools, migrate data             | Week 2–3     |
 | Phase 3       | Automate + secure backups             | Week 4       |
 | Monthly       | Updates, monitoring, training         | Ongoing      |
+
+---
+
+# ✨ CXO – Client Experience / Innovation Lead
+
+**Objective:** Create experiences that wow customers and fuel referrals.
+
+---
 
 ## Key Services & Responsibilities
 
@@ -216,6 +223,17 @@ tags: [hr, payroll, compensation, operations, sop]
 - **Product/Service Innovation**  
   Discover what’s next—and how to make it real.
 
+---
+
+## Values Delivered
+
+✅ Client retention  
+✅ Brand loyalty  
+✅ Higher referrals  
+✅ Continuous improvement
+
+---
+
 ## Roadmap
 
 | Phase         | Deliverables                             | Timeline     |
@@ -224,6 +242,16 @@ tags: [hr, payroll, compensation, operations, sop]
 | Phase 2       | Experience blueprint                     | Week 2–3     |
 | Phase 3       | CX automation + referral system          | Week 4       |
 | Monthly       | Monitor, adjust, innovate                | Ongoing      |
+
+
+---
+
+
+# 👥 CHRO – Chief Human Resources Officer
+
+**Objective:** Support the people who support the business.
+
+---
 
 ## Key Services & Responsibilities
 
@@ -242,6 +270,17 @@ tags: [hr, payroll, compensation, operations, sop]
 - **Workplace Safety & Compliance**  
   Ensure protocols, insurance, and peace of mind.
 
+---
+
+## Values Delivered
+
+✅ Culture clarity  
+✅ Legal protection  
+✅ Team accountability  
+✅ Fair hiring practices
+
+---
+
 ## Roadmap
 
 | Phase         | Deliverables                             | Timeline     |
@@ -251,4 +290,9 @@ tags: [hr, payroll, compensation, operations, sop]
 | Phase 3       | Training materials + review               | Week 4       |
 | Monthly       | Check-ins + team support                  | Ongoing      |
 
+---
+
+
+
+---
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

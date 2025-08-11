@@ -1,26 +1,18 @@
 ---
 title: Active
-date: 2025-08-10
-tags: [engagements, 0801-active]
+tags:
+- 0801-active
+- engagements
 ---
 # Active
-
-<!-- AUTO-TOC:START -->
-
-## Contents
-- [[13-engagements/0801-active]]
-
-<!-- AUTO-TOC:END -->
-
 
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
-- [[.]]
-
 **Similar by tag**
-- [[13-engagements/0802-completed]]
 - [[13-engagements/0803-proposed/readme]]
+- [[13-engagements/engagements]]
 
 <!-- RELATED:END -->
+
+

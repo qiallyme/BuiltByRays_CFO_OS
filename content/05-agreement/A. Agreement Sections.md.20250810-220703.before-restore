@@ -1,0 +1,114 @@
+---
+title: A. Agreement Sections
+description: Canonical clauses and options for the BuiltByRays™ Master Service Agreement. Use these when assembling client contracts and SOWs.
+tags: [agreement, legal, compliance, scope, onboarding]
+enableToc: true
+aliases: ["Agreement Sections", "MSA Sections", "Contract Clauses"]
+publish: true
+updated: 2025-08-10
+---
+
+# A. Agreement Sections
+
+This page is the source of truth for MSA clauses. Copy sections into client-specific agreements and SOWs as needed. Keep numbering/prefixes (A., B., C., …) to preserve order.
+
+## Contents
+- [[05-agreement/A. Agreement Sections#A- Parties & Effective Date|A. Parties & Effective Date]]
+- [[05-agreement/A. Agreement Sections#B- Scope of Services|B. Scope of Services]]
+- [[05-agreement/A. Agreement Sections#C- Term & Renewal|C. Term & Renewal]]
+- [[05-agreement/A. Agreement Sections#D- Fees, Invoicing, Taxes|D. Fees, Invoicing, Taxes]]
+- [[05-agreement/A. Agreement Sections#E- Expenses|E. Expenses]]
+- [[05-agreement/A. Agreement Sections#F- Changes (Change Orders)|F. Changes (Change Orders)]]
+- [[05-agreement/A. Agreement Sections#G- Client Obligations|G. Client Obligations]]
+- [[05-agreement/A. Agreement Sections#H- Confidentiality & Non-Disclosure|H. Confidentiality & Non-Disclosure]]
+- [[05-agreement/A. Agreement Sections#I- IP & Work Product|I. IP & Work Product]]
+- [[05-agreement/A. Agreement Sections#J- Data Protection & Security|J. Data Protection & Security]]
+- [[05-agreement/A. Agreement Sections#K- Warranties & Disclaimers|K. Warranties & Disclaimers]]
+- [[05-agreement/A. Agreement Sections#L- Limitation of Liability|L. Limitation of Liability]]
+- [[05-agreement/A. Agreement Sections#M- Indemnification|M. Indemnification]]
+- [[05-agreement/A. Agreement Sections#N- Non-Solicitation|N. Non-Solicitation]]
+- [[05-agreement/A. Agreement Sections#O- Subcontracting & Personnel|O. Subcontracting & Personnel]]
+- [[05-agreement/A. Agreement Sections#P- Termination & Suspension|P. Termination & Suspension]]
+- [[05-agreement/A. Agreement Sections#Q- Effects of Termination|Q. Effects of Termination]]
+- [[05-agreement/A. Agreement Sections#R- Publicity|R. Publicity]]
+- [[05-agreement/A. Agreement Sections#S- Governing Law, Venue, Dispute Resolution|S. Governing Law, Venue, Dispute Resolution]]
+- [[05-agreement/A. Agreement Sections#T- Notices|T. Notices]]
+- [[05-agreement/A. Agreement Sections#U- Force Majeure|U. Force Majeure]]
+- [[05-agreement/A. Agreement Sections#V- Assignment|V. Assignment]]
+- [[05-agreement/A. Agreement Sections#W- Entire Agreement; Order of Precedence; Amendments; Counterparts & eSignatures|W. Entire Agreement; Order of Precedence; Amendments; Counterparts & eSignatures]]
+
+---
+
+## A. Parties & Effective Date
+This Master Service Agreement (“**Agreement**”) is between **{{CLIENT LEGAL NAME}}** (“**Client**”) and **BuiltByRays LLC** (“**Provider**”), effective **{{EFFECTIVE DATE}}** (the “**Effective Date**”). Each a “**Party**” and together the “**Parties**”.
+
+> [!note] Variables
+> Replace `{{…}}` placeholders when generating a client-specific contract.
+
+## B. Scope of Services
+Provider will deliver fractional C-Suite services under the BuiltByRays™ operating model, as described in one or more Statements of Work (“**SOWs**”). Each SOW will define deliverables, acceptance criteria, timelines, and fees. In case of conflict, the Order of Precedence controls (see Section W).
+
+## C. Term & Renewal
+This Agreement begins on the Effective Date and continues for **{{INITIAL TERM}}** unless terminated earlier under Section P. Thereafter, it renews for successive **{{RENEWAL TERM}}** periods unless either Party gives **{{NONRENEWAL NOTICE}}** prior written notice.
+
+## D. Fees, Invoicing, Taxes
+Client will pay the fees stated in the applicable SOW. Unless otherwise stated, invoices are due **net {{NET DAYS}}** from invoice date and exclude taxes. Late amounts may accrue interest at **{{LATE RATE}}** per month (or the maximum allowed by law, if lower).
+
+## E. Expenses
+Reasonable, pre-approved out-of-pocket expenses necessary to perform the Services will be invoiced at cost with supporting documentation.
+
+## F. Changes (Change Orders)
+Material changes to scope, timeline, or resourcing require a written change order signed by both Parties, including any fee or schedule adjustments.
+
+## G. Client Obligations
+Client will (i) provide timely access to systems, data, and personnel; (ii) make decisions and approvals without undue delay; and (iii) ensure all provided materials are accurate and lawful.
+
+## H. Confidentiality & Non-Disclosure
+Each Party will protect the other’s Confidential Information with at least the same care it uses to protect its own, not less than reasonable care, and will use it only to perform under this Agreement. Exclusions and compelled disclosure apply in standard form.
+
+## I. IP & Work Product
+Provider retains all preexisting IP and tools. Subject to full payment, Provider grants Client a perpetual, worldwide, royalty-free license to use Work Product delivered under an SOW for Client’s internal business purposes. Provider may reuse general know-how, templates, and non-Client-specific methods.
+
+## J. Data Protection & Security
+Provider will employ reasonable administrative, technical, and physical safeguards appropriate to the Services. If processing personal data on Client’s behalf, the Parties will execute a Data Processing Addendum (DPA), which forms part of this Agreement.
+
+## K. Warranties & Disclaimers
+Provider warrants it will perform Services in a professional and workmanlike manner by qualified personnel. EXCEPT AS EXPRESSLY STATED, THE SERVICES AND WORK PRODUCT ARE PROVIDED “AS IS”; PROVIDER DISCLAIMS ALL OTHER WARRANTIES, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS, AND NON-INFRINGEMENT.
+
+## L. Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, NEITHER PARTY IS LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES. EACH PARTY’S TOTAL LIABILITY UNDER THIS AGREEMENT WILL NOT EXCEED THE AMOUNT PAID OR PAYABLE BY CLIENT TO PROVIDER UNDER THE APPLICABLE SOW IN THE **{{LOOKBACK MONTHS}}** MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY.
+
+## M. Indemnification
+Each Party will defend and indemnify the other against third-party claims to the extent arising from (i) its gross negligence or willful misconduct; or (ii) Client’s materials or instructions (for Client) / Provider’s Services infringing IP rights (for Provider), subject to prompt notice and control of defense.
+
+## N. Non-Solicitation
+During the Term and for **{{NON_SOLICIT MONTHS}}** thereafter, neither Party will solicit for employment (outside of general public postings) any employee or contractor directly involved in the Services, without the other Party’s written consent.
+
+## O. Subcontracting & Personnel
+Provider may use qualified subcontractors and remains responsible for their performance. Provider is an independent contractor; no employment, partnership, or agency relationship is created.
+
+## P. Termination & Suspension
+Either Party may terminate for material breach not cured within **{{CURE PERIOD}}** days of notice. Either Party may terminate for convenience on **{{CONVENIENCE NOTICE}}** days’ notice if permitted by the SOW. Provider may suspend Services for nonpayment after written notice.
+
+## Q. Effects of Termination
+Upon termination, Client will pay for all Services performed and approved expenses through the effective date. Each Party will return or destroy the other’s Confidential Information, subject to archival copies required by law or policy.
+
+## R. Publicity
+Provider may list Client’s name and logo in a customer list, subject to Client’s brand guidelines. Case studies or press releases require prior written consent.
+
+## S. Governing Law, Venue, Dispute Resolution
+Governing law is **{{GOVERNING LAW STATE}}** without regard to conflicts rules. Exclusive venue is **{{VENUE COUNTY/STATE}}**. The Parties will first attempt good-faith negotiation, then mediation; if unresolved, litigation or agreed arbitration.
+
+## T. Notices
+Legal notices must be in writing and sent to the contacts below or updated addresses by notice:
+- **Client:** {{CLIENT NOTICE CONTACT / ADDRESS / EMAIL}}
+- **Provider:** BuiltByRays LLC, legal@builtbyrays.com
+
+## U. Force Majeure
+Neither Party is liable for delays or failures caused by events beyond reasonable control (e.g., natural disasters, war, labor actions, internet outages), provided it uses commercially reasonable efforts to mitigate.
+
+## V. Assignment
+Neither Party may assign this Agreement without the other’s consent, except to an affiliate or in connection with merger, acquisition, or sale of substantially all assets, with notice.
+
+## W. Entire Agreement; Order of Precedence; Amendments; Counterparts & eSignatures
+This Agreement, together with all SOWs and incorporated addenda (e.g., DPA), constitutes the entire agreement and supersedes prior proposals. Order of precedence: (1) a mutually signed change order, (2) SOW, (3) this Agreement, (4) attachments. Amendments require written agreement. This Agreement may be executed in counterparts and by electronic signature.
