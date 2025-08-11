@@ -1,10 +1,16 @@
 ---
-title: B. Investment
-type: Scope
-status: Active
-order: G
-tags: 
+date: 2025-08-11
+title: index
+---
+---
+title: 💰 Investment Structure
 date: 2025-08-10
+status: Active
+tags:
+- investment
+- roi-payment-projection-example
+type: Scope
+order: G
 ---
 # 💰 Investment Structure
 

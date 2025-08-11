@@ -1,13 +1,19 @@
 ---
+date: 2025-08-11
+title: index
+---
+---
 title: E. What I Expect From You
-date: 2025-08-08
 summary: Summary coming soon.
-tags:
-  - general
+date: 2025-08-08
+last_reviewed: 2025-08-08
 status: active
 owner: Q
-last_reviewed: 2025-08-08
+tags:
+- general
 ---
+# E. What I Expect From You
+
 Partnership means **you’re just as invested in the outcome as I am**. Here’s how you hold up your side:
 
 - **Be Available.**  

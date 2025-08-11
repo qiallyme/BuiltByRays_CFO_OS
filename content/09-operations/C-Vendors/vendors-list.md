@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: vendors list
+---
+---
+title: Vendors List
+date: 2025-08-10
+tags:
+- operations
+- vendors
 ---
 ---
 title: Vendors List

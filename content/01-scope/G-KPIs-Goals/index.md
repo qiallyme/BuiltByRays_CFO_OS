@@ -1,12 +1,20 @@
 ---
+date: 2025-08-11
+title: index
+---
+---
 title: F. KPIs & Goals
-type: kpis
+date: 2025-08-10
 status: active
 owner: Cody Rice-Velasquez
+tags:
+- scope
+- kpis-goals
+type: kpis
 category: performance
-tags: 
-date: 2025-08-10
 ---
+# F. KPIs & Goals
+
 ## Company-Wide Goals  
 These are the big-picture wins we chase together — the stuff that actually moves the needle:  
 

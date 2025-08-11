@@ -1,13 +1,19 @@
 ---
-title: Welcome to Your Client Vault – BuiltByRays™ OS
+date: 2025-08-11
+title: index
+---
+---
+title: 🚀 Welcome to Your Client Vault
+summary: Your C-Suite command center—strategy, execution, and proof of work in one
+  place.
 date: 2025-08-08
-summary: Your C-Suite command center—strategy, execution, and proof of work in one place.
-tags: [welcome, onboarding]
+last_reviewed: 2025-08-08
 status: active
 owner: Q
-last_reviewed: 2025-08-08
+tags:
+- welcome
+- onboarding
 ---
-
 # 🚀 Welcome to Your Client Vault
 
 This is your private **BuiltByRays™ Client Vault**—your *one source of truth* for proposals, scope, SOPs, reports, deliverables, and updates. Think of it as your **C-Suite Command Center**: clear, current, and built to move.

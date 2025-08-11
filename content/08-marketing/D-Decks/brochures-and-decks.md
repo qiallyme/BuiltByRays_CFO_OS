@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: brochures and decks
+---
+---
+title: Brochures And Decks
+date: 2025-08-10
+tags:
+- marketing
+- decks
 ---
 ---
 title: Brochures And Decks

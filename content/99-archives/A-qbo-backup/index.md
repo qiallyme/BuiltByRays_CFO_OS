@@ -1,4 +1,8 @@
 ---
+date: 2025-08-11
+title: index
+---
+---
 title: Qbo backup
 tags:
 - archives

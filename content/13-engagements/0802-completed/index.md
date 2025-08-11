@@ -1,4 +1,8 @@
 ---
+date: 2025-08-11
+title: index
+---
+---
 title: Completed
 tags:
 - 0802-completed

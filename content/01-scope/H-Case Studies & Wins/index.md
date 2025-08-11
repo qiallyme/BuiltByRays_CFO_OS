@@ -1,4 +1,8 @@
 ---
+date: 2025-08-11
+title: index
+---
+---
 title: Case Studies & Wins
 tags:
 - case-studies-and-wins

@@ -1,16 +1,18 @@
 ---
-title: C. FAQs
-date: 2025-08-08
+date: 2025-08-11
+title: index
+---
+---
+title: Frequently Asked Questions
 summary: Summary coming soon.
-tags:
-  - general
-  - FAQs
+date: 2025-08-08
+last_reviewed: 2025-08-08
 status: active
 owner: Q
-last_reviewed: 2025-08-08
+tags:
+- general
+- faqs
 ---
-
-
 ---
 # Frequently Asked Questions
 

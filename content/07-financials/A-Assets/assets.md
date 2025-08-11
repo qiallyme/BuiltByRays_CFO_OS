@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: assets
+---
+---
+title: Assets
+date: 2025-08-10
+tags:
+- financials
+- assets
 ---
 ---
 title: Assets

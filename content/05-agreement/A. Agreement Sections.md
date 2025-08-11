@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: A. Agreement Sections
+---
+---
+title: Redline Agreement
+date: 2025-08-10
+tags:
+- agreement
+- agreement-sections-md
 ---
 ---
 title: A. Agreement

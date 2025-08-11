@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: sales materials
+---
+---
+title: Sales Materials
+date: 2025-08-10
+tags:
+- marketing
+- sales-materials
 ---
 ---
 title: Sales Materials

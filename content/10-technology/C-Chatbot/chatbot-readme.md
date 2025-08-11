@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: chatbot readme
+---
+---
+title: Chatbot Readme
+date: 2025-08-10
+tags:
+- technology
+- chatbot
 ---
 ---
 title: Chatbot Readme

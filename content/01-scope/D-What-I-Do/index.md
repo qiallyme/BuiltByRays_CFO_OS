@@ -1,17 +1,24 @@
 ---
+date: 2025-08-11
+title: index
+---
+---
 title: C. What I Do
+description: Detailed breakdown of services, value proposition, and approach.
+date: 2025-08-10
+status: Active
+owner: Cody Rice Velasquez
+tags:
+- scope
+- what-i-do
 type: Service Details
 category: Scope
-status: Active
-tags: 
 last_updated: 2025-08-08
-version: "1.0"
-owner: Cody Rice Velasquez
+version: '1.0'
 audience: Clients
-description: Detailed breakdown of services, value proposition, and approach.
-related_files: 
-date: 2025-08-10
 ---
+# C. What I Do
+
 ## **1 – What I Do**
 I’m your **fractional C-Suite powerhouse** — CFO, COO, CIO, and fixer rolled into one.  
 My job? To get your business running smoother, making more money, and feeling less like a dumpster fire.

@@ -1,11 +1,16 @@
 ---
+date: 2025-08-11
+title: index
+---
+---
 title: Policies And Handbooks
-date: 2025-08-08
 summary: Summary coming soon.
-tags: [general]
+date: 2025-08-08
+last_reviewed: 2025-08-08
 status: active
 owner: Q
-last_reviewed: 2025-08-08
+tags:
+- general
 ---
 # Policies And Handbooks
 

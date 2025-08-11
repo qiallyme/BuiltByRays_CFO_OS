@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: loans n credit
+---
+---
+title: Loans N Credit
+date: 2025-08-10
+tags:
+- financials
+- liability
 ---
 ---
 title: Loans N Credit

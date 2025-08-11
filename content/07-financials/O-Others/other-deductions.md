@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: other deductions
+---
+---
+title: Other Deductions
+date: 2025-08-10
+tags:
+- financials
+- others
 ---
 ---
 title: Other Deductions

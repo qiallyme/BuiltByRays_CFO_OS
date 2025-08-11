@@ -1,13 +1,17 @@
 ---
-title: A. What is QiSuite™?
-date: 2025-08-08
+date: 2025-08-11
+title: index
+---
+---
+title: What is QiSuite™?
 summary: The BuiltByRays™ executive operating model—clarity, speed, and scalable systems.
-tags:
-  - qisuite
-  - method
+date: 2025-08-08
+last_reviewed: 2025-08-08
 status: active
 owner: Q
-last_reviewed: 2025-08-08
+tags:
+- qisuite
+- method
 ---
 ![[qisuitelogo.png]]
 # What is QiSuite™?

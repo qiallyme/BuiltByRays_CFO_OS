@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: entity docs
+---
+---
+title: Entity Docs
+date: 2025-08-10
+tags:
+- financials
+- entity-docs
 ---
 ---
 title: Entity Docs

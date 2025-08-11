@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: website and socials
+---
+---
+title: Website And Socials
+date: 2025-08-10
+tags:
+- marketing
+- websites
 ---
 ---
 title: Website And Socials

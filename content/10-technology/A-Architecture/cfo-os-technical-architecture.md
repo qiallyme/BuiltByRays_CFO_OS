@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: cfo os technical architecture
+---
+---
+title: Cfo Os Technical Architecture
+date: 2025-08-10
+tags:
+- technology
+- architecture
 ---
 ---
 title: Cfo Os Technical Architecture

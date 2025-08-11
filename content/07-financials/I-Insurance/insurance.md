@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: insurance
+---
+---
+title: Insurance
+date: 2025-08-10
+tags:
+- financials
+- insurance
 ---
 ---
 title: Insurance

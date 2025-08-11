@@ -1,13 +1,21 @@
 ---
-title: A. Investment & Payment Terms
-type: scope
-status: active
-priority: high
-tags: 
-created: 2025-08-08
-updated: 2025-08-08
-date: 2025-08-10
+date: 2025-08-11
+title: index
 ---
+---
+title: A. Investment & Payment Terms
+date: 2025-08-10
+created: 2025-08-08
+status: active
+tags:
+- investment
+- investment-payment-terms
+type: scope
+priority: high
+updated: 2025-08-08
+---
+# A. Investment & Payment Terms
+
 If you grow, I grow — and I’m not just talking spiritually.  
 This is a **retainer + percentage model** that keeps us both motivated to hit the next level.
 

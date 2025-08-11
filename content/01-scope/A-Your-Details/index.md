@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: index
+---
+---
+title: Client Profile
+date: 2025-08-10
+tags:
+- scope
+- your-details
 ---
 ---
 title: A. Client Profile

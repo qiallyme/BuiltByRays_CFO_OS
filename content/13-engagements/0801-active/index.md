@@ -1,4 +1,8 @@
 ---
+date: 2025-08-11
+title: index
+---
+---
 title: Active
 tags:
 - 0801-active

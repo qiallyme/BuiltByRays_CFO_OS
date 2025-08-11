@@ -1,17 +1,24 @@
 ---
+date: 2025-08-11
+title: index
+---
+---
 title: B. Scope of Services
+description: Full outline of service scope, boundaries, and expectations for engagements.
+date: 2025-08-10
+status: Active
+owner: Cody Rice Velasquez
+tags:
+- scope
+- scope-of-services
 type: Service Guide
 category: Scope
-status: Active
-tags: 
 last_updated: 2025-08-08
-version: "1.0"
-owner: Cody Rice Velasquez
+version: '1.0'
 audience: Clients
-description: Full outline of service scope, boundaries, and expectations for engagements.
-related_files: 
-date: 2025-08-10
 ---
+# B. Scope of Services
+
 ## Overview
 QiSuite™ is your Fractional C‑Suite — a high‑impact, multi‑discipline partner embedded in your business to strengthen leadership, streamline operations, and drive growth.
 

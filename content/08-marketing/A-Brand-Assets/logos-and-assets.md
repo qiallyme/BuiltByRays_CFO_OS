@@ -1,6 +1,13 @@
 ---
-date: 2025-08-10
+date: 2025-08-11
 title: logos and assets
+---
+---
+title: Logos And Assets
+date: 2025-08-10
+tags:
+- marketing
+- brand-assets
 ---
 ---
 title: Logos And Assets
