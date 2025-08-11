@@ -1,7 +1,9 @@
 ---
 title: A. Your Details
-date: 2025-08-10
-tags: [analytics, kpi, performance, innovation, ai]
+description: Quick intake so we can configure QiSuite™ for your business.
+enableToc: true
+tags: [onboarding, intake, client, scope]
+draft: false
 ---
 # A. Your Details
 
@@ -12,55 +14,90 @@ tags: [analytics, kpi, performance, innovation, ai]
 
 <!-- AUTO-TOC:END -->
 
-
 <!-- RELATED:START -->
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[01-scope/C-Scope-of-Services]]
+- [[02-investment/A-Investment-Payment-Terms]]
+- [[03-roadmap-strategies-faqs/A-Roadmap]]
+- [[05-agreement/A. Agreement Sections]]
 - [[.]]
 
-**Similar by tag**
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[99-archives/A-qbo-backup]]
-
 <!-- RELATED:END -->
+## Company
+- **Legal name:**  Ray’s Construction LLC 
+- **DBA (if any):**  BuiltByRays™ 
+- **Website:**  https://builtbyrays.com
+- **HQ address:**  Indianapolis, IN
+- **Mailing address:** 3137 Melbourne S Dr., Indianapolis, IN 
+- **Engagement Stage:** Onboarding
 
+---
+## Contacts
+- **Owner / Primary:** Blanca Roman Valverde • Owner • b.roman42@yahoo.com • Phone _Missing_ 
+- **Finance Lead:** Cody Rice-Velasqauez • Info@qially.me • 317.205.4383  
+- **Ops Lead:** Ramon Valverde • Email _Missing_ • Phone  _Missing_
+- **IT Lead (if any):** Cody Rice-Velasqauez • Info@qially.me • 317.205.4383  
 
+---
+## Entity & Tax
+- **Entity type:** LLC 
+- **EIN:** 83-4721461  
+- **State of formation:** _missing_ 
+- **Registered agent:**  _missing_
 
+---
+ 
+- **Shared Drive:** https://drive.google.com/drive/folders/18MbmiLwsBKHY5K4G8M4E9juVzv-dVb-x?usp=drive_link  
+- **Project Dashboard:** This Portal
 
+---
+## Banking
+- **Primary bank:**  BOA - Bank of America
+- **Payroll provider:**  QBO - Quickbooks Online
+- **Merchant processor(s):**  QBO - Payment Services
 
+---
+## Systems Access
+List emails or SSO groups we should join. Create a user **q@builtbyrays.com** where needed.
+- **Accounting:** QuickBooks 
+- **File storage:** Google Drive 
+- **PM/Docs:** Notion 
+- **CRM:**  Zoho Bigin
+- **Support/Comms:** Email
 
+---
+## Proposed Mission Statement (Draft)
+> **We build with precision and integrity—delivering on time, on budget, and above standard—so our clients can trust that every project is done right the first time.**
 
+---
+## Proposed Vision Statement (Draft)
+> **Become the most trusted regional builder for quality-first, tech-enabled construction—where transparency, safety, and craftsmanship set the market standard.**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Company Details
-- **Legal Name:** Ray’s Construction LLC  
-- **EIN:** _Pending entry_  
-- **Active Agreement:** _Pending upload_  
-- **Shared Drive:** _Pending link_  
-- **Project Dashboard:** _Pending link_
-
+---
 ## Quick Links
 - **Scope of Work:** [10-what-i-do 1](10-what-i-do%201.md)  
 - **What I Don’t Do:** [/21-what-i-dont-do](/21-what-i-dont-do)  
 - **What to Expect:** [/30-what-to-expect](/30-what-to-expect)  
 - **Client Responsibilities:** [/31-client-responsibilities](/31-client-responsibilities)
+
+---
+## Next Steps
+1. Confirm EIN and upload agreement PDF.  
+2. Add links for shared drive & dashboard.  
+3. Approve or edit Mission + Vision drafts.
+4. Review Approved Site -- www.builtbyrays.com
+5. Review Google Profile
+6. Review CRM and Schedule Training
+
+---
+## Attachments
+Drag/drop or link to: formation docs, W-9, voided check (if ACH), current org chart.
+
+---
+**Next:** [[B-QiSuiteTM-Overview]]
 
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)
