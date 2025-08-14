@@ -70,6 +70,11 @@ Run-Step "[4/6] Validating markdown/frontmatter..." {
   Py @(".\kb_validate.py","--base",$CONTENT)
 }
 
+# --- 4.5: Optimize large PDFs ---
+Run-Step "[4.5/6] Optimizing large PDFs..." {
+  Py @(".\kb_pdf_optimize.py","--base","public","--apply")
+}
+
 # --- 5: Ensure node deps ---
 Run-Step "[5/6] Checking node_modules..." {
   if (-not (Test-Path (Join-Path $BASE "node_modules"))) {

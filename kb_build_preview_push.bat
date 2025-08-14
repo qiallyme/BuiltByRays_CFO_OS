@@ -56,6 +56,10 @@ if errorlevel 1 (
 )
 
 echo.
+echo [2.5/5] Optimizing large PDFs...
+"%PY%" "%BASE_DIR%kb_pdf_optimize.py" --base "public" --apply
+
+echo.
 echo [3/5] Installing deps if needed...
 if exist "%BASE_DIR%node_modules" (
   echo node_modules present - skipping install

@@ -11,17 +11,28 @@
             "id": "45794486cb9ec0d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "00-your-details/A-Client-info.md",
-                "mode": "source",
-                "source": false
+                "file": "07-financials/B-Banks/check-images/rays-construciton-check-stubs-2023-202507.pdf"
               },
-              "icon": "lucide-file",
-              "title": "A-Client-info"
+              "icon": "lucide-file-text",
+              "title": "rays-construciton-check-stubs-2023-202507"
+            }
+          },
+          {
+            "id": "2df83019c08cdf06",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "07-financials/B-Banks/check-images/rays-construciton-check-stubs-2023-202507.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "rays-construciton-check-stubs-2023-202507"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f757b5e4eb906cf9",
+  "active": "2df83019c08cdf06",
   "lastOpenFiles": [
     "99-archives/archives-overview/index.md",
     "99-archives/archives-overview",
