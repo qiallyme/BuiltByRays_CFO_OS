@@ -268,9 +268,9 @@
       firstMonthAccommodation: true,
 
       // NEW: wire your destinations here
-      feedbackFormUrl: "https://forms.zohopublic.com/QiAlly/form/ProductFeedback/formperma/bElAvlqlmtPU33RZ9ECQ9jRgdYPwFHSsVaIecAsvhAo?first=Blanca&last=Roman%20Valverde&email=b.roman42%40yahoo.com&company=Rays%20Construction%20LLC&role=Rays%20Construction%20LLC",   // e.g., Zoho Form / Tally / Google Form
-      signatureUrl: "https://qiallyme.github.io/support-cody/index.html",     // e.g., Zoho Sign / Dropbox Sign
-      paymentLinkUrl: "https://qiallyme.github.io/support-cody/index.html",    // Stripe Payment Link for $500 deposit
+      feedbackFormUrl: "https://your-form.example.com/feedback",   // e.g., Zoho Form / Tally / Google Form
+      signatureUrl: "https://your-esign.example.com/proposal",     // e.g., Zoho Sign / Dropbox Sign
+      paymentLinkUrl: "https://buy.stripe.com/test_1234567890",    // Stripe Payment Link for $500 deposit
     });
 
     const infRate = React.useMemo(()=> config.inflationMode==="CPI+2" ? config.cpiRate+0.02 : 0.05, [config]);
