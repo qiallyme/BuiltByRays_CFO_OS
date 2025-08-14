@@ -3,6 +3,11 @@ date: 2025-08-14
 title: index
 ---
 ---
+date: 2025-08-14
+title: Completed
+tags: [engagements, 0802-completed]
+---
+---
 title: Completed
 date: 2025-08-10
 tags: [engagements, 0802-completed]

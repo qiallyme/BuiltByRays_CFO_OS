@@ -3,6 +3,11 @@ date: 2025-08-14
 title: index
 ---
 ---
+date: 2025-08-14
+title: C. Scope of Services
+tags: [hr, payroll, contractors, operations, procedures]
+---
+---
 title: C. Scope of Services
 description: What’s in scope for your engagement.
 enableToc: True
@@ -62,6 +67,9 @@ date: 2025-08-11
 - [[13-engagements/engagements]]
 - [[99-archives/archives-overview]]
 - [[.]]
+
+**Similar by tag**
+- [[01-scope/B-QiSuiteTM-Overview]]
 
 <!-- RELATED:END -->
 

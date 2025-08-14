@@ -3,6 +3,11 @@ date: 2025-08-14
 title: index
 ---
 ---
+date: 2025-08-14
+title: A. Qbo backup
+tags: [analytics, performance, technology, backup, archives]
+---
+---
 title: A. Qbo backup
 date: 2025-08-10
 tags: [analytics, kpi, performance, technology, it]
@@ -20,6 +25,10 @@ tags: [analytics, kpi, performance, technology, it]
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
+- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
 - [[10-technology/A-Architecture/cfo-os-technical-architecture]]
 - [[10-technology/B-Development/integrations]]
 - [[10-technology/B-Development/web-deployment-readme]]
@@ -34,8 +43,6 @@ tags: [analytics, kpi, performance, technology, it]
 - [[.]]
 
 **Similar by tag**
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
+- [[02-investment/C-Payment-Schedule/Backend-Design]]
 
 <!-- RELATED:END -->

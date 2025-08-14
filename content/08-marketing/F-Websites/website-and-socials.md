@@ -3,6 +3,11 @@ date: 2025-08-14
 title: website and socials
 ---
 ---
+date: 2025-08-14
+title: Website And Socials
+tags: [marketing, outreach, hr, payroll, contractors]
+---
+---
 title: Website And Socials
 date: 2025-08-10
 tags: [marketing, campaigns, outreach, hr, payroll]
@@ -13,10 +18,16 @@ tags: [marketing, campaigns, outreach, hr, payroll]
 
 ## Related
 **Backlinks**
+- [[01-scope/A-Your-Details]]
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
+- [[02-investment/A-Investment-Payment-Terms]]
+- [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
 - [[03-roadmap-strategies-faqs/B-Strategies]]
 - [[03-roadmap-strategies-faqs/C-FAQs]]
@@ -57,8 +68,7 @@ tags: [marketing, campaigns, outreach, hr, payroll]
 - [[99-archives/archives-overview]]
 
 **Similar by tag**
-- [[01-scope/A-Your-Details]]
-- [[01-scope/C-Scope-of-Services]]
+- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
 
 <!-- RELATED:END -->
 
