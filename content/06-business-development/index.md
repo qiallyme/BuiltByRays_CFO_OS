@@ -1,16 +1,7 @@
 ---
 date: 2025-08-14
-title: index
+title: 06-Business Development
 ---
----
-date: 2025-08-14
-title: Business development
-tags: [business-development, index-md]
----
----
-title: Business development
-date: 2025-08-10
-tags: [business-development, index-md]
 ---
 # Business development
 

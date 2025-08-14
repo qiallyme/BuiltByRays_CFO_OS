@@ -23,12 +23,14 @@
             "id": "2df83019c08cdf06",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "07-financials/B-Banks/check-images/rays-construciton-check-stubs-2023-202507.pdf"
+                "file": "05-agreement/A. Agreement Sections.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "rays-construciton-check-stubs-2023-202507"
+              "icon": "lucide-file",
+              "title": "A. Agreement Sections"
             }
           }
         ],
@@ -181,6 +183,8 @@
   },
   "active": "2df83019c08cdf06",
   "lastOpenFiles": [
+    "06-business-development/index.md",
+    "07-financials/B-Banks/check-images/rays-construciton-check-stubs-2023-202507.pdf",
     "99-archives/archives-overview/index.md",
     "99-archives/archives-overview",
     "13-engagements/engagements/index.md",
@@ -200,7 +204,6 @@
     "10-technology/D-Docs/licenses-and-keys/index.md",
     "10-technology/D-Docs/licenses-and-keys",
     "10-technology/D-Docs/deployment-checklist/index.md",
-    "10-technology/D-Docs/deployment-checklist",
     "10-technology/D-Docs/client-installation-guide/index.md",
     "03-roadmap-strategies-faqs/B-Strategies/index.md",
     "03-roadmap-strategies-faqs/A-Roadmap/index.md",
@@ -216,7 +219,6 @@
     "02-investment/B-ROI & Payment Projection (Example).md",
     "02-investment/A-Investment & Payment Terms.md",
     "03-roadmap-strategies-faqs/C-FAQs.md",
-    "03-roadmap-strategies-faqs/B-Strategies.md",
     "08-marketing/A-Brand-Assets/ynkiyinfnixchsp.png",
     "08-marketing/A-Brand-Assets/zsjnburbpgmdv-j.png",
     "08-marketing/A-Brand-Assets/vlmn-yrztbhtekmjz.png",
