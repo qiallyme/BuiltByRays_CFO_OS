@@ -5,38 +5,32 @@ title: B ROI and Payment Projection Example
 ---
 date: 2025-08-14
 title: B. ROI & Payment Projection Example
-tags: [analytics, performance, finance, hr, technology]
----
----
-title: B. ROI & Payment Projection Example
-date: 2025-08-10
-enableToc: True
-tags: [investment, roi, forecast, analytics, performance]
+tags: [analytics, performance, hr, construction, scheduling]
 ---
 # B. ROI & Payment Projection Example
 
 <!-- RELATED:START -->
 
 ## Related
-**Backlinks**
-- [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
-- [[02-investment/A-Investment-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[99-archives/A-qbo-backup]]
-
 **Similar by tag**
 - [[01-scope/A-Your-Details]]
 - [[01-scope/B-QiSuiteTM-Overview]]
 - [[01-scope/C-Scope-of-Services]]
-- [[01-scope/D-What-I-Do]]
-- [[01-scope/E-What-I-DON-T-Do]]
-- [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
-- [[01-scope/H-Case Studies & Wins]]
+- [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
+- [[02-investment/A-Investment-Payment-Terms]]
 - [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
 
 > **Assumptions (edit anytime):**  
 > • Retainer = **$230/week** · Tools = **$125/mo** (≈ $31.25/week)  

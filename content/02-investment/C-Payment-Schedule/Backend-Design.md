@@ -7,23 +7,33 @@ date: 2025-08-14
 title: Backend Design (Cloudflare Pages + D1)
 tags: [analytics, performance, legal, confidentiality, technology]
 ---
----
-title: Backend Design (Cloudflare Pages + D1)
-date: 2025-08-10
-enableToc: True
-tags: [backend, api, d1, cloudflare, quartz]
----
 # Backend Design (Cloudflare Pages + D1)
 
 <!-- RELATED:START -->
 
 ## Related
 **Similar by tag**
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[01-scope/C-Scope-of-Services]]
+- [[01-scope/E-What-I-DON-T-Do]]
+- [[01-scope/F-What-I-Expect-From-You]]
+- [[01-scope/G-KPIs-Goals]]
 - [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
+- [[02-investment/A-Investment-Payment-Terms]]
 - [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
+- [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
 
 ## Data flow
 1. **Source of truth:** Admin form or Google Sheet → synced to **D1.monthly_inputs**.  

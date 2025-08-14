@@ -5,12 +5,7 @@ title: index
 ---
 date: 2025-08-14
 title: A. Qbo backup
-tags: [analytics, performance, technology, backup, archives]
----
----
-title: A. Qbo backup
-date: 2025-08-10
-tags: [analytics, kpi, performance, technology, it]
+tags: [technology, backup, archives, qbo-backup]
 ---
 # A. Qbo backup
 
@@ -21,14 +16,15 @@ tags: [analytics, kpi, performance, technology, it]
 
 <!-- AUTO-TOC:END -->
 
+
 <!-- RELATED:START -->
 
 ## Related
 **Backlinks**
-- [[01-scope/A-Your-Details]]
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
+- [[.]]
+
+**Similar by tag**
+- [[02-investment/C-Payment-Schedule/Backend-Design]]
 - [[10-technology/A-Architecture/cfo-os-technical-architecture]]
 - [[10-technology/B-Development/integrations]]
 - [[10-technology/B-Development/web-deployment-readme]]
@@ -38,11 +34,5 @@ tags: [analytics, kpi, performance, technology, it]
 - [[10-technology/D-Docs/licenses-and-keys]]
 - [[10-technology/E-Tech-Stack/technology]]
 - [[10-technology/E-Tech-Stack/tools-stack]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[99-archives/A-qbo-backup]]
-- [[.]]
-
-**Similar by tag**
-- [[02-investment/C-Payment-Schedule/Backend-Design]]
 
 <!-- RELATED:END -->

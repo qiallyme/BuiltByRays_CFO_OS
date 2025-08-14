@@ -11,24 +11,49 @@ def read(p): return p.read_text(encoding="utf-8", errors="ignore")
 def write(p, t): p.write_text(t, encoding="utf-8")
 
 def split_frontmatter(txt: str):
+    """Extract frontmatter and body, handling multiple frontmatter blocks by keeping only the first."""
     m = FM_TOP_RE.match(txt)
     if not m:
         return {}, txt, 0, 0
+    
     raw = m.group(1)
     try:
         data = yaml.safe_load(raw) or {}
-        if not isinstance(data, dict): data = {}
+        if not isinstance(data, dict): 
+            data = {}
     except Exception:
         data = {}
-    return data, txt[m.end():], m.start(), m.end()
+    
+    # Get the body after the first frontmatter block
+    body_start = m.end()
+    body = txt[body_start:]
+    
+    # Remove any additional frontmatter blocks that might have been duplicated
+    body = re.sub(r'^\s*---\s*\n.*?\n---\s*\n?', '', body, flags=re.S)
+    
+    return data, body, m.start(), body_start
 
 def build_frontmatter(data: dict) -> str:
-    # Render tags/aliases inline; simple scalars otherwise
+    """Build clean frontmatter with proper YAML formatting."""
+    if not data:
+        return "---\n---\n"
+    
     lines = ["---"]
     for k, v in data.items():
         if isinstance(v, list) and k in ("tags", "aliases", "alias"):
-            lines.append(f"{k}: [{', '.join(str(x) for x in v)}]")
-        else:
+            # Format lists properly
+            if v:
+                lines.append(f"{k}: [{', '.join(str(x) for x in v)}]")
+            else:
+                lines.append(f"{k}: []")
+        elif isinstance(v, str) and v:
+            # Escape quotes if needed
+            if '"' in v or '\n' in v:
+                escaped_v = v.replace('"', '\\"')
+                lines.append(f'{k}: "{escaped_v}"')
+            else:
+                lines.append(f"{k}: {v}")
+        elif v is not None:
             lines.append(f"{k}: {v}")
     lines.append("---\n")
     return "\n".join(lines)
@@ -49,6 +74,7 @@ def extract_alpha_prefix(name: str):
     return "", name
 
 def humanize_name(name: str) -> str:
+    """Convert filename to human-readable title while preserving important formatting."""
     # Replace separators with spaces, collapse, light capitalize
     s = name.replace("_", " ").replace("-", " ")
     s = re.sub(r"\s+", " ", s).strip()
@@ -58,6 +84,7 @@ def humanize_name(name: str) -> str:
     return s[0].upper() + s[1:]
 
 def derive_title_with_prefix(path_rel: Path) -> str:
+    """Derive title from path, preserving any alpha prefixes."""
     base_name = path_rel.parent.name if path_rel.name.lower()=="index.md" else path_rel.stem
     prefix, core = extract_alpha_prefix(base_name)
     core_human = humanize_name(core)
@@ -75,9 +102,10 @@ def ensure_h1_equals(body: str, desired: str) -> str:
         if H1_RE.match(line):
             # Replace the very first H1 with the desired one
             lines[i] = f"# {desired}"
-            # Remove an immediate duplicate if present
-            if i+1 < len(lines) and re.match(rf"^\s*#\s+{re.escape(desired)}\s*$", lines[i+1]):
-                lines.pop(i+1)
+            # Remove any immediate duplicates
+            j = i + 1
+            while j < len(lines) and re.match(rf"^\s*#\s+{re.escape(desired)}\s*$", lines[j]):
+                lines.pop(j)
             return "\n".join(lines)
     # No H1 at all → insert at top
     return f"# {desired}\n\n{body.lstrip()}"
@@ -95,6 +123,22 @@ def strip_stray_kv_header(body: str) -> str:
     while i < len(lines) and lines[i].strip() == "":
         i += 1
     return "\n".join(lines[i:]).lstrip("\n")
+
+def deduplicate_frontmatter(fm: dict) -> dict:
+    """Remove duplicate entries and ensure clean frontmatter."""
+    # Remove any None or empty values
+    cleaned = {k: v for k, v in fm.items() if v is not None and v != ""}
+    
+    # Ensure tags are properly formatted
+    if "tags" in cleaned and isinstance(cleaned["tags"], list):
+        # Remove duplicates and empty tags
+        cleaned["tags"] = list(dict.fromkeys([t for t in cleaned["tags"] if t]))
+    
+    # Ensure aliases are properly formatted
+    if "aliases" in cleaned and isinstance(cleaned["aliases"], list):
+        cleaned["aliases"] = list(dict.fromkeys([a for a in cleaned["aliases"] if a]))
+    
+    return cleaned
 
 def main():
     ap = argparse.ArgumentParser()
@@ -135,7 +179,11 @@ def main():
         if desired_title.strip().lower() == "index":
             desired_title = derive_title_with_prefix(p.relative_to(base))
 
+        # Update frontmatter
         fm["title"] = desired_title
+        
+        # Clean up frontmatter to remove duplicates and ensure proper formatting
+        fm = deduplicate_frontmatter(fm)
 
         # Rebuild FM and sync H1 to exactly match the title
         new_fm = build_frontmatter(fm)

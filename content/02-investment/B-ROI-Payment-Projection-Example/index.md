@@ -5,18 +5,49 @@ title: index
 ---
 date: 2025-08-14
 title: B. ROI Payment Projection Example
-tags: [finance, billing, hr, payroll, contractors]
----
----
-title: B. ROI Payment Projection Example
-description: Seasonal retainer with KPI-based revenue share and a quarterly savings bonus, modeled against historical seasonality.
-tags: [investment, roi, projection, finance, billing]
-publish: True
-enableToc: True
-lastmod: 2025-08-10
-date: 2025-08-11
+tags: [finance, billing, analytics, performance, planning]
 ---
 # B. ROI Payment Projection Example
+
+<!-- AUTO-TOC:START -->
+
+## Contents
+- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
+- [[02-investment/B-ROI-Payment-Projection-Example]]
+
+<!-- AUTO-TOC:END -->
+
+
+<!-- RELATED:START -->
+
+## Related
+**Backlinks**
+- [[.]]
+
+**Similar by tag**
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[01-scope/C-Scope-of-Services]]
+- [[01-scope/D-What-I-Do]]
+- [[01-scope/E-What-I-DON-T-Do]]
+- [[01-scope/G-KPIs-Goals]]
+- [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
+- [[02-investment/A-Investment-Payment-Terms]]
+- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
+
+<!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 > **Assumptions (editable):**
 > - Monthly revenue (Apr→Mar): 42,580 · 33,050 · 51,472 · 18,329 · 20,592 · 33,139 · 36,253 · 22,696 · 19,924 · 19,208 · 69,567 · 25,440  
@@ -163,44 +194,3 @@ aliases: ["ROI and Payment Projection Example"]
 - Want us to load your latest plan here and publish the live numbers?  
   Ping us and we’ll sync the spreadsheet → site view for you.
 - Back to terms: [[A-Investment-Payment-Terms]]
-
-<!-- AUTO-TOC:START -->
-
-## Contents
-- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
-- [[02-investment/B-ROI-Payment-Projection-Example]]
-
-<!-- AUTO-TOC:END -->
-
-<!-- RELATED:START -->
-
-## Related
-**Backlinks**
-- [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
-- [[02-investment/A-Investment-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
-- [[02-investment/B-ROI-Payment-Projection-Example]]
-- [[07-financials/A-Assets/assets]]
-- [[07-financials/B-Banks/banking]]
-- [[07-financials/C-Contractors/payroll-contractors]]
-- [[07-financials/D-Liability/loans-n-credit]]
-- [[07-financials/E-Expenses/expenses]]
-- [[07-financials/F-Entity-Docs/entity-docs]]
-- [[07-financials/I-Insurance/insurance]]
-- [[07-financials/O-Others/other-deductions]]
-- [[07-financials/R-Reports/reports]]
-- [[07-financials/T-Taxes/taxes]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[01-scope/C-Scope-of-Services]]
-- [[01-scope/D-What-I-Do]]
-- [[01-scope/E-What-I-DON-T-Do]]
-- [[01-scope/F-What-I-Expect-From-You]]
-- [[01-scope/G-KPIs-Goals]]
-- [[01-scope/H-Case Studies & Wins]]
-
-<!-- RELATED:END -->

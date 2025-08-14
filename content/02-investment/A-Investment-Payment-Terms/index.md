@@ -5,50 +5,9 @@ title: index
 ---
 date: 2025-08-14
 title: A. Investment & Payment Terms
-tags: [finance, billing, hr, payroll, contractors]
----
----
-title: A. Investment & Payment Terms
-description: Pricing options, invoicing cadence, methods, refunds, and pauses.
-enableToc: True
-tags: [investment, payment, terms, billing, finance]
-draft: False
-date: 2025-08-11
+tags: [finance, billing, operations, procedures, analytics]
 ---
 # A. Investment & Payment Terms
-
-<!-- RELATED:START -->
-
-## Related
-**Backlinks**
-- [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
-- [[02-investment/A-Investment-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
-- [[02-investment/B-ROI-Payment-Projection-Example]]
-- [[07-financials/A-Assets/assets]]
-- [[07-financials/B-Banks/banking]]
-- [[07-financials/C-Contractors/payroll-contractors]]
-- [[07-financials/D-Liability/loans-n-credit]]
-- [[07-financials/E-Expenses/expenses]]
-- [[07-financials/F-Entity-Docs/entity-docs]]
-- [[07-financials/I-Insurance/insurance]]
-- [[07-financials/O-Others/other-deductions]]
-- [[07-financials/R-Reports/reports]]
-- [[07-financials/T-Taxes/taxes]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[01-scope/C-Scope-of-Services]]
-- [[01-scope/D-What-I-Do]]
-- [[01-scope/E-What-I-DON-T-Do]]
-- [[01-scope/F-What-I-Expect-From-You]]
-- [[01-scope/G-KPIs-Goals]]
-- [[01-scope/H-Case Studies & Wins]]
-
-<!-- RELATED:END -->
 
 <!-- AUTO-TOC:START -->
 
@@ -57,6 +16,41 @@ date: 2025-08-11
 - [[02-investment/A-Investment-Payment-Terms]]
 
 <!-- AUTO-TOC:END -->
+
+
+<!-- RELATED:START -->
+
+## Related
+**Backlinks**
+- [[.]]
+
+**Similar by tag**
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[01-scope/C-Scope-of-Services]]
+- [[01-scope/D-What-I-Do]]
+- [[01-scope/E-What-I-DON-T-Do]]
+- [[01-scope/G-KPIs-Goals]]
+- [[01-scope/H-Case Studies & Wins]]
+- [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
+
+<!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 These terms pair with scope in [[C-Scope-of-Services]] and deliverables in [[D-What-I-Do]]. Contract language maps to [[A. Agreement Sections]].
 

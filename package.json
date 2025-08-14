@@ -15,7 +15,13 @@
   "scripts": {
     "quartz": "node ./quartz/bootstrap-cli.mjs",
     "quartz:fix": "node scripts/quartz-fix.mjs",
-    "build": "npm run quartz:fix && npx quartz build && node -e \"require('fs').copyFileSync('public/index.html','public/404.html')\""
+    "build": "npm run quartz:fix && npx quartz build && node -e \"require('fs').copyFileSync('public/index.html','public/404.html')\"",
+    "kb:clean": "python kb_cleanup_headers.py --base \"./content\" --apply",
+    "kb:frontmatter": "python kb_fix_frontmatter.py --base \"./content\" --apply",
+    "kb:autotag": "python kb_autotag_backlink.py --base \"./content\" --apply",
+    "kb:toc": "python kb_toc_and_tags.py --base \"./content\" --apply",
+    "kb:rebuild": "npm run kb:clean && npm run kb:frontmatter && npm run kb:autotag && npm run kb:toc && npm run build",
+    "kb:preview": "npm run kb:rebuild && npx serve public -l 8080"
   },  
   "engines": {
     "npm": ">=10.9.2",
