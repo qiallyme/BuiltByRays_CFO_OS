@@ -1,4 +1,8 @@
 ---
+date: 2025-08-14
+title: index
+---
+---
 title: Business development
 date: 2025-08-10
 tags: [business-development, index-md]
@@ -12,11 +16,11 @@ tags: [business-development, index-md]
 
 <!-- AUTO-TOC:END -->
 
-
 <!-- RELATED:START -->
 
 ## Related
 **Backlinks**
+- [[06-business-development]]
 - [[.]]
 
 <!-- RELATED:END -->

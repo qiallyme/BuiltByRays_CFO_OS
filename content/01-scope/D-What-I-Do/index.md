@@ -1,4 +1,13 @@
 ---
+date: 2025-08-14
+title: index
+---
+---
+date: 2025-08-11
+title: D. C. What I Do
+tags: [hr, payroll, contractors, operations, procedures]
+---
+---
 date: 2025-08-10
 title: What I Do
 tags: [-scope, accounts, agreement, ai, analytics, ap, audit, automation, banking, brand, changes, compensation, compliance, confidentiality, construction, contractors, contracts, coverage, digital, engagement, finance, hr, identity, innovation, insurance, irs, it, kpi, learning, leed, legal, marketing, materials, milestones, onboarding, operations, payroll, performance, pitch, planning, presentation, procedures, receipts, reporting, risk, sales, scope, security, services, social, sop, strategy, summary, supply, sustainability, tax, technology, training, vendors, web, what-i-do, workflow]
@@ -25,21 +34,16 @@ description: Detailed breakdown of services, value proposition, and approach.
 related_files: 
 date: 2025-08-10
 ---
-# C. What I Do
+# D. C. What I Do
 
 <!-- RELATED:START -->
 
 ## Related
 **Backlinks**
-- [[01-scope/A-Your-Details]]
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
-- [[02-investment/A-Investment-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
 - [[03-roadmap-strategies-faqs/B-Strategies]]
 - [[03-roadmap-strategies-faqs/C-FAQs]]
@@ -77,14 +81,16 @@ date: 2025-08-10
 - [[12-human-resources/hr-overview]]
 - [[12-human-resources/policies-and-handbooks]]
 - [[12-human-resources/team-directory]]
-- [[13-engagements/0803-proposed/readme]]
 - [[13-engagements/engagements]]
-- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
 - [[99-archives/archives-overview]]
 - [[.]]
 
-<!-- RELATED:END -->
+**Similar by tag**
+- [[01-scope/A-Your-Details]]
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[01-scope/C-Scope-of-Services]]
 
+<!-- RELATED:END -->
 
 ## **1 – What I Do**
 I’m your **fractional C-Suite powerhouse** — CFO, COO, CIO, and fixer rolled into one.  

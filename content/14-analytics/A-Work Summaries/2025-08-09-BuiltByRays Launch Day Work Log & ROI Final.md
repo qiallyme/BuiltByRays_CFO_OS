@@ -1,4 +1,8 @@
 ---
+date: 2025-08-14
+title: BuiltByRays Launch Day Work Log & ROI Final
+---
+---
 title: BuiltByRays — Launch Day Work Log & ROI (Final)
 date: 2025-08-10
 tags: [analytics, insights, metrics, finance, ap]
@@ -8,8 +12,8 @@ tags: [analytics, insights, metrics, finance, ap]
 <!-- RELATED:START -->
 
 ## Related
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
+**Backlinks**
+- [[01-scope/D-What-I-Do]]
 - [[07-financials/A-Assets/assets]]
 - [[07-financials/B-Banks/banking]]
 - [[07-financials/C-Contractors/payroll-contractors]]
@@ -21,22 +25,16 @@ tags: [analytics, insights, metrics, finance, ap]
 - [[07-financials/R-Reports/reports]]
 - [[07-financials/T-Taxes/taxes]]
 - [[99-archives/A-qbo-backup]]
+
+**Similar by tag**
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
+- [[02-investment/A-Investment-Payment-Terms]]
+- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
+- [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[.]]
 
 <!-- RELATED:END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 *Prepared by QiAlly LLC • Date: August 9, 2025*
 

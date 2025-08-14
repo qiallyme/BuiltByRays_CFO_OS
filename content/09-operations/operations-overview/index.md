@@ -1,4 +1,8 @@
 ---
+date: 2025-08-14
+title: index
+---
+---
 title: Operations Overview
 date: 2025-08-10
 tags: [operations, logistics, supply, hr, payroll]
@@ -12,23 +16,14 @@ tags: [operations, logistics, supply, hr, payroll]
 
 <!-- AUTO-TOC:END -->
 
-
 <!-- RELATED:START -->
 
 ## Related
 **Backlinks**
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[01-scope/C-Scope-of-Services]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
-- [[01-scope/H-Case Studies & Wins]]
-- [[02-investment/A-Investment-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
 - [[03-roadmap-strategies-faqs/B-Strategies]]
 - [[03-roadmap-strategies-faqs/C-FAQs]]
@@ -52,6 +47,7 @@ tags: [operations, logistics, supply, hr, payroll]
 - [[09-operations/A-Sops/sample-sop]]
 - [[09-operations/A-Sops/standard-ops]]
 - [[09-operations/C-Vendors/vendors-list]]
+- [[09-operations/operations-overview]]
 - [[10-technology/A-Architecture/cfo-os-technical-architecture]]
 - [[10-technology/B-Development/integrations]]
 - [[10-technology/B-Development/web-deployment-readme]]
@@ -67,36 +63,15 @@ tags: [operations, logistics, supply, hr, payroll]
 - [[12-human-resources/team-directory]]
 - [[13-engagements/engagements]]
 - [[99-archives/archives-overview]]
+- [[.]]
+
+**Similar by tag**
+- [[01-scope/A-Your-Details]]
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[01-scope/C-Scope-of-Services]]
+- [[01-scope/H-Case Studies & Wins]]
 
 <!-- RELATED:END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

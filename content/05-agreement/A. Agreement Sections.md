@@ -1,4 +1,8 @@
 ---
+date: 2025-08-14
+title: A. Agreement Sections
+---
+---
 title: A. Redline Agreement
 date: 2025-08-10
 tags: [hr, payroll, compensation, contractors, vendors]
@@ -9,18 +13,11 @@ tags: [hr, payroll, compensation, contractors, vendors]
 
 ## Related
 **Backlinks**
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/B-QiSuiteTM-Overview]]
-- [[01-scope/C-Scope-of-Services]]
+- [[01-scope/A-Your-Details]]
 - [[01-scope/D-What-I-Do]]
 - [[01-scope/E-What-I-DON-T-Do]]
 - [[01-scope/F-What-I-Expect-From-You]]
 - [[01-scope/G-KPIs-Goals]]
-- [[01-scope/H-Case Studies & Wins]]
-- [[02-investment/A-Investment-Payment-Terms]]
-- [[02-investment/B-ROI-Payment-Projection-Example]]
 - [[03-roadmap-strategies-faqs/A-Roadmap]]
 - [[03-roadmap-strategies-faqs/B-Strategies]]
 - [[03-roadmap-strategies-faqs/C-FAQs]]
@@ -59,24 +56,12 @@ tags: [hr, payroll, compensation, contractors, vendors]
 - [[12-human-resources/team-directory]]
 - [[13-engagements/engagements]]
 - [[99-archives/archives-overview]]
+- [[.]]
+
+**Similar by tag**
+- [[01-scope/C-Scope-of-Services]]
 
 <!-- RELATED:END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 - Client initials: ______
 - Objective KPIs defined above.

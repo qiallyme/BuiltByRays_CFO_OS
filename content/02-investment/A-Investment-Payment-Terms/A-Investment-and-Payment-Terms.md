@@ -1,11 +1,30 @@
 ---
+date: 2025-08-14
+title: A Investment and Payment Terms
+---
+---
 title: A. Investment & Payment Terms
 date: 2025-08-10
-enableToc: true
-tags: [investment, terms, payments]
+enableToc: True
+tags: [investment, terms, payments, analytics, performance]
 ---
-
 # A. Investment & Payment Terms
+
+<!-- RELATED:START -->
+
+## Related
+**Backlinks**
+- [[02-investment/A-Investment-Payment-Terms]]
+
+**Similar by tag**
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
+- [[02-investment/B-ROI-Payment-Projection-Example]]
+- [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
+- [[99-archives/A-qbo-backup]]
+- [[.]]
+
+<!-- RELATED:END -->
 
 **Simple weekly plan with quarterly true-ups.**
 

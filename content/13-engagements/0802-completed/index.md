@@ -1,4 +1,8 @@
 ---
+date: 2025-08-14
+title: index
+---
+---
 title: Completed
 date: 2025-08-10
 tags: [engagements, 0802-completed]
@@ -12,15 +16,13 @@ tags: [engagements, 0802-completed]
 
 <!-- AUTO-TOC:END -->
 
-
 <!-- RELATED:START -->
 
 ## Related
 **Backlinks**
-- [[.]]
-
-**Similar by tag**
 - [[13-engagements/0801-active]]
+- [[13-engagements/0802-completed]]
 - [[13-engagements/0803-proposed/readme]]
+- [[.]]
 
 <!-- RELATED:END -->

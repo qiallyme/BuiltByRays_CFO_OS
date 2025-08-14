@@ -1,4 +1,8 @@
 ---
+date: 2025-08-14
+title: index
+---
+---
 title: A. Qbo backup
 date: 2025-08-10
 tags: [analytics, kpi, performance, technology, it]
@@ -12,15 +16,10 @@ tags: [analytics, kpi, performance, technology, it]
 
 <!-- AUTO-TOC:END -->
 
-
 <!-- RELATED:START -->
 
 ## Related
 **Backlinks**
-- [[.]]
-
-**Similar by tag**
-- [[01-scope/A-Your-Details]]
 - [[10-technology/A-Architecture/cfo-os-technical-architecture]]
 - [[10-technology/B-Development/integrations]]
 - [[10-technology/B-Development/web-deployment-readme]]
@@ -31,5 +30,12 @@ tags: [analytics, kpi, performance, technology, it]
 - [[10-technology/E-Tech-Stack/technology]]
 - [[10-technology/E-Tech-Stack/tools-stack]]
 - [[14-analytics/A-Work Summaries/2025-08-09-BuiltByRays Launch Day Work Log & ROI Final]]
+- [[99-archives/A-qbo-backup]]
+- [[.]]
+
+**Similar by tag**
+- [[01-scope/B-QiSuiteTM-Overview]]
+- [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
+- [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
 
 <!-- RELATED:END -->
