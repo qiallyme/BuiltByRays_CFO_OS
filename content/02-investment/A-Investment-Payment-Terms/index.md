@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: A. Investment & Payment Terms
-tags: [finance, billing, operations, procedures, analytics]
 ---
 # A. Investment & Payment Terms
 
@@ -34,6 +29,24 @@ tags: [finance, billing, operations, procedures, analytics]
 - [[02-investment/A-Investment-Payment-Terms/A-Investment-and-Payment-Terms]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -162,17 +175,12 @@ Material changes to scope/timeline are documented in a short email or doc and ap
 
 > Not sure? We’ll recommend the best fit after a quick scoping call.
 **Next:** [[B-ROI-Payment-Projection-Example]]
-
----
----
 title: A. Investment & Payment Terms
 description: Seasonal retainer + performance-based revenue share with quarterly true-ups, plus a bonus on proven savings.
 tags: [investment, payments, terms]
 publish: true
 enableToc: true
 lastmod: 2025-08-10
----
-
 > **Simple, aligned, and seasonal.** We keep a low, predictable base retainer that flexes with your seasonality, add a small % of revenue tied to KPIs (capped), and pay a bonus only on *tangible, proven* savings.
 
 ### 1) Seasonal Retainer (Base)
@@ -189,9 +197,6 @@ Edit
 
 - Minimum **$750**, maximum **$1,250**.
 - **Weekly option:** **$230** (rounded) if you prefer weekly invoicing instead of monthly.
-
----
-
 ### 2) Performance Revenue Share (capped)
 - **Up to 5%** of **recognized monthly revenue** based on KPI attainment.
 - **Default projection:** 3% (example below), with a KPI ladder:
@@ -209,41 +214,23 @@ Edit
 4) SOP adoption / no critical compliance misses
 
 > We can swap KPIs to match what you track—same ladder structure.
-
----
-
 ### 3) Verified Savings Bonus (10–20%)
 - **Bonus only on *tangible savings*** (labor hours reduced, vendor/tool spend reduced, chargebacks avoided, etc.).  
 - **Rate:** **15%** (midpoint) of proven savings each month, **settled quarterly** in a true-up.
 - Savings are computed from **time-tracking + invoices** vs the pre-engagement baseline.
-
----
-
 ### 4) Tooling Budget
 - **$150/mo** for tools (automation, analytics, phone, enrichment, etc.).  
 - Pass-through at cost; we’ll document each item in the weekly dashboard.
-
----
-
 ### 5) Invoicing & Terms
 - **Invoicing:** Monthly (or weekly if you prefer), Net **7** days.  
 - **Autopay** preferred (ACH or card).  
 - **True-up:** Quarterly audit of revenue attribution & savings to reconcile any deltas (+/–) against the cap/tiers.
-
----
-
 ### 6) Caps, Floors, and Safeguards
 - **Revenue share hard cap:** 5% per month.  
 - **Seasonality clamp:** 0.75× to 1.25× ensures predictability.  
 - **Pause/Exit:** 14-day out; we’ll hand over artifacts and access cleanly.
-
----
-
 ### 7) Scope Linkage
 - This pricing covers the deliverables in **Scope** (dashboards, cadence, automation sprints, SOPs, hi
-
----
----
 title: "A. Investment & Payment Terms"
 date: 2025-08-11
 summary: How your weekly payments are calculated, seasonality adjustments, and quarterly true-ups.
@@ -251,8 +238,6 @@ tags: [investment, payments, terms, pricing, roi]
 publish: true
 enableToc: true
 aliases: ["Investment and Payment Terms"]
----
-
 > [!summary] TL;DR
 > You pay **weekly** based on a monthly plan that includes: **Retainer** (seasonality-adjusted), **Tools**, **Revenue Share**, and a budgeted **Bonus**. Every quarter we **true-up** against actuals and rebalance the remaining weeks so cash flow stays smooth—no surprises.
 

@@ -1,13 +1,8 @@
 ---
-date: 2025-08-14
-title: index
+date: 2025-08-15
+title: C. Faqs
 ---
----
-date: 2025-08-14
-title: C. FAQs
-tags: [hr, payroll, operations, procedures, strategy]
----
-# C. FAQs
+# C. Faqs
 
 <!-- AUTO-TOC:START -->
 
@@ -36,6 +31,24 @@ tags: [hr, payroll, operations, procedures, strategy]
 - [[03-roadmap-strategies-faqs/B-Strategies]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,13 +1,8 @@
 ---
-date: 2025-08-14
-title: index
+date: 2025-08-15
+title: C. Scope Of Services
 ---
----
-date: 2025-08-14
-title: C. Scope of Services
-tags: [hr, payroll, operations, procedures, analytics]
----
-# C. Scope of Services
+# C. Scope Of Services
 
 <!-- AUTO-TOC:START -->
 
@@ -28,6 +23,24 @@ tags: [hr, payroll, operations, procedures, analytics]
 - [[01-scope/B-QiSuiteTM-Overview]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,13 +1,8 @@
 ---
-date: 2025-08-14
-title: index
+date: 2025-08-15
+title: G. Kpis & Goals
 ---
----
-date: 2025-08-14
-title: G. KPIs & Goals
-tags: [analytics, performance, marketing, brand, hr]
----
-# G. KPIs & Goals
+# G. Kpis & Goals
 
 <!-- AUTO-TOC:START -->
 
@@ -29,6 +24,24 @@ tags: [analytics, performance, marketing, brand, hr]
 - [[01-scope/C-Scope-of-Services]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

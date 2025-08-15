@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Sample Sop
-tags: [operations, supply, procedures, sops]
 ---
 # Sample Sop
 
@@ -47,9 +42,25 @@ tags: [operations, supply, procedures, sops]
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Sample SOP
 Task: Monthly Close
 Steps: ...
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

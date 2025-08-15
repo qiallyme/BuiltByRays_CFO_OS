@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Reports
-tags: [finance, reporting, analytics, financials, reports]
 ---
 # Reports
 
@@ -50,17 +45,4 @@ tags: [finance, reporting, analytics, financials, reports]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

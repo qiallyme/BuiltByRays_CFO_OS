@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: chatbot readme
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Chatbot Readme
-tags: [technology, devops, strategy, planning, analytics]
 ---
 # Chatbot Readme
 
@@ -33,6 +28,15 @@ tags: [technology, devops, strategy, planning, analytics]
 - [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
 
 
 

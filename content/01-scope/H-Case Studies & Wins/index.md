@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: H. Case Studies & Wins
-tags: [operations, procedures, scope, case-studies-and-wins]
 ---
 # H. Case Studies & Wins
 
@@ -30,6 +25,24 @@ tags: [operations, procedures, scope, case-studies-and-wins]
 - [[01-scope/F-What-I-Expect-From-You]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

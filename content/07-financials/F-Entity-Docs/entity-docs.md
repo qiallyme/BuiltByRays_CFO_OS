@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: entity docs
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Entity Docs
-tags: [finance, reporting, financials, entity-docs]
 ---
 # Entity Docs
 
@@ -28,12 +23,4 @@ tags: [finance, reporting, financials, entity-docs]
 
 
 
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

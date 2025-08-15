@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Taxes
-tags: [finance, reporting, tax, compliance, financials]
 ---
 # Taxes
 
@@ -46,17 +41,4 @@ tags: [finance, reporting, tax, compliance, financials]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

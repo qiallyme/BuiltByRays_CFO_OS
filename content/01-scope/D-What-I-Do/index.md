@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: D. C. What I Do
-tags: [operations, procedures, tax, compliance, finance]
 ---
 # D. C. What I Do
 
@@ -29,6 +24,24 @@ tags: [operations, procedures, tax, compliance, finance]
 - [[01-scope/C-Scope-of-Services]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

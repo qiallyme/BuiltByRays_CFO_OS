@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: B. ROI Payment Projection Example
-tags: [finance, billing, analytics, performance, planning]
 ---
 # B. ROI Payment Projection Example
 
@@ -35,6 +30,24 @@ tags: [finance, billing, analytics, performance, planning]
 - [[02-investment/B-ROI-Payment-Projection-Example/B-ROI-and-Payment-Projection-Example]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -80,9 +93,6 @@ tags: [finance, billing, analytics, performance, planning]
 - **Fee excl Bonus** = Retainer + Rev Share + Tools (billed monthly).  
 - **Bonus** = 15% of measured savings; we **true-up quarterly** using time-tracking & invoices.  
 - Rev share adjusts monthly by KPI score (1%/3%/5% ladder; **5% cap**).
-
----
-
 ### What the client gets back (quick ROI view)
 
 - **Time savings value (year): ~ $77,291** (10→20 hrs/wk at $85/hr).  
@@ -100,9 +110,6 @@ tags: [finance, billing, analytics, performance, planning]
 >   - Avg Gross Profit / Job: $2,500 – $7,500 (adjust to your book)
 > ```
 > We’ll plug in your actuals and attribute uplift in the quarterly true-up.
-
----
-
 ### Quarterly Audit & True-Up (how it works)
 
 1) **Lock a baseline** (trailing 3 months before engagement) for revenue, hours, chargebacks/waivers, and tool spend.  
@@ -113,15 +120,9 @@ tags: [finance, billing, analytics, performance, planning]
    - Reconcile any provisional vs actuals (+/– credit or charge)
 
 > This keeps incentives aligned and fees right-sized to results.
-
----
-
 ### Notes & Options
 - Want a **fixed weekly** setup? Use **$230/week** retainer + % rev-share + quarterly bonus as above.  
 - If monthly revenue is highly volatile, we can use **quarterly averaging** for the seasonality factor to smooth the retainer.
-
----
----
 title: "B. ROI & Payment Projection (Example)"
 date: 2025-08-11
 summary: A concrete example of monthly totals, weekly smoothing, and quarterly true-ups.
@@ -129,8 +130,6 @@ tags: [investment, payments, roi, pricing, example]
 publish: true
 enableToc: true
 aliases: ["ROI and Payment Projection Example"]
----
-
 > [!note]
 > This page shows **how the math works** and a **readable schedule**. For live numbers, we maintain a spreadsheet with formulas and true-up inputs each quarter.
 

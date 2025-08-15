@@ -1,15 +1,10 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
-title: B. What is QiSuite™?
-tags: [operations, procedures, analytics, performance, finance]
+date: 2025-08-15
+title: B. What Is Qisuite™?
 ---
 ![[qisuitelogo.png]]
 
-# B. What is QiSuite™?
+# B. What Is Qisuite™?
 
 <!-- AUTO-TOC:START -->
 
@@ -26,6 +21,24 @@ tags: [operations, procedures, analytics, performance, finance]
 - [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

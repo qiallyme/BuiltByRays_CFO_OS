@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: A. Agreement Sections
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: A. Redline Agreement
-tags: [analytics, performance, agreement, agreement-sections-md]
 ---
 # A. Redline Agreement
 
@@ -37,10 +32,17 @@ tags: [analytics, performance, agreement, agreement-sections-md]
 
 
 
+
+
+
+
+
+
+
+
+
 - Client initials: ______
 - Objective KPIs defined above.
 - Commitment: 12 months.
 - Dispute resolution: ___
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

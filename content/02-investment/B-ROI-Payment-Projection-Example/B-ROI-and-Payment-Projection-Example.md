@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: B ROI and Payment Projection Example
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: B. ROI & Payment Projection Example
-tags: [analytics, performance, hr, construction, scheduling]
 ---
 # B. ROI & Payment Projection Example
 
@@ -22,6 +17,15 @@ tags: [analytics, performance, hr, construction, scheduling]
 - [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
 
 
 

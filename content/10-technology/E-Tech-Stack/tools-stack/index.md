@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Tools Stack
-tags: [technology, devops, tech-stack]
 ---
 # Tools Stack
 
@@ -50,9 +45,25 @@ tags: [technology, devops, tech-stack]
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - QuickBooks
 - Gusto
 - Google Workspace
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

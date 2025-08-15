@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Licenses And Keys
-tags: [technology, devops, docs]
 ---
 # Licenses And Keys
 
@@ -36,17 +31,4 @@ tags: [technology, devops, docs]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

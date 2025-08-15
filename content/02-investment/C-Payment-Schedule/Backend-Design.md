@@ -1,13 +1,8 @@
 ---
-date: 2025-08-14
-title: Backend Design
+date: 2025-08-15
+title: Backend Design (cloudflare Pages + D1)
 ---
----
-date: 2025-08-14
-title: Backend Design (Cloudflare Pages + D1)
-tags: [analytics, performance, legal, confidentiality, technology]
----
-# Backend Design (Cloudflare Pages + D1)
+# Backend Design (cloudflare Pages + D1)
 
 <!-- RELATED:START -->
 
@@ -25,6 +20,15 @@ tags: [analytics, performance, legal, confidentiality, technology]
 - [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
 
 
 

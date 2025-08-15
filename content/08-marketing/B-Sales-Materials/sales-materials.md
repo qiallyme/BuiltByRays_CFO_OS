@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: sales materials
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Sales Materials
-tags: [marketing, outreach, construction, materials, sales-materials]
 ---
 # Sales Materials
 
@@ -22,12 +17,4 @@ tags: [marketing, outreach, construction, materials, sales-materials]
 
 
 
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: cfo os technical architecture
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Cfo Os Technical Architecture
-tags: [technology, devops, legal, contracts, hr]
 ---
 # Cfo Os Technical Architecture
 
@@ -27,6 +22,15 @@ tags: [technology, devops, legal, contracts, hr]
 - [[09-operations/C-Vendors/vendors-list]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
 
 
 
@@ -183,6 +187,4 @@ const analytics = {
 7. **Week 6**: Iterate based on feedback
 
 This architecture provides a scalable, secure, and intelligent CFO OS that grows with your business while providing exceptional value to clients.
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

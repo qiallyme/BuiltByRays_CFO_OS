@@ -31,6 +31,10 @@ if exist "kb_cleanup_headers.py" (
   echo [1] Skip cleanup (kb_cleanup_headers.py not found)
 )
 
+REM 1.5) Fix frontmatter after cleanup
+echo [1.5] Fix frontmatter (post-cleanup)...
+call "%PY%" "kb_fix_frontmatter.py" --base ".\content" --apply || goto :fail
+
 REM 2) Auto-tagging + backlinks (YAML now limits tags)
 if exist "kb_autotag_backlink.py" (
   echo [2] Auto-tag + backlinks...
@@ -39,6 +43,10 @@ if exist "kb_autotag_backlink.py" (
   echo [2] Skip autotag (kb_autotag_backlink.py not found)
 )
 
+REM 2.5) Fix frontmatter after autotag
+echo [2.5] Fix frontmatter (post-autotag)...
+call "%PY%" "kb_fix_frontmatter.py" --base ".\content" --apply || goto :fail
+
 REM 3) Global index + per-folder TOCs (structure only)
 if exist "kb_toc_and_tags.py" (
   echo [3] TOC + global index...
@@ -46,6 +54,10 @@ if exist "kb_toc_and_tags.py" (
 ) else (
   echo [3] Skip TOC (kb_toc_and_tags.py not found)
 )
+
+REM 3.5) Fix frontmatter after TOC
+echo [3.5] Fix frontmatter (post-TOC)...
+call "%PY%" "kb_fix_frontmatter.py" --base ".\content" --apply || goto :fail
 
 REM 4) FINAL frontmatter/H1 pass (dedupe + keep A./B. prefixes)
 echo [4] Fix frontmatter + H1 (final)...

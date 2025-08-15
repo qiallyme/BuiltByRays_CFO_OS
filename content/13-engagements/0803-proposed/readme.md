@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: readme
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Readme
-tags: [engagements, 0803-proposed]
 ---
 # Readme
 
@@ -27,8 +22,15 @@ tags: [engagements, 0803-proposed]
 
 
 
+
+
+
+
+
+
+
+
+
 # Proposed Engagements
 Track deals in pipeline here.
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

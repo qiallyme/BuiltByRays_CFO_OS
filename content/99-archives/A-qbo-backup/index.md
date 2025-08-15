@@ -1,13 +1,8 @@
 ---
-date: 2025-08-14
-title: index
+date: 2025-08-15
+title: A. Qbo Backup
 ---
----
-date: 2025-08-14
-title: A. Qbo backup
-tags: [technology, backup, archives, qbo-backup]
----
-# A. Qbo backup
+# A. Qbo Backup
 
 <!-- AUTO-TOC:START -->
 

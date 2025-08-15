@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: loans n credit
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Loans N Credit
-tags: [finance, reporting, financials, liability]
 ---
 # Loans N Credit
 
@@ -26,12 +21,4 @@ tags: [finance, reporting, financials, liability]
 
 
 
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

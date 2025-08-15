@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Completed
-tags: [engagements, 0802-completed]
 ---
 # Completed
 

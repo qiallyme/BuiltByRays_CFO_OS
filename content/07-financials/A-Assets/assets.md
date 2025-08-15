@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: assets
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Assets
-tags: [finance, reporting, financials, assets]
 ---
 # Assets
 
@@ -23,12 +18,4 @@ tags: [finance, reporting, financials, assets]
 
 
 
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

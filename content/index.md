@@ -1,13 +1,8 @@
 ---
-date: 2025-08-14
-title: index
+date: 2025-08-15
+title: Builtbyrays OS Index
 ---
----
-title: BuiltbyRays OS Index
-tags: [index, toc]
----
-
-# BuiltbyRays OS Index
+# Builtbyrays OS Index
 
 ## Proposal
 - [[00_proposal]]

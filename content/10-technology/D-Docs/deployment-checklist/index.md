@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Deployment Checklist
-tags: [technology, devops, development, operations, logistics]
 ---
 # Deployment Checklist
 
@@ -39,6 +34,24 @@ tags: [technology, devops, development, operations, logistics]
 - [[10-technology/D-Docs/client-installation-guide]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

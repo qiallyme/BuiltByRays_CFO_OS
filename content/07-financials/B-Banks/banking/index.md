@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Banking
-tags: [finance, reporting, banking, financials, banks]
 ---
 # Banking
 
@@ -35,17 +30,4 @@ tags: [finance, reporting, banking, financials, banks]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

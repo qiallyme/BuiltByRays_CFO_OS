@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: A Investment and Payment Terms
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: A. Investment & Payment Terms
-tags: [analytics, performance, innovation, ai, investment]
 ---
 # A. Investment & Payment Terms
 
@@ -20,6 +15,15 @@ tags: [analytics, performance, innovation, ai, investment]
 - [[.]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
 
 
 

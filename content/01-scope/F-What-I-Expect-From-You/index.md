@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: F. What I Expect From You
-tags: [legal, confidentiality, innovation, ai, scope]
 ---
 # F. What I Expect From You
 
@@ -27,6 +22,24 @@ tags: [legal, confidentiality, innovation, ai, scope]
 - [[01-scope/E-What-I-DON-T-Do]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

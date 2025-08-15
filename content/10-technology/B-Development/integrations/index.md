@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Integrations
-tags: [technology, devops, development]
 ---
 # Integrations
 
@@ -43,8 +38,24 @@ tags: [technology, devops, development]
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - QBO + Gusto
 - Zapier to Slack
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

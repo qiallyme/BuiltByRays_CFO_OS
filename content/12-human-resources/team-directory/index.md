@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Team Directory
-tags: [hr, benefits, human-resources, team-directory]
 ---
 # Team Directory
 
@@ -56,8 +51,24 @@ tags: [hr, benefits, human-resources, team-directory]
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Team Directory
 | Name | Title | Start Date |
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

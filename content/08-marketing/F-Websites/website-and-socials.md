@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: website and socials
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Website And Socials
-tags: [marketing, outreach, web, social, websites]
 ---
 # Website And Socials
 
@@ -24,12 +19,4 @@ tags: [marketing, outreach, web, social, websites]
 
 
 
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

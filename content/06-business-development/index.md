@@ -1,13 +1,8 @@
 ---
-date: 2025-08-14
-title: index
+date: 2025-08-15
+title: Business Development
 ---
----
-date: 2025-08-14
-title: Business development
-tags: [business-development, index-md]
----
-# Business development
+# Business Development
 
 <!-- AUTO-TOC:START -->
 

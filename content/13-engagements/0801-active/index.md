@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Active
-tags: [engagements, 0801-active]
 ---
 # Active
 

@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: insurance
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Insurance
-tags: [finance, reporting, risk, insurance, financials]
 ---
 # Insurance
 
@@ -29,12 +24,4 @@ tags: [finance, reporting, risk, insurance, financials]
 
 
 
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

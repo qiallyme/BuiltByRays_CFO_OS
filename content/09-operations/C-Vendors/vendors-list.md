@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: vendors list
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Vendors List
-tags: [operations, supply, hr, payroll, vendors]
 ---
 # Vendors List
 
@@ -38,9 +33,16 @@ tags: [operations, supply, hr, payroll, vendors]
 
 
 
+
+
+
+
+
+
+
+
+
 - CPA: 
 - Bookkeeper: 
 - Payroll Processor:
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

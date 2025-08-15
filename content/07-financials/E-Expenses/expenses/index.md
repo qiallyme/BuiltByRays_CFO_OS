@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Expenses
-tags: [finance, reporting, financials, expenses]
 ---
 # Expenses
 
@@ -38,17 +33,4 @@ tags: [finance, reporting, financials, expenses]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

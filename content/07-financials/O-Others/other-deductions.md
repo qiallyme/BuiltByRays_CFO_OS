@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: other deductions
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Other Deductions
-tags: [finance, reporting, financials, others]
 ---
 # Other Deductions
 
@@ -30,12 +25,4 @@ tags: [finance, reporting, financials, others]
 
 
 
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

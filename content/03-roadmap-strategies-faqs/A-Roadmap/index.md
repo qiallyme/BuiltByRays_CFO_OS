@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: A. Roadmap
-tags: [strategy, planning, analytics, performance, tax]
 ---
 # A. Roadmap
 
@@ -55,11 +50,27 @@ tags: [strategy, planning, analytics, performance, tax]
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Growth Roadmap
 
 **3-Month:** Foundation, KPI baselining
 **6-Month:** Tax strategy + cash optimization
 **12-Month:** Expansion planning, profit scaling
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

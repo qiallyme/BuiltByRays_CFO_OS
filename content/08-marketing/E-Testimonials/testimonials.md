@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: testimonials
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Testimonials
-tags: [marketing, outreach, testimonials]
 ---
 # Testimonials
 
@@ -23,12 +18,4 @@ tags: [marketing, outreach, testimonials]
 
 
 
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

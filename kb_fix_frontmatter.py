@@ -28,8 +28,16 @@ def split_frontmatter(txt: str):
     body_start = m.end()
     body = txt[body_start:]
     
-    # Remove any additional frontmatter blocks that might have been duplicated
-    body = re.sub(r'^\s*---\s*\n.*?\n---\s*\n?', '', body, flags=re.S)
+    # Remove ALL additional frontmatter blocks that might have been duplicated
+    # This is more aggressive - remove any --- blocks at the start of body
+    while True:
+        body_before = body
+        # Remove any frontmatter blocks (--- ... ---)
+        body = re.sub(r'^\s*---\s*\n.*?\n---\s*\n?', '', body, flags=re.S)
+        # Also remove any single --- lines that might be left
+        body = re.sub(r'^\s*---\s*\n', '', body, flags=re.M)
+        if body == body_before:
+            break
     
     return data, body, m.start(), body_start
 
@@ -73,6 +81,26 @@ def extract_alpha_prefix(name: str):
         return m.group(1).upper() + ".", m.group(2).strip()
     return "", name
 
+def to_sentence_case(text: str) -> str:
+    """Convert text to sentence case while preserving important formatting."""
+    if not text:
+        return text
+    
+    # Split by common separators and capitalize each part
+    parts = re.split(r'[-\s_]+', text)
+    sentence_parts = []
+    
+    for part in parts:
+        if part:
+            # Preserve existing capitalization for acronyms and proper nouns
+            if part.isupper() or part in ['A.', 'B.', 'C.', 'D.', 'E.', 'F.', 'G.', 'H.', 'I.', 'J.', 'K.', 'L.', 'M.', 'N.', 'O.', 'P.', 'Q.', 'R.', 'S.', 'T.', 'U.', 'V.', 'W.', 'X.', 'Y.', 'Z.']:
+                sentence_parts.append(part)
+            else:
+                # Convert to sentence case
+                sentence_parts.append(part[0].upper() + part[1:].lower())
+    
+    return ' '.join(sentence_parts)
+
 def humanize_name(name: str) -> str:
     """Convert filename to human-readable title while preserving important formatting."""
     # Replace separators with spaces, collapse, light capitalize
@@ -80,8 +108,9 @@ def humanize_name(name: str) -> str:
     s = re.sub(r"\s+", " ", s).strip()
     if not s:
         return "Untitled"
-    # Preserve existing capitalization mostly; just ensure first char is uppercase
-    return s[0].upper() + s[1:]
+    
+    # Convert to sentence case
+    return to_sentence_case(s)
 
 def derive_title_with_prefix(path_rel: Path) -> str:
     """Derive title from path, preserving any alpha prefixes."""
@@ -140,6 +169,34 @@ def deduplicate_frontmatter(fm: dict) -> dict:
     
     return cleaned
 
+def determine_proper_title(p: Path, base: Path, h1: str | None) -> str:
+    """
+    Determine the proper title for a file.
+    Priority: H1 content > filename-derived > never "index"
+    """
+    if h1:
+        # If file/folder name has an alpha prefix (A./B./...), prepend it unless already present
+        base_name = p.parent.name if p.name.lower()=="index.md" else p.stem
+        prefix, _ = extract_alpha_prefix(base_name)
+        if prefix and not re.match(rf"^\s*{re.escape(prefix)}\s+", h1, flags=re.I):
+            # Convert H1 to sentence case and add prefix
+            h1_sentence = to_sentence_case(h1)
+            return f"{prefix} {h1_sentence}"
+        else:
+            # Convert H1 to sentence case
+            return to_sentence_case(h1)
+    else:
+        # No H1 - derive from filename
+        derived = derive_title_with_prefix(p.relative_to(base))
+        # Never allow "index" as title
+        if derived.strip().lower() == "index":
+            # Use parent folder name instead
+            parent_name = p.parent.name
+            prefix, core = extract_alpha_prefix(parent_name)
+            core_human = humanize_name(core)
+            return f"{prefix} {core_human}".strip() if prefix else core_human
+        return derived
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default=DEFAULT_BASE)
@@ -164,20 +221,7 @@ def main():
 
         # What should the title be?
         h1 = first_h1(body)
-        if h1:
-            # If file/folder name has an alpha prefix (A./B./...), prepend it unless already present
-            base_name = p.parent.name if p.name.lower()=="index.md" else p.stem
-            prefix, _ = extract_alpha_prefix(base_name)
-            if prefix and not re.match(rf"^\s*{re.escape(prefix)}\s+", h1, flags=re.I):
-                desired_title = f"{prefix} {h1}"
-            else:
-                desired_title = h1
-        else:
-            desired_title = derive_title_with_prefix(p.relative_to(base))
-
-        # Never let title be "index"
-        if desired_title.strip().lower() == "index":
-            desired_title = derive_title_with_prefix(p.relative_to(base))
+        desired_title = determine_proper_title(p, base, h1)
 
         # Update frontmatter
         fm["title"] = desired_title

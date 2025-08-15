@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Payroll Contractors
-tags: [finance, reporting, hr, payroll, contractors]
 ---
 # Payroll Contractors
 
@@ -42,17 +37,4 @@ tags: [finance, reporting, hr, payroll, contractors]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

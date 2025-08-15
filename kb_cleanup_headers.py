@@ -96,7 +96,7 @@ def normalize_file(md: Path) -> bool:
     # If multiple frontmatter blocks were stacked, keep the FIRST and drop subsequent leading blocks
     if fm:
         rest = body.lstrip()
-        # drop consecutive FM blocks at top of body
+        # drop consecutive FM blocks at top of body - more aggressive
         while rest.startswith("---"):
             end2 = rest.find("\n---", 3)
             if end2 == -1: break
@@ -136,6 +136,14 @@ def normalize_file(md: Path) -> bool:
     # If still no FM, create a minimal one for Quartz (use filename as title)
     if not fm:
         title = md.parent.name if md.name.lower()=="index.md" else md.stem
+        # Never use "index" as title
+        if title.lower() == "index":
+            title = md.parent.name
+        # Convert to sentence case
+        title = title.replace("_", " ").replace("-", " ")
+        title = re.sub(r"\s+", " ", title).strip()
+        if title:
+            title = title[0].upper() + title[1:].lower()
         fm = f"---\ntitle: {title}\n---\n"
 
     new_txt = fm + ("\n" if not fm.endswith("\n") else "") + body.lstrip()

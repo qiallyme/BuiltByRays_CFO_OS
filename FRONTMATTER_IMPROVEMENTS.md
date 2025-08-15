@@ -1,17 +1,24 @@
 # Frontmatter Improvements & Script Updates
 
 ## Overview
-Updated the knowledge base scripts to prevent frontmatter duplication and ensure proper prefix preservation.
+Updated the knowledge base scripts to prevent frontmatter duplication, ensure proper prefix preservation, and implement sentence case formatting.
 
 ## Key Improvements
 
 ### 1. Enhanced Frontmatter Fix Script (`kb_fix_frontmatter.py`)
-- **Duplicate Prevention**: Now removes multiple frontmatter blocks, keeping only the first
+- **Aggressive Duplicate Prevention**: Now removes ALL duplicate frontmatter blocks, keeping only the first
 - **Prefix Preservation**: Better handling of A./B./C. prefixes in titles
 - **Clean YAML**: Improved formatting with proper escaping and list handling
 - **Deduplication**: Removes duplicate tags, aliases, and empty values
+- **Title Validation**: Never allows "index" as a title - always derives proper title from filename or H1
+- **Sentence Case Formatting**: Converts all titles to proper sentence case while preserving prefixes
 
-### 2. New NPM Scripts in `package.json`
+### 2. Enhanced Cleanup Script (`kb_cleanup_headers.py`)
+- **More Aggressive Duplicate Removal**: Improved handling of consecutive frontmatter blocks
+- **Title Protection**: Prevents "index" titles from being created
+- **Sentence Case Support**: Converts titles to sentence case format
+
+### 3. New NPM Scripts in `package.json`
 
 ```json
 {
@@ -19,7 +26,7 @@ Updated the knowledge base scripts to prevent frontmatter duplication and ensure
   "kb:frontmatter": "python kb_fix_frontmatter.py --base \"./content\" --apply", 
   "kb:autotag": "python kb_autotag_backlink.py --base \"./content\" --apply",
   "kb:toc": "python kb_toc_and_tags.py --base \"./content\" --apply",
-  "kb:rebuild": "npm run kb:clean && npm run kb:frontmatter && npm run kb:autotag && npm run kb:toc && npm run build",
+  "kb:rebuild": "npm run kb:clean && npm run kb:frontmatter && npm run kb:autotag && npm run kb:frontmatter && npm run kb:toc && npm run kb:frontmatter && npm run build",
   "kb:preview": "npm run kb:rebuild && npx serve public -l 8080"
 }
 ```
@@ -57,6 +64,8 @@ npm run kb:preview
 - Lifts loose key:value lines into proper YAML
 - Strips injected blocks for clean re-insertion
 - Deduplicates repeated H1 headers
+- Prevents "index" titles
+- Converts titles to sentence case
 
 ### `kb:frontmatter` 
 - Ensures single, clean frontmatter block
@@ -64,6 +73,9 @@ npm run kb:preview
 - Properly formats tags and aliases
 - Syncs H1 headers with frontmatter titles
 - Removes duplicate entries
+- **Aggressively removes ALL duplicate frontmatter blocks**
+- **Never allows "index" as title**
+- **Converts all titles to sentence case**
 
 ### `kb:autotag`
 - Auto-generates tags based on content
@@ -75,19 +87,54 @@ npm run kb:preview
 - Updates global index
 - Maintains navigation structure
 
+## Enhanced Workflow
+
+The rebuild process now includes multiple frontmatter fix passes:
+1. **Initial cleanup** - Remove duplicates
+2. **Post-cleanup fix** - Ensure proper formatting
+3. **Post-autotag fix** - Clean up after tag generation
+4. **Post-TOC fix** - Clean up after TOC generation
+5. **Final fix** - Last cleanup pass
+
+This ensures that even if other scripts add duplicate frontmatter, it gets cleaned up at each step.
+
+## Sentence Case Formatting
+
+The system now automatically converts titles to sentence case:
+- **Before**: "A. YOUR DETAILS" or "A. Your Details"
+- **After**: "A. Your Details"
+
+The sentence case function:
+- Preserves A./B./C. prefixes exactly as they are
+- Converts the rest of the title to sentence case
+- Handles special cases like acronyms and proper nouns
+- Maintains proper spacing and formatting
+
 ## Benefits
 
-1. **No More Duplicates**: Prevents multiple frontmatter blocks
+1. **No More Duplicates**: Prevents multiple frontmatter blocks completely
 2. **Prefix Preservation**: Maintains A./B./C. ordering in titles
 3. **Clean YAML**: Proper formatting and escaping
 4. **Modular Workflow**: Run individual steps or full rebuild
 5. **Consistent Structure**: Standardized across all content
+6. **Robust Process**: Multiple cleanup passes prevent re-introduction of duplicates
+7. **Proper Titles**: Never allows "index" as a title
+8. **Sentence Case**: Consistent, professional title formatting
 
 ## Troubleshooting
 
 If you encounter issues:
 1. Run `npm run kb:clean` first to remove duplicates
 2. Then run `npm run kb:frontmatter` to fix formatting
-3. Use `npm run kb:rebuild` for a complete fresh build
+3. Use `npm run kb:rebuild` for a complete fresh build with multiple cleanup passes
 
 The scripts are designed to be idempotent - running them multiple times won't cause issues.
+
+## Recent Fixes
+
+- **Aggressive duplicate removal**: Scripts now remove ALL duplicate frontmatter blocks
+- **Title validation**: Never allows "index" as a title
+- **Multiple cleanup passes**: Frontmatter is cleaned after each processing step
+- **Enhanced regex patterns**: Better detection and removal of duplicate blocks
+- **Sentence case formatting**: All titles converted to proper sentence case
+- **Prefix preservation**: A./B./C. prefixes maintained exactly as specified

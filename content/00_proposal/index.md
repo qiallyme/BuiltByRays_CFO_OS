@@ -1,15 +1,37 @@
 ---
 date: 2025-08-15
-title: index
+title: 00 Proposal
 ---
----
-date: 2025-08-14
-title: index
----
----
-title: BuiltByRays — Interactive Proposal
-enableToc: false
----
+# 00 Proposal
+
+<!-- AUTO-TOC:START -->
+
+## Contents
+- [[00_proposal]]
+
+<!-- AUTO-TOC:END -->
+
+
+<!-- RELATED:START -->
+
+## Related
+**Backlinks**
+- [[.]]
+
+<!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <section id="executive-proposal">
   <iframe

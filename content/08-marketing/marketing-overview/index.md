@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Marketing Overview
-tags: [marketing, outreach, marketing-overview]
 ---
 # Marketing Overview
 
@@ -39,17 +34,4 @@ tags: [marketing, outreach, marketing-overview]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

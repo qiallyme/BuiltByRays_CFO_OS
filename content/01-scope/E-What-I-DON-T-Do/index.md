@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: index
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: E. What I Dont Do
-tags: [risk, insurance, finance, planning, legal]
 ---
 # E. What I Dont Do
 
@@ -28,6 +23,24 @@ tags: [risk, insurance, finance, planning, legal]
 - [[01-scope/D-What-I-Do]]
 
 <!-- RELATED:END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

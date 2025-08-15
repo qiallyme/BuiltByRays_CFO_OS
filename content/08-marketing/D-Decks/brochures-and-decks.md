@@ -1,11 +1,6 @@
 ---
-date: 2025-08-14
-title: brochures and decks
----
----
-date: 2025-08-14
+date: 2025-08-15
 title: Brochures And Decks
-tags: [marketing, outreach, sales, pitch, decks]
 ---
 # Brochures And Decks
 
@@ -24,12 +19,4 @@ tags: [marketing, outreach, sales, pitch, decks]
 
 
 
-
-
-
-
-
-
-
----
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)
