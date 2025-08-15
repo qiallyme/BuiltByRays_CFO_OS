@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: Builtbyrays OS Index
+title: Untitled
 ---
-# Builtbyrays OS Index
 
 ## Proposal
 - [[00_proposal]]

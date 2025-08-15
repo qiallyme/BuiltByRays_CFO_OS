@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: Archives Overview
+title: A. Overview
 ---
-# Archives Overview
 
 <!-- AUTO-TOC:START -->
 

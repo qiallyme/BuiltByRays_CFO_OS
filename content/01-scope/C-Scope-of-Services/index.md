@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: C. Scope Of Services
 ---
-# C. Scope Of Services
 
 <!-- AUTO-TOC:START -->
 

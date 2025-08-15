@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Technology
 ---
-# Technology
 
 <!-- AUTO-TOC:START -->
 

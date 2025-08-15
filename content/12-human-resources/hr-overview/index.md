@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Hr Overview
 ---
-# Hr Overview
 
 <!-- AUTO-TOC:START -->
 

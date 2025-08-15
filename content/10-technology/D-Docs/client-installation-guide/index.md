@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Client Installation Guide
 ---
-# Client Installation Guide
 
 <!-- AUTO-TOC:START -->
 
@@ -73,7 +72,6 @@ title: Client Installation Guide
 
 
 
-# BuiltByRays™ CFO OS - Client Installation Guide
 
 ## Overview
 The BuiltByRays™ CFO OS is a complete financial management platform that includes:

@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: B. ROI & Payment Projection Example
+title: B. ROI And Payment Projection Example
 ---
-# B. ROI & Payment Projection Example
 
 <!-- RELATED:START -->
 

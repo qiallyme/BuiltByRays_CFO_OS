@@ -1,10 +1,10 @@
 ---
 date: 2025-08-15
-title: B. What Is Qisuite™?
+title: B. Qisuitetm Overview
 ---
+
 ![[qisuitelogo.png]]
 
-# B. What Is Qisuite™?
 
 <!-- AUTO-TOC:START -->
 

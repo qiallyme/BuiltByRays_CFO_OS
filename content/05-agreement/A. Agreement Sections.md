@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: A. Redline Agreement
+title: A. Agreement Sections
 ---
-# A. Redline Agreement
 
 <!-- RELATED:START -->
 

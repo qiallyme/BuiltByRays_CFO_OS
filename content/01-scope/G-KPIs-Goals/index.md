@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: G. Kpis & Goals
+title: G. Kpis Goals
 ---
-# G. Kpis & Goals
 
 <!-- AUTO-TOC:START -->
 

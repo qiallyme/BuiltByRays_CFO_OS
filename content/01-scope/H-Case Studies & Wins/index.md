@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: H. Case Studies & Wins
 ---
-# H. Case Studies & Wins
 
 <!-- AUTO-TOC:START -->
 

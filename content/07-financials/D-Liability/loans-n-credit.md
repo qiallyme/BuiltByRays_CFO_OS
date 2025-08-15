@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Loans N Credit
 ---
-# Loans N Credit
 
 <!-- RELATED:START -->
 

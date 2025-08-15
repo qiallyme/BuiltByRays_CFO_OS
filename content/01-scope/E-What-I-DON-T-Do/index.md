@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: E. What I Dont Do
+title: E. What I DON T Do
 ---
-# E. What I Dont Do
 
 <!-- AUTO-TOC:START -->
 

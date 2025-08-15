@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: B. ROI Payment Projection Example
 ---
-# B. ROI Payment Projection Example
 
 <!-- AUTO-TOC:START -->
 

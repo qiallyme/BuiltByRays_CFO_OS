@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Deployment Checklist
 ---
-# Deployment Checklist
 
 <!-- AUTO-TOC:START -->
 
@@ -70,7 +69,6 @@ title: Deployment Checklist
 
 
 
-# BuiltByRAVE CFO OS - Deployment Checklist
 
 ## ✅ Pre-Deployment Fixes Applied
 

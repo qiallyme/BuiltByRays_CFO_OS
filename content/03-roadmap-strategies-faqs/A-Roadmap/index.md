@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: A. Roadmap
 ---
-# A. Roadmap
 
 <!-- AUTO-TOC:START -->
 
@@ -68,7 +67,6 @@ title: A. Roadmap
 
 
 
-# Growth Roadmap
 
 **3-Month:** Foundation, KPI baselining
 **6-Month:** Tax strategy + cash optimization

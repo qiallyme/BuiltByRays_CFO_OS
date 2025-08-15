@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: Backend Design (cloudflare Pages + D1)
+title: Backend Design
 ---
-# Backend Design (cloudflare Pages + D1)
 
 <!-- RELATED:START -->
 

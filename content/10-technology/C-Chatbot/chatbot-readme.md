@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Chatbot Readme
 ---
-# Chatbot Readme
 
 <!-- RELATED:START -->
 
@@ -47,7 +46,6 @@ title: Chatbot Readme
 
 
 
-# BuiltByRays™ CFO OS - AI Chatbot System
 
 ## 🚀 Overview
 

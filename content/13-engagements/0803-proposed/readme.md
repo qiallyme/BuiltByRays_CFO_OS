@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Readme
 ---
-# Readme
 
 <!-- RELATED:START -->
 
@@ -31,6 +30,5 @@ title: Readme
 
 
 
-# Proposed Engagements
 Track deals in pipeline here.
 [← Back to Client Hub](https://www.builtbyrays.com/Client-Vault/portal)

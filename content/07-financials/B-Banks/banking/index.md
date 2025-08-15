@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Banking
 ---
-# Banking
 
 <!-- AUTO-TOC:START -->
 

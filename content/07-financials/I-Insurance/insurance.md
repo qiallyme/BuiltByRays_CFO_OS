@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Insurance
 ---
-# Insurance
 
 <!-- RELATED:START -->
 

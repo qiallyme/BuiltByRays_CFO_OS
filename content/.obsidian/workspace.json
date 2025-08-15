@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d37b47cb43d13739",
+        "id": "3c7f10f13f72b891",
         "type": "tabs",
         "children": [
           {
-            "id": "45794486cb9ec0d9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "07-financials/B-Banks/check-images/rays-construciton-check-stubs-2023-202507.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "rays-construciton-check-stubs-2023-202507"
-            }
-          },
-          {
-            "id": "2df83019c08cdf06",
+            "id": "1bafc144173a7df2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-agreement/A. Agreement Sections.md",
+                "file": "01-scope/A-Your-Details/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A. Agreement Sections"
+              "title": "index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,9 +168,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2df83019c08cdf06",
+  "active": "1bafc144173a7df2",
   "lastOpenFiles": [
+    "00_proposal/index.md",
+    "01-scope/A-Your-Details/index.md",
+    "01-scope/A-Your-Details.md",
     "07-financials/B-Banks/check-images/rays-construciton-check-stubs-2023-202507.pdf",
+    "00_proposal.md",
+    "05-agreement/A. Agreement Sections.md",
     "06-business-development/index.md",
     "99-archives/archives-overview/index.md",
     "99-archives/archives-overview",
@@ -214,10 +206,6 @@
     "01-scope/D-What-I-DON-T-Do/index.md",
     "01-scope/C-What-I-Do/index.md",
     "01-scope/B-Scope-of-Services/index.md",
-    "01-scope/A-QiSuiteTM-Overview/index.md",
-    "index/index.md",
-    "02-investment/B-ROI & Payment Projection (Example).md",
-    "02-investment/A-Investment & Payment Terms.md",
     "08-marketing/A-Brand-Assets/ynkiyinfnixchsp.png",
     "08-marketing/A-Brand-Assets/zsjnburbpgmdv-j.png",
     "08-marketing/A-Brand-Assets/vlmn-yrztbhtekmjz.png",

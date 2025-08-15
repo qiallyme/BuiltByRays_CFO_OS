@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Marketing Overview
 ---
-# Marketing Overview
 
 <!-- AUTO-TOC:START -->
 

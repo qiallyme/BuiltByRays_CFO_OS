@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: Business Development
+title: 06 Business Development
 ---
-# Business Development
 
 <!-- AUTO-TOC:START -->
 

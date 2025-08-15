@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: C. Faqs
 ---
-# C. Faqs
 
 <!-- AUTO-TOC:START -->
 

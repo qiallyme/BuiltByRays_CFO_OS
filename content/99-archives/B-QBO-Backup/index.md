@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: A. Qbo Backup
+title: B. QBO Backup
 ---
-# A. Qbo Backup
 
 <!-- AUTO-TOC:START -->
 

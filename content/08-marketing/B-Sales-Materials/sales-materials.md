@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Sales Materials
 ---
-# Sales Materials
 
 <!-- RELATED:START -->
 

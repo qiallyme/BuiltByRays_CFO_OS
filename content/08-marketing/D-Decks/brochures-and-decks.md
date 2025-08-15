@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Brochures And Decks
 ---
-# Brochures And Decks
 
 <!-- RELATED:START -->
 

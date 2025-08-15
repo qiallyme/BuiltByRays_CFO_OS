@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Logos And Assets
 ---
-# Logos And Assets
 
 <!-- RELATED:START -->
 

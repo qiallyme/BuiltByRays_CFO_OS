@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Cfo Os Technical Architecture
 ---
-# Cfo Os Technical Architecture
 
 <!-- RELATED:START -->
 
@@ -41,7 +40,6 @@ title: Cfo Os Technical Architecture
 
 
 
-# BuiltByRays™ CFO OS - Technical Architecture
 
 ## 🎯 **System Overview**
 

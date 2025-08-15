@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: Builtbyrays — Launch Day Work Log & ROI (final)
+title: 2025 08 09 Builtbyrays Launch Day Work Log & ROI Final
 ---
-# Builtbyrays — Launch Day Work Log & ROI (final)
 
 <!-- RELATED:START -->
 

@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: D. C. What I Do
+title: D. What I Do
 ---
-# D. C. What I Do
 
 <!-- AUTO-TOC:START -->
 

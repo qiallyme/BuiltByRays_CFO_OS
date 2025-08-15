@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: A. Investment & Payment Terms
+title: A. Investment Payment Terms
 ---
-# A. Investment & Payment Terms
 
 <!-- AUTO-TOC:START -->
 

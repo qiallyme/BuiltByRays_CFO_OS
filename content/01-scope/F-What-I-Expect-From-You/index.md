@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: F. What I Expect From You
 ---
-# F. What I Expect From You
 
 <!-- AUTO-TOC:START -->
 

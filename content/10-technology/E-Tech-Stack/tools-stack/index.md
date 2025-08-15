@@ -2,7 +2,6 @@
 date: 2025-08-15
 title: Tools Stack
 ---
-# Tools Stack
 
 <!-- AUTO-TOC:START -->
 

@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: Completed
+title: 0802 Completed
 ---
-# Completed
 
 <!-- AUTO-TOC:START -->
 

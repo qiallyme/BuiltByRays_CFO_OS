@@ -1,8 +1,7 @@
 ---
 date: 2025-08-15
-title: B. Scenarios
+title: B. Strategies
 ---
-# B. Scenarios
 
 <!-- AUTO-TOC:START -->
 
@@ -65,7 +64,6 @@ title: B. Scenarios
 
 
 
-# Real-World Scenarios
 
 **Silence Mode:**
 3 weeks no contact = deep strategy work.

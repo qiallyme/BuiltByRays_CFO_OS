@@ -1,9 +1,7 @@
 ---
 date: 2025-08-15
-title: Web Deployment Readme
+title: Login To Cloudflare
 ---
-# Web Deployment Readme
-
 <!-- AUTO-TOC:START -->
 
 ## Contents
@@ -73,7 +71,6 @@ title: Web Deployment Readme
 
 
 
-# BuiltByRays™ CFO OS - Web Deployment Guide
 
 ## Overview
 This is the web version of the BuiltByRays™ CFO OS, designed to be hosted on Cloudflare Pages with the vault syncing via GitHub.
@@ -119,7 +116,6 @@ pip install -r requirements.txt
 3. Set up environment variables:
 ```bash
 cp .env.example .env
-# Edit .env with your OpenAI API key
 ```
 
 4. Start the development server:
@@ -143,10 +139,8 @@ The application is configured for automatic deployment via GitHub:
 
 ### Manual Deployment
 ```bash
-# Install Wrangler CLI
 npm install -g wrangler
 
-# Login to Cloudflare
 wrangler login
 
 # Deploy
